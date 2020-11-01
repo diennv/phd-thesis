@@ -1,5 +1,22 @@
 \begin{thebibliography}{}
 
+\bibitem[ref, 2020a]{ref0}
+ (2020 (accessed September 3, 2020)a).
+\newblock {\em Available Online}.
+\newblock
+  \url{https://www.nytimes.com/2018/05/26/us/chicago-police-surveillance.html}.
+
+\bibitem[ref, 2020b]{ref1}
+ (2020 (accessed September 3, 2020)b).
+\newblock {\em Available Online}.
+\newblock
+  \url{https://www.telegraph.co.uk/technology/10172298/One-surveillance-camera-for-every-11-people-in-Britain-says-CCTV-survey.html}.
+
+\bibitem[ref, 2020c]{ref2}
+ (2020 (accessed September 3, 2020)c).
+\newblock {\em Available Online}.
+\newblock \url{https://www.wsj.com/articles/BL-CJB-22562}.
+
 \bibitem[VIR, 2020]{VIRAT}
  (2020 (accessed September 3, 2020)).
 \newblock {\em Available Online}.
@@ -63,6 +80,12 @@ Bross, B., Helle, P., Lakshman, H., and Ugur, K. (2014).
 \newblock In {\em High Efficiency Video Coding (HEVC)}, pages 113--140.
   Springer.
 
+\bibitem[Cai et~al., 2015]{cai2015learning}
+Cai, Z., Saberian, M., and Vasconcelos, N. (2015).
+\newblock Learning complexity-aware cascades for deep pedestrian detection.
+\newblock In {\em Proceedings of the IEEE International Conference on Computer
+  Vision}, pages 3361--3369.
+
 \bibitem[Canel et~al., 2019]{canel2019scaling}
 Canel, C., Kim, T., Zhou, G., Li, C., Lim, H., Andersen, D.~G., Kaminsky, M.,
   and Dulloor, S.~R. (2019).
@@ -125,6 +148,13 @@ Gujrathi, P., Priya, R.~A., and Malathi, P. (2014).
 \newblock In {\em 2014 Fourth International Conference on Advances in Computing
   and Communications}, pages 117--120. IEEE.
 
+\bibitem[Hsieh et~al., 2018]{hsieh2018focus}
+Hsieh, K., Ananthanarayanan, G., Bodik, P., Venkataraman, S., Bahl, P.,
+  Philipose, M., Gibbons, P.~B., and Mutlu, O. (2018).
+\newblock Focus: Querying large video datasets with low latency and low cost.
+\newblock In {\em 13th $\{$USENIX$\}$ Symposium on Operating Systems Design and
+  Implementation ($\{$OSDI$\}$ 18)}, pages 269--286.
+
 \bibitem[Hussain et~al., 2018]{hussain2018study}
 Hussain, M., Bird, J.~J., and Faria, D.~R. (2018).
 \newblock A study on cnn transfer learning for image classification.
@@ -136,6 +166,12 @@ Jarrett, K., Kavukcuoglu, K., LeCun, Y., et~al. (2009).
 \newblock What is the best multi-stage architecture for object recognition?
 \newblock In {\em 2009 IEEE 12th International Conference on Computer Vision
   (ICCV)}, pages 2146--2153. IEEE.
+
+\bibitem[Jiang et~al., 2018]{jiang2018chameleon}
+Jiang, J., Ananthanarayanan, G., Bodik, P., Sen, S., and Stoica, I. (2018).
+\newblock Chameleon: scalable adaptation of video analytics.
+\newblock In {\em Proceedings of the 2018 Conference of the ACM Special
+  Interest Group on Data Communication}, pages 253--266.
 
 \bibitem[Jiang et~al., 2019]{jiang2019spatial}
 Jiang, X., Song, T., Katayama, T., and Leu, J.-S. (2019).
@@ -153,6 +189,11 @@ Khatoonabadi, S.~H. and Bajic, I.~V. (2012).
 Krizhevsky, A. and Hinton, G. (2009).
 \newblock Learning multiple layers of features from tiny images.
 \newblock Technical report, Citeseer.
+
+\bibitem[Krizhevsky et~al., 2017]{krizhevsky2017imagenet}
+Krizhevsky, A., Sutskever, I., and Hinton, G.~E. (2017).
+\newblock Imagenet classification with deep convolutional neural networks.
+\newblock {\em Communications of the ACM}, 60(6):84--90.
 
 \bibitem[Kumar and Yadav, 2016]{kumar2016segmentation}
 Kumar, S. and Yadav, J.~S. (2016).
@@ -190,6 +231,12 @@ Li, C., Xing, Q., and Ma, Z. (2020a).
 \newblock Hksiamfc: Visual-tracking framework using prior information provided
   by staple and kalman filter.
 \newblock {\em Sensors}, 20(7):2137.
+
+\bibitem[Li et~al., 2015]{li2015convolutional}
+Li, H., Lin, Z., Shen, X., Brandt, J., and Hua, G. (2015).
+\newblock A convolutional neural network cascade for face detection.
+\newblock In {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, pages 5325--5334.
 
 \bibitem[Li et~al., 2020b]{li2020reducto}
 Li, Y., Padmanabhan, A., Zhao, P., Wang, Y., Xu, G.~H., and Netravali, R.

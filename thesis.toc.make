@@ -3,9 +3,9 @@
 \contentsline {chapter}{List of tables}{xi}{chapter*.5}
 \contentsline {chapter}{Nomenclature}{xiii}{chapter*.6}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
-\contentsline {chapter}{\numberline {2}Background and Challenges}{5}{chapter.2}
-\contentsline {section}{\numberline {2.1}Surveillance Video Analytics Architectures}{5}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Edge Camera Based Implementation}{5}{subsection.2.1.1}
+\contentsline {chapter}{\numberline {2}Background}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}Surveillance Video Analytics Architectures and Challenges}{5}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Edge Camera Based Implementation}{6}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}Video Management Server Based Implementation}{6}{subsection.2.1.2}
 \contentsline {section}{\numberline {2.2}Compressed-Domain Based Moving Object Detection}{8}{section.2.2}
 \contentsline {section}{\numberline {2.3}Pixels-Domain Based Moving Object Detection}{11}{section.2.3}
@@ -23,5 +23,5 @@
 \contentsline {section}{\numberline {4.2}Performance Evaluation Results}{33}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Computing Resources Consumption}{33}{subsection.4.2.1}
 \contentsline {chapter}{References}{37}{chapter*.32}
-\contentsline {chapter}{Appendix \numberline {A}How to install \LaTeX }{41}{Appendix.a.A}
-\contentsline {chapter}{Appendix \numberline {B}Installing the CUED class file}{47}{Appendix.a.B}
+\contentsline {chapter}{Appendix \numberline {A}How to install \LaTeX }{43}{Appendix.a.A}
+\contentsline {chapter}{Appendix \numberline {B}Installing the CUED class file}{49}{Appendix.a.B}

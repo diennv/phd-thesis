@@ -1,5 +1,5 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Overall of cloud based video analytics server\relax }}{1}{figure.caption.7}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Overall of cloud based video analytics server\relax }}{2}{figure.caption.7}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Video Analytics Implementation, (a) Video management server based implementation, (b) Edge camera based implementation\relax }}{6}{figure.caption.8}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{6}{subfigure.1.1}

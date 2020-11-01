@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.10.6)  28 OCT 2020 20:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.10.31)  1 NOV 2020 09:57
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -6,7 +6,7 @@ entering extended mode
 **thesis
 (./thesis.tex
 LaTeX2e <2017-04-15>
-Babel <3.18> and hyphenation patterns for 9 language(s) loaded.
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (./PhDThesisPSnPDF.cls
 Document Class: PhDThesisPSnPDF 2018/04/12 A PhD thesis class file by Krishna K
 umar (v2.4)
@@ -1627,30 +1627,30 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <9> not available
 
 (./Chapter1/chapter1.tex
 Chapter 1.
-<Figures/cloud.png, id=258, 426.09187pt x 155.83218pt>
+<Figures/cloud.png, id=264, 426.09187pt x 155.83218pt>
 File: Figures/cloud.png Graphic file (type png)
 <use Figures/cloud.png>
-Package pdftex.def Info: Figures/cloud.png  used on input line 18.
+Package pdftex.def Info: Figures/cloud.png  used on input line 19.
 (pdftex.def)             Requested size: 437.46112pt x 160.00009pt.
 [1
 
 
 
- <./Figures/cloud.png>] [2]
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 29.
+] [2 <./Figures/cloud.png>] [3]
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 30.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [3]) [4]
+)) [4]
 \openout2 = `Chapter2/chapter2.aux'.
 
 (./Chapter2/chapter2.tex
 Chapter 2.
-<Figures/Va-neta.png, id=298, 208.52907pt x 332.74312pt>
+<Figures/Va-neta.png, id=318, 208.52907pt x 332.74312pt>
 File: Figures/Va-neta.png Graphic file (type png)
 <use Figures/Va-neta.png>
 Package pdftex.def Info: Figures/Va-neta.png  used on input line 23.
 (pdftex.def)             Requested size: 125.1184pt x 199.6474pt.
-<Figures/Va-netb.png, id=299, 227.34938pt x 324.46219pt>
+<Figures/Va-netb.png, id=319, 227.34938pt x 324.46219pt>
 File: Figures/Va-netb.png Graphic file (type png)
 <use Figures/Va-netb.png>
 Package pdftex.def Info: Figures/Va-netb.png  used on input line 28.
@@ -1662,7 +1662,7 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 
 
 ] [6 <./Figures/Va-neta.png> <./Figures/Va-netb.png>] [7]
-<Figures/mv.png, id=332, 566.115pt x 274.02374pt>
+<Figures/mv.png, id=351, 566.115pt x 274.02374pt>
 File: Figures/mv.png Graphic file (type png)
 <use Figures/mv.png>
 Package pdftex.def Info: Figures/mv.png  used on input line 69.
@@ -1673,12 +1673,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--77
  []
 
 [8] [9 <./Figures/mv.png>]
-<Figures/noise.png, id=359, 1445.4pt x 813.0375pt>
+<Figures/noise.png, id=377, 1445.4pt x 813.0375pt>
 File: Figures/noise.png Graphic file (type png)
 <use Figures/noise.png>
 Package pdftex.def Info: Figures/noise.png  used on input line 83.
 (pdftex.def)             Requested size: 218.73056pt x 123.02968pt.
-<Figures/34.jpg, id=360, 963.6pt x 542.025pt>
+<Figures/34.jpg, id=378, 963.6pt x 542.025pt>
 File: Figures/34.jpg Graphic file (type jpg)
 <use Figures/34.jpg>
 Package pdftex.def Info: Figures/34.jpg  used on input line 87.
@@ -1688,30 +1688,29 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 83--88
  [][][][] 
  []
 
-[10]
-<Figures/input_img.png, id=375, 246.1697pt x 183.68625pt>
+[10] [11 <./Figures/noise.png> <./Figures/34.jpg>]
+<Figures/input_img.png, id=401, 246.1697pt x 183.68625pt>
 File: Figures/input_img.png Graphic file (type png)
 <use Figures/input_img.png>
 Package pdftex.def Info: Figures/input_img.png  used on input line 103.
 (pdftex.def)             Requested size: 123.08453pt x 91.84288pt.
-<Figures/fg_subtration.png, id=376, 243.91125pt x 184.43906pt>
+<Figures/fg_subtration.png, id=402, 243.91125pt x 184.43906pt>
 File: Figures/fg_subtration.png Graphic file (type png)
 <use Figures/fg_subtration.png>
 Package pdftex.def Info: Figures/fg_subtration.png  used on input line 107.
 (pdftex.def)             Requested size: 121.95532pt x 92.2193pt.
-<Figures/blob_detection.png, id=377, 241.65282pt x 184.43906pt>
+<Figures/blob_detection.png, id=403, 241.65282pt x 184.43906pt>
 File: Figures/blob_detection.png Graphic file (type png)
 <use Figures/blob_detection.png>
 Package pdftex.def Info: Figures/blob_detection.png  used on input line 111.
 (pdftex.def)             Requested size: 120.82611pt x 92.2193pt.
-<Figures/smoke_region.png, id=378, 242.40562pt x 182.93344pt>
+<Figures/smoke_region.png, id=404, 242.40562pt x 182.93344pt>
 File: Figures/smoke_region.png Graphic file (type png)
 <use Figures/smoke_region.png>
 Package pdftex.def Info: Figures/smoke_region.png  used on input line 115.
 (pdftex.def)             Requested size: 121.2025pt x 91.46649pt.
-[11 <./Figures/noise.png> <./Figures/34.jpg>] [12 <./Figures/input_img.png> <./
-Figures/fg_subtration.png> <./Figures/blob_detection.png> <./Figures/smoke_regi
-on.png>]) [13] [14] [15]
+[12 <./Figures/input_img.png> <./Figures/fg_subtration.png> <./Figures/blob_det
+ection.png> <./Figures/smoke_region.png>] [13]) [14] [15]
 \openout2 = `Chapter3/chapter3.aux'.
 
 (./Chapter3/chapter3.tex [16
@@ -1725,43 +1724,43 @@ Overfull \hbox (13.92293pt too wide) in paragraph at lines 20--20
 []\T1/ptm/b/n/17.28 The Edge-to-clound Sys-tem Model for Surveil-lance Cam-
  []
 
-<Figures/arch.png, id=454, 447.92343pt x 152.82094pt>
+<Figures/arch.png, id=472, 447.92343pt x 152.82094pt>
 File: Figures/arch.png Graphic file (type png)
 <use Figures/arch.png>
 Package pdftex.def Info: Figures/arch.png  used on input line 23.
 (pdftex.def)             Requested size: 437.46112pt x 149.25513pt.
 [17 <./Figures/arch.png>] [18]
-<Figures/arch.jpg, id=466, 825.0825pt x 310.15875pt>
+<Figures/arch.jpg, id=485, 825.0825pt x 310.15875pt>
 File: Figures/arch.jpg Graphic file (type jpg)
 <use Figures/arch.jpg>
 Package pdftex.def Info: Figures/arch.jpg  used on input line 38.
 (pdftex.def)             Requested size: 437.46112pt x 164.4496pt.
-<Figures/1340.jpg, id=467, 1445.4pt x 813.0375pt>
+<Figures/1340.jpg, id=486, 1445.4pt x 813.0375pt>
 File: Figures/1340.jpg Graphic file (type jpg)
 <use Figures/1340.jpg>
 Package pdftex.def Info: Figures/1340.jpg  used on input line 47.
 (pdftex.def)             Requested size: 131.23967pt x 73.81532pt.
-<Figures/1350.jpg, id=468, 1445.4pt x 813.0375pt>
+<Figures/1350.jpg, id=487, 1445.4pt x 813.0375pt>
 File: Figures/1350.jpg Graphic file (type jpg)
 <use Figures/1350.jpg>
 Package pdftex.def Info: Figures/1350.jpg  used on input line 51.
 (pdftex.def)             Requested size: 131.23967pt x 73.81532pt.
-<Figures/1360.jpg, id=469, 1445.4pt x 813.0375pt>
+<Figures/1360.jpg, id=488, 1445.4pt x 813.0375pt>
 File: Figures/1360.jpg Graphic file (type jpg)
 <use Figures/1360.jpg>
 Package pdftex.def Info: Figures/1360.jpg  used on input line 55.
 (pdftex.def)             Requested size: 131.23967pt x 73.81532pt.
-<Figures/3.jpg, id=470, 963.6pt x 542.025pt>
+<Figures/3.jpg, id=489, 963.6pt x 542.025pt>
 File: Figures/3.jpg Graphic file (type jpg)
 <use Figures/3.jpg>
 Package pdftex.def Info: Figures/3.jpg  used on input line 59.
 (pdftex.def)             Requested size: 131.23967pt x 73.81532pt.
-<Figures/35.jpg, id=471, 963.6pt x 542.025pt>
+<Figures/35.jpg, id=490, 963.6pt x 542.025pt>
 File: Figures/35.jpg Graphic file (type jpg)
 <use Figures/35.jpg>
 Package pdftex.def Info: Figures/35.jpg  used on input line 63.
 (pdftex.def)             Requested size: 131.23967pt x 73.81532pt.
-<Figures/70.jpg, id=472, 963.6pt x 542.025pt>
+<Figures/70.jpg, id=491, 963.6pt x 542.025pt>
 File: Figures/70.jpg Graphic file (type jpg)
 <use Figures/70.jpg>
 Package pdftex.def Info: Figures/70.jpg  used on input line 67.
@@ -1770,22 +1769,22 @@ Package pdftex.def Info: Figures/70.jpg  used on input line 67.
 LaTeX Warning: Reference `subsec:0' on page 19 undefined on input line 71.
 
 [19 <./Figures/arch.jpg>]
-<Figures/1327_mv.jpg, id=479, 252.19218pt x 416.30531pt>
+<Figures/1327_mv.jpg, id=498, 252.19218pt x 416.30531pt>
 File: Figures/1327_mv.jpg Graphic file (type jpg)
 <use Figures/1327_mv.jpg>
 Package pdftex.def Info: Figures/1327_mv.jpg  used on input line 79.
 (pdftex.def)             Requested size: 81.96149pt x 135.29762pt.
-<Figures/1350_mv.jpg, id=480, 202.50656pt x 450.9347pt>
+<Figures/1350_mv.jpg, id=499, 202.50656pt x 450.9347pt>
 File: Figures/1350_mv.jpg Graphic file (type jpg)
 <use Figures/1350_mv.jpg>
 Package pdftex.def Info: Figures/1350_mv.jpg  used on input line 83.
 (pdftex.def)             Requested size: 60.75243pt x 135.28145pt.
-<Figures/30_mv.jpg, id=481, 75.28125pt x 136.25906pt>
+<Figures/30_mv.jpg, id=500, 75.28125pt x 136.25906pt>
 File: Figures/30_mv.jpg Graphic file (type jpg)
 <use Figures/30_mv.jpg>
 Package pdftex.def Info: Figures/30_mv.jpg  used on input line 87.
 (pdftex.def)             Requested size: 75.28105pt x 136.25871pt.
-<Figures/10_mv.jpg, id=482, 70.76437pt x 137.7647pt>
+<Figures/10_mv.jpg, id=501, 70.76437pt x 137.7647pt>
 File: Figures/10_mv.jpg Graphic file (type jpg)
 <use Figures/10_mv.jpg>
 Package pdftex.def Info: Figures/10_mv.jpg  used on input line 91.
@@ -1798,22 +1797,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--101
 
 [21 <./Figures/1327_mv.jpg> <./Figures/1350_mv.jpg> <./Figures/30_mv.jpg> <./Fi
 gures/10_mv.jpg>]
-<Figures/1328_mv.jpg, id=510, 722.7pt x 481.8pt>
+<Figures/1328_mv.jpg, id=528, 722.7pt x 481.8pt>
 File: Figures/1328_mv.jpg Graphic file (type jpg)
 <use Figures/1328_mv.jpg>
 Package pdftex.def Info: Figures/1328_mv.jpg  used on input line 117.
 (pdftex.def)             Requested size: 109.36528pt x 72.90646pt.
-<Figures/1328_occ.jpg, id=511, 722.7pt x 481.8pt>
+<Figures/1328_occ.jpg, id=529, 722.7pt x 481.8pt>
 File: Figures/1328_occ.jpg Graphic file (type jpg)
 <use Figures/1328_occ.jpg>
 Package pdftex.def Info: Figures/1328_occ.jpg  used on input line 121.
 (pdftex.def)             Requested size: 109.36528pt x 72.90646pt.
-<Figures/1328_res.jpg, id=512, 321.2pt x 240.9pt>
+<Figures/1328_res.jpg, id=530, 321.2pt x 240.9pt>
 File: Figures/1328_res.jpg Graphic file (type jpg)
 <use Figures/1328_res.jpg>
 Package pdftex.def Info: Figures/1328_res.jpg  used on input line 125.
 (pdftex.def)             Requested size: 96.36073pt x 72.27055pt.
-<Figures/1328_obj.jpg, id=513, 722.7pt x 481.8pt>
+<Figures/1328_obj.jpg, id=531, 722.7pt x 481.8pt>
 File: Figures/1328_obj.jpg Graphic file (type jpg)
 <use Figures/1328_obj.jpg>
 Package pdftex.def Info: Figures/1328_obj.jpg  used on input line 129.
@@ -1823,22 +1822,22 @@ Overfull \hbox (10.99545pt too wide) in paragraph at lines 117--129
  [][][][][][][][] 
  []
 
-<Figures/38_mv.jpg, id=514, 722.7pt x 481.8pt>
+<Figures/38_mv.jpg, id=532, 722.7pt x 481.8pt>
 File: Figures/38_mv.jpg Graphic file (type jpg)
 <use Figures/38_mv.jpg>
 Package pdftex.def Info: Figures/38_mv.jpg  used on input line 133.
 (pdftex.def)             Requested size: 109.36528pt x 72.90646pt.
-<Figures/38_occ.jpg, id=515, 722.7pt x 481.8pt>
+<Figures/38_occ.jpg, id=533, 722.7pt x 481.8pt>
 File: Figures/38_occ.jpg Graphic file (type jpg)
 <use Figures/38_occ.jpg>
 Package pdftex.def Info: Figures/38_occ.jpg  used on input line 137.
 (pdftex.def)             Requested size: 109.36528pt x 72.90646pt.
-<Figures/38_res.jpg, id=516, 321.2pt x 240.9pt>
+<Figures/38_res.jpg, id=534, 321.2pt x 240.9pt>
 File: Figures/38_res.jpg Graphic file (type jpg)
 <use Figures/38_res.jpg>
 Package pdftex.def Info: Figures/38_res.jpg  used on input line 141.
 (pdftex.def)             Requested size: 96.36073pt x 72.27055pt.
-<Figures/38_obj.jpg, id=517, 722.7pt x 481.8pt>
+<Figures/38_obj.jpg, id=535, 722.7pt x 481.8pt>
 File: Figures/38_obj.jpg Graphic file (type jpg)
 <use Figures/38_obj.jpg>
 Package pdftex.def Info: Figures/38_obj.jpg  used on input line 145.
@@ -1859,7 +1858,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 152--153
 [23 <./Figures/1328_mv.jpg> <./Figures/1328_occ.jpg> <./Figures/1328_res.jpg> <
 ./Figures/1328_obj.jpg> <./Figures/38_mv.jpg> <./Figures/38_occ.jpg> <./Figures
 /38_res.jpg> <./Figures/38_obj.jpg>]
-<Figures/iou.png, id=544, 300.3722pt x 318.43968pt>
+<Figures/iou.png, id=562, 300.3722pt x 318.43968pt>
 File: Figures/iou.png Graphic file (type png)
 <use Figures/iou.png>
 Package pdftex.def Info: Figures/iou.png  used on input line 159.
@@ -1914,7 +1913,7 @@ Chapter 4.
 
 
 ]
-<Figures/SysDesign.png, id=577, 776.9025pt x 241.65282pt>
+<Figures/SysDesign.png, id=595, 776.9025pt x 241.65282pt>
 File: Figures/SysDesign.png Graphic file (type png)
 <use Figures/SysDesign.png>
 Package pdftex.def Info: Figures/SysDesign.png  used on input line 20.
@@ -1928,12 +1927,12 @@ Overfull \hbox (43.74878pt too wide) in paragraph at lines 20--21
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 24.
 
-<Figures/TESTBED.jpg, id=578, 3035.34pt x 3035.34pt>
+<Figures/TESTBED.jpg, id=596, 3035.34pt x 3035.34pt>
 File: Figures/TESTBED.jpg Graphic file (type jpg)
 <use Figures/TESTBED.jpg>
 Package pdftex.def Info: Figures/TESTBED.jpg  used on input line 30.
 (pdftex.def)             Requested size: 218.73056pt x 218.70178pt.
-<Figures/pi.jpg, id=579, 1742.51pt x 1124.2pt>
+<Figures/pi.jpg, id=597, 1742.51pt x 1124.2pt>
 File: Figures/pi.jpg Graphic file (type jpg)
 <use Figures/pi.jpg>
 Package pdftex.def Info: Figures/pi.jpg  used on input line 34.
@@ -1956,62 +1955,62 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 66.
 
 [28 <./Figures/SysDesign.png>] [29 <./Figures/TESTBED.jpg> <./Figures/pi.jpg>]
-<Figures/1501_res.jpg, id=598, 321.2pt x 240.9pt>
+<Figures/1501_res.jpg, id=616, 321.2pt x 240.9pt>
 File: Figures/1501_res.jpg Graphic file (type jpg)
 <use Figures/1501_res.jpg>
 Package pdftex.def Info: Figures/1501_res.jpg  used on input line 96.
 (pdftex.def)             Requested size: 83.51003pt x 62.6325pt.
-<Figures/1500_track.jpg, id=599, 963.6pt x 542.025pt>
+<Figures/1500_track.jpg, id=617, 963.6pt x 542.025pt>
 File: Figures/1500_track.jpg Graphic file (type jpg)
 <use Figures/1500_track.jpg>
 Package pdftex.def Info: Figures/1500_track.jpg  used on input line 100.
 (pdftex.def)             Requested size: 109.36528pt x 61.5169pt.
-<Figures/1537_res.jpg, id=600, 321.2pt x 240.9pt>
+<Figures/1537_res.jpg, id=618, 321.2pt x 240.9pt>
 File: Figures/1537_res.jpg Graphic file (type jpg)
 <use Figures/1537_res.jpg>
 Package pdftex.def Info: Figures/1537_res.jpg  used on input line 104.
 (pdftex.def)             Requested size: 83.51003pt x 62.6325pt.
-<Figures/1536_track.jpg, id=601, 963.6pt x 542.025pt>
+<Figures/1536_track.jpg, id=619, 963.6pt x 542.025pt>
 File: Figures/1536_track.jpg Graphic file (type jpg)
 <use Figures/1536_track.jpg>
 Package pdftex.def Info: Figures/1536_track.jpg  used on input line 108.
 (pdftex.def)             Requested size: 109.36528pt x 61.5169pt.
-<Figures/3940_res.jpg, id=602, 321.2pt x 240.9pt>
+<Figures/3940_res.jpg, id=620, 321.2pt x 240.9pt>
 File: Figures/3940_res.jpg Graphic file (type jpg)
 <use Figures/3940_res.jpg>
 Package pdftex.def Info: Figures/3940_res.jpg  used on input line 112.
 (pdftex.def)             Requested size: 83.51003pt x 62.6325pt.
-<Figures/3939_track.jpg, id=603, 963.6pt x 542.025pt>
+<Figures/3939_track.jpg, id=621, 963.6pt x 542.025pt>
 File: Figures/3939_track.jpg Graphic file (type jpg)
 <use Figures/3939_track.jpg>
 Package pdftex.def Info: Figures/3939_track.jpg  used on input line 116.
 (pdftex.def)             Requested size: 109.36528pt x 61.5169pt.
-<Figures/3949_res.jpg, id=604, 321.2pt x 240.9pt>
+<Figures/3949_res.jpg, id=622, 321.2pt x 240.9pt>
 File: Figures/3949_res.jpg Graphic file (type jpg)
 <use Figures/3949_res.jpg>
 Package pdftex.def Info: Figures/3949_res.jpg  used on input line 120.
 (pdftex.def)             Requested size: 83.51003pt x 62.6325pt.
-<Figures/3949_track.jpg, id=605, 963.6pt x 542.025pt>
+<Figures/3949_track.jpg, id=623, 963.6pt x 542.025pt>
 File: Figures/3949_track.jpg Graphic file (type jpg)
 <use Figures/3949_track.jpg>
 Package pdftex.def Info: Figures/3949_track.jpg  used on input line 124.
 (pdftex.def)             Requested size: 109.36528pt x 61.5169pt.
-<Figures/370_res.jpg, id=606, 321.2pt x 240.9pt>
+<Figures/370_res.jpg, id=624, 321.2pt x 240.9pt>
 File: Figures/370_res.jpg Graphic file (type jpg)
 <use Figures/370_res.jpg>
 Package pdftex.def Info: Figures/370_res.jpg  used on input line 128.
 (pdftex.def)             Requested size: 83.51003pt x 62.6325pt.
-<Figures/370_track.jpg, id=607, 963.6pt x 542.025pt>
+<Figures/370_track.jpg, id=625, 963.6pt x 542.025pt>
 File: Figures/370_track.jpg Graphic file (type jpg)
 <use Figures/370_track.jpg>
 Package pdftex.def Info: Figures/370_track.jpg  used on input line 132.
 (pdftex.def)             Requested size: 109.36528pt x 61.5169pt.
-<Figures/435_res.jpg, id=608, 321.2pt x 240.9pt>
+<Figures/435_res.jpg, id=626, 321.2pt x 240.9pt>
 File: Figures/435_res.jpg Graphic file (type jpg)
 <use Figures/435_res.jpg>
 Package pdftex.def Info: Figures/435_res.jpg  used on input line 136.
 (pdftex.def)             Requested size: 83.51003pt x 62.6325pt.
-<Figures/435_track.jpg, id=609, 963.6pt x 542.025pt>
+<Figures/435_track.jpg, id=627, 963.6pt x 542.025pt>
 File: Figures/435_track.jpg Graphic file (type jpg)
 <use Figures/435_track.jpg>
 Package pdftex.def Info: Figures/435_track.jpg  used on input line 140.
@@ -2024,32 +2023,32 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 159.
 
-<Figures/1502_025.jpg, id=612, 1284.8pt x 722.7pt>
+<Figures/1502_025.jpg, id=630, 1284.8pt x 722.7pt>
 File: Figures/1502_025.jpg Graphic file (type jpg)
 <use Figures/1502_025.jpg>
 Package pdftex.def Info: Figures/1502_025.jpg  used on input line 176.
 (pdftex.def)             Requested size: 131.23967pt x 73.81807pt.
-<Figures/3923_025.jpg, id=613, 1284.8pt x 722.7pt>
+<Figures/3923_025.jpg, id=631, 1284.8pt x 722.7pt>
 File: Figures/3923_025.jpg Graphic file (type jpg)
 <use Figures/3923_025.jpg>
 Package pdftex.def Info: Figures/3923_025.jpg  used on input line 180.
 (pdftex.def)             Requested size: 131.23967pt x 73.81807pt.
-<Figures/478_025.jpg, id=614, 1284.8pt x 722.7pt>
+<Figures/478_025.jpg, id=632, 1284.8pt x 722.7pt>
 File: Figures/478_025.jpg Graphic file (type jpg)
 <use Figures/478_025.jpg>
 Package pdftex.def Info: Figures/478_025.jpg  used on input line 184.
 (pdftex.def)             Requested size: 131.23967pt x 73.81807pt.
-<Figures/1502_04.jpg, id=615, 1284.8pt x 722.7pt>
+<Figures/1502_04.jpg, id=633, 1284.8pt x 722.7pt>
 File: Figures/1502_04.jpg Graphic file (type jpg)
 <use Figures/1502_04.jpg>
 Package pdftex.def Info: Figures/1502_04.jpg  used on input line 188.
 (pdftex.def)             Requested size: 131.23967pt x 73.81807pt.
-<Figures/3923_04.jpg, id=616, 1284.8pt x 722.7pt>
+<Figures/3923_04.jpg, id=634, 1284.8pt x 722.7pt>
 File: Figures/3923_04.jpg Graphic file (type jpg)
 <use Figures/3923_04.jpg>
 Package pdftex.def Info: Figures/3923_04.jpg  used on input line 192.
 (pdftex.def)             Requested size: 131.23967pt x 73.81807pt.
-<Figures/478_04.jpg, id=617, 1284.8pt x 722.7pt>
+<Figures/478_04.jpg, id=635, 1284.8pt x 722.7pt>
 File: Figures/478_04.jpg Graphic file (type jpg)
 <use Figures/478_04.jpg>
 Package pdftex.def Info: Figures/478_04.jpg  used on input line 196.
@@ -2058,12 +2057,12 @@ File: Figures/1502_04.jpg Graphic file (type jpg)
 <use Figures/1502_04.jpg>
 Package pdftex.def Info: Figures/1502_04.jpg  used on input line 200.
 (pdftex.def)             Requested size: 131.23967pt x 73.81807pt.
-<Figures/3923_05.jpg, id=618, 1284.8pt x 722.7pt>
+<Figures/3923_05.jpg, id=636, 1284.8pt x 722.7pt>
 File: Figures/3923_05.jpg Graphic file (type jpg)
 <use Figures/3923_05.jpg>
 Package pdftex.def Info: Figures/3923_05.jpg  used on input line 204.
 (pdftex.def)             Requested size: 131.23967pt x 73.81807pt.
-<Figures/478_05.jpg, id=619, 1284.8pt x 722.7pt>
+<Figures/478_05.jpg, id=637, 1284.8pt x 722.7pt>
 File: Figures/478_05.jpg Graphic file (type jpg)
 <use Figures/478_05.jpg>
 Package pdftex.def Info: Figures/478_05.jpg  used on input line 208.
@@ -2075,12 +2074,12 @@ pg> <./Figures/370_track.jpg> <./Figures/435_res.jpg> <./Figures/435_track.jpg>
 ] [32 <./Figures/1502_025.jpg> <./Figures/3923_025.jpg> <./Figures/478_025.jpg>
  <./Figures/1502_04.jpg> <./Figures/3923_04.jpg> <./Figures/478_04.jpg> <./Figu
 res/3923_05.jpg> <./Figures/478_05.jpg>]
-<Figures/gpu_c.png, id=663, 857.2025pt x 515.9275pt>
+<Figures/gpu_c.png, id=681, 857.2025pt x 515.9275pt>
 File: Figures/gpu_c.png Graphic file (type png)
 <use Figures/gpu_c.png>
 Package pdftex.def Info: Figures/gpu_c.png  used on input line 223.
 (pdftex.def)             Requested size: 214.3001pt x 128.98155pt.
-<Figures/gpu_p.png, id=664, 876.27374pt x 492.84125pt>
+<Figures/gpu_p.png, id=682, 876.27374pt x 492.84125pt>
 File: Figures/gpu_p.png Graphic file (type png)
 <use Figures/gpu_p.png>
 Package pdftex.def Info: Figures/gpu_p.png  used on input line 227.
@@ -2090,12 +2089,12 @@ Overfull \hbox (7.90686pt too wide) in paragraph at lines 223--228
  [][][][] 
  []
 
-<Figures/cpu.png, id=665, 586.8324pt x 312.6882pt>
+<Figures/cpu.png, id=683, 586.8324pt x 312.6882pt>
 File: Figures/cpu.png Graphic file (type png)
 <use Figures/cpu.png>
 Package pdftex.def Info: Figures/cpu.png  used on input line 236.
 (pdftex.def)             Requested size: 410.77988pt x 218.88023pt.
-<Figures/network.png, id=666, 586.8324pt x 312.6882pt>
+<Figures/network.png, id=684, 586.8324pt x 312.6882pt>
 File: Figures/network.png Graphic file (type png)
 <use Figures/network.png>
 Package pdftex.def Info: Figures/network.png  used on input line 245.
@@ -2115,26 +2114,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 261--262
  []
 
 [33] [34 <./Figures/gpu_c.png> <./Figures/gpu_p.png> <./Figures/cpu.png>] [35 <
-./Figures/network.png>]) [36] (./thesis.bbl [37
+./Figures/network.png>]) [36] (./thesis.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 10--14
+[]\T1/ptm/m/n/12 (+20) (2020 (ac-cessed Septem-ber 3, 2020)b).  \T1/ptm/m/it/12
+ (+20) Avail-able On-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--14
+\T1/ptm/m/it/12 (+20) line\T1/ptm/m/n/12 (+20) .  [][]$https : / / www . telegr
+aph . co . uk / technology / 10172298 /
+ []
+
+[37
 
 
 
-] [38]
-Underfull \hbox (badness 10000) in paragraph at lines 242--246
+] [38] [39]
+Underfull \hbox (badness 10000) in paragraph at lines 289--293
 []\T1/ptm/m/n/12 (+20) Philippou, O. (2020 (ac-cessed Septem-ber 3, 2020)).  \T
 1/ptm/m/it/12 (+20) Video Surveil-
  []
 
 
-Underfull \hbox (badness 3375) in paragraph at lines 242--246
+Underfull \hbox (badness 3375) in paragraph at lines 289--293
 \T1/ptm/m/it/12 (+20) lance In-stalled Base Re-port ^^U 2019\T1/ptm/m/n/12 (+20
 ) .  [][]$https : / / technology . informa . com / 607069 /
  []
 
-[39]) [40]
+[40]) [41]
 \openout2 = `Appendix1/appendix1.aux'.
 
-(./Appendix1/appendix1.tex
+(./Appendix1/appendix1.tex [42
+
+
+]
 Appendix A.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
@@ -2142,10 +2156,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
-[41
-
-
-] [42]
+[43] [44]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 72.
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
@@ -2154,16 +2165,16 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-[43] [44]) [45]
+[45] [46]) [47]
 \openout2 = `Appendix2/appendix2.aux'.
 
-(./Appendix2/appendix2.tex [46
+(./Appendix2/appendix2.tex [48
 
 
 
 ]
 Appendix B.
-) [47] [48
+) [49] [50
 
 
 ] (./thesis.ind)
@@ -2176,7 +2187,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 187.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 187.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 187.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 58475A7DABFDBD969CDF773C1D76F22D;7089.
+(rerunfilecheck)             Checksum: 7AFCE8339114D33F4575D52F3389331D;7089.
 
 LaTeX Warning: There were undefined references.
 
@@ -2185,28 +2196,28 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 28971 strings out of 494805
- 510995 string characters out of 6178000
- 597146 words of memory out of 5000000
- 31301 multiletter control sequences out of 15000+600000
- 607702 words of font info for 274 fonts, out of 8000000 for 9000
- 81 hyphenation exceptions out of 8191
- 55i,16n,92p,10379b,964s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/xlab/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600p
-k>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
-rw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (62 pages, 13234693 bytes).
+ 29011 strings out of 492982
+ 511701 string characters out of 6134895
+ 602913 words of memory out of 5000000
+ 31559 multiletter control sequences out of 15000+600000
+ 608152 words of font info for 278 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 55i,16n,92p,10379b,990s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texliv
+e/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symb
+ols/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times
+/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on thesis.pdf (64 pages, 13259271 bytes).
 PDF statistics:
- 976 PDF objects out of 1000 (max. 8388607)
- 760 compressed objects within 8 object streams
- 275 named destinations out of 1000 (max. 500000)
+ 961 PDF objects out of 1000 (max. 8388607)
+ 792 compressed objects within 8 object streams
+ 285 named destinations out of 1000 (max. 500000)
  45568 words of extra memory for PDF output out of 51595 (max. 10000000)
 

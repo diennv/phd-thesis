@@ -19,7 +19,7 @@
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lof}{\addvspace {10\p@ }}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.1}{\ignorespaces Overall of cloud based video analytics server\relax }}{1}{figure.caption.7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.1}{\ignorespaces Overall of cloud based video analytics server\relax }}{2}{figure.caption.7}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2.1}{\ignorespaces Video Analytics Implementation, (a) Video management server based implementation, (b) Edge camera based implementation\relax }}{6}{figure.caption.8}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2.2}{\ignorespaces  Reference motion vectors in video coding.\relax }}{9}{figure.caption.9}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2.3}{\ignorespaces  Example of motion vectors extraction.(a) Test video sequence from our recorded video, (b) Test video sequence from VIRAT.\relax }}{11}{figure.caption.10}}
@@ -102,17 +102,17 @@
 \@writefile{lot}{\contentsline {table}{\numberline {4.4}{\ignorespaces Average IoU of the moving object detection in compressed-domain in different scenarios.\relax }}{31}{table.caption.25}}
 \@writefile{lot}{\contentsline {table}{\numberline {4.5}{\ignorespaces Average per-frame running times for preprocessing and tracking procedures. Values are expressed in miliseconds (ms) and frame per second(FPS).\relax }}{31}{table.caption.26}}
 \@writefile{lot}{\contentsline {table}{\numberline {4.6}{\ignorespaces Average computing resources of both the conventional method and the proposed method.\relax }}{33}{table.caption.31}}
-\@writefile{toc}{\contentsline {chapter}{Appendix \numberline {A}How to install \LaTeX  }{41}{Appendix.a.A}}
-\@writefile{toc}{\contentsline {chapter}{Appendix \numberline {B}Installing the CUED class file}{47}{Appendix.a.B}}
+\@writefile{toc}{\contentsline {chapter}{Appendix \numberline {A}How to install \LaTeX  }{43}{Appendix.a.A}}
+\@writefile{toc}{\contentsline {chapter}{Appendix \numberline {B}Installing the CUED class file}{49}{Appendix.a.B}}
 \@writefile{toc}{\contentsline {chapter}{List of figures}{ix}{chapter*.4}}
 \@writefile{toc}{\contentsline {chapter}{List of tables}{xi}{chapter*.5}}
 \@writefile{toc}{\contentsline {chapter}{Nomenclature}{xiii}{chapter*.6}}
 \@writefile{toc}{\contentsline {chapter}{References}{37}{chapter*.32}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {2}Background and Challenges}{5}{chapter.2}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {2}Background}{5}{chapter.2}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {3}Methodology}{17}{chapter.3}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {4}Implementation And Performance Evaluation}{27}{chapter.4}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.1}Surveillance Video Analytics Architectures}{5}{section.2.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.1}Surveillance Video Analytics Architectures and Challenges}{5}{section.2.1}}
 \@writefile{toc}{\contentsline {section}{\numberline {2.2}Compressed-Domain Based Moving Object Detection}{8}{section.2.2}}
 \@writefile{toc}{\contentsline {section}{\numberline {2.3}Pixels-Domain Based Moving Object Detection}{11}{section.2.3}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.1}The Edge-to-clound System Model for Surveillance Camera based Applications}{18}{section.3.1}}
@@ -120,7 +120,7 @@
 \@writefile{toc}{\contentsline {section}{\numberline {3.3} Performance Evaluated Model}{25}{section.3.3}}
 \@writefile{toc}{\contentsline {section}{\numberline {4.1}The Light-weight Runtime Moving Object Detection in Video Compressed Domain}{30}{section.4.1}}
 \@writefile{toc}{\contentsline {section}{\numberline {4.2}Performance Evaluation Results}{33}{section.4.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.1}Edge Camera Based Implementation}{5}{subsection.2.1.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.1}Edge Camera Based Implementation}{6}{subsection.2.1.1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1.2}Video Management Server Based Implementation}{6}{subsection.2.1.2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.3.1}Hybrid model of background subtraction and object classification based moving object detection}{12}{subsection.2.3.1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.3.2}Deep Learning based Moving Object Detection}{13}{subsection.2.3.2}}
@@ -142,7 +142,10 @@
 \citation{bombardelli2018efficient}
 \citation{boykov2001fast}
 \citation{bross2014inter}
+\citation{cai2015learning}
 \citation{canel2019scaling}
+\citation{canel2019scaling}
+\citation{chen2015glimpse}
 \citation{chen2015glimpse}
 \citation{chen2017pixel}
 \citation{chen2017smart}
@@ -154,17 +157,21 @@
 \citation{girshick2014rich}
 \citation{girshick2015fast}
 \citation{gujrathi2014detecting}
+\citation{hsieh2018focus}
 \citation{hussain2018study}
 \citation{jarrett2009best}
+\citation{jiang2018chameleon}
 \citation{jiang2019spatial}
 \citation{khatoonabadi2012video}
 \citation{khatoonabadi2012video}
 \citation{krizhevsky2009learning}
+\citation{krizhevsky2017imagenet}
 \citation{kumar2016segmentation}
 \citation{laroche2008rd}
 \citation{lecun2010convolutional}
 \citation{lee2009convolutional}
 \citation{lee2012adaptive}
+\citation{li2015convolutional}
 \citation{li2020hksiamfc}
 \citation{li2020reducto}
 \citation{liu2016ssd}
@@ -178,6 +185,9 @@
 \citation{redmon2016you}
 \citation{redmon2018yolov3}
 \citation{redmon2018yolov3}
+\citation{ref0}
+\citation{ref1}
+\citation{ref2}
 \citation{ren2015faster}
 \citation{sheu2019stam}
 \citation{source}
@@ -361,8 +371,8 @@
 \setcounter{NAT@ctr}{0}
 \setcounter{NAT@ctr}{0}
 \setcounter{NAT@ctr}{0}
-\setcounter{NAT@ctr}{53}
-\setcounter{NAT@ctr}{53}
+\setcounter{NAT@ctr}{61}
+\setcounter{NAT@ctr}{61}
 \setcounter{algocfline}{0}
 \setcounter{algocfline}{0}
 \setcounter{algocfline}{0}
@@ -486,9 +496,9 @@
 \setcounter{page}{16}
 \setcounter{page}{27}
 \setcounter{page}{37}
-\setcounter{page}{46}
 \setcounter{page}{48}
 \setcounter{page}{4}
+\setcounter{page}{50}
 \setcounter{page}{5}
 \setcounter{page}{7}
 \setcounter{paragraph}{0}
