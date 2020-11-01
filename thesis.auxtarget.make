@@ -22,6 +22,7 @@
 \newlabel{fig:noise}
 \newlabel{fig:objectdetect}
 \newlabel{fig:objecttracking}
+\newlabel{fig:opticalflow}
 \newlabel{fig:overall}
 \newlabel{fig:proposedMethod}
 \newlabel{fig:sysdesign}

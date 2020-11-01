@@ -103,6 +103,9 @@ thesis.pdf thesis._graphics: $$(call graphics-target,Figures/Va-neta.png)
 -include Figures/Va-netb.png.gpi.d
 thesis.d: $$(call graphics-source,Figures/Va-netb.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,Figures/Va-netb.png)
+-include Figures/opticalflow.jpeg.gpi.d
+thesis.d: $$(call graphics-source,Figures/opticalflow.jpeg)
+thesis.pdf thesis._graphics: $$(call graphics-target,Figures/opticalflow.jpeg)
 -include Figures/mv.png.gpi.d
 thesis.d: $$(call graphics-source,Figures/mv.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,Figures/mv.png)
