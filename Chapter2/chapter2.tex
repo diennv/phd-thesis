@@ -1,0 +1,129 @@
+%!TEX root = ../thesis.tex
+%*******************************************************************************
+%****************************** Second Chapter *********************************
+%*******************************************************************************
+%These are essential parts. They contain information concerning your own research. Answering main question of our post (how long should a thesis be?), these parts must take at least 30-40 pages. Let’s find out what Phd. or Master’s thesis paper shout present in these chapters.
+
+%The methods section is text’s explanatory part. There you have to provide readers with clear information and details that allow repeating the research and experiments. Traditionally, methods section is divided into three parts – materials, participants, ways of analysis. Materials imply full description of all instruments used for making research.
+
+%Participants part describes people or subjects analyzed, including regulations of choice. Ways of analysis present all research approaches used to get results. This part describes area and circumstances of your experiments and helps to identify if they were legitimate and relevant.
+
+%Results part contains relevant statements of observations with statistical data, graphs, tables, etc. The section is divided into paragraphs, where key results are arranged into sentences at beginning. Do not forget about negative results, if possible. The main goal of section is data structuring to be helpful for readers to make own conclusions. Mention the nature of data found.
+
+\chapter{Background}
+%Before explaining the proposed VA design, the background information necessary to understanding VA architecture is described %briefly, followed by a short summary of state-of-art algorithms for object detection used in our proposed VA.
+Object detection in images and videos has received a lot of attention in the computer vision and video analytics communities in recent years. There are many different approaches to video moving object detection, both utilizing compressed and uncompressed data. In this chapter, we briefly introduce the state-of-the-art approaches for moving object detection on both compressed domain and pixel domain. In addition, the background information necessary to understanding VA architecture is described briefly.
+\section{Surveillance Video Analytics Architectures and Challenges}
+\begin{figure*}
+\centering
+\subfloat[]
+{
+    \includegraphics[scale=0.6]{Figures/Va-neta.png}
+    \label{fig:va_a}
+}
+\subfloat[]
+{
+    \includegraphics[scale=0.6]{Figures/Va-netb.png}
+    \label{fig:va_b}
+}
+\caption{Video Analytics Implementation, (a) Video management server based implementation, (b) Edge camera based implementation}
+\label{fig:va_arch}
+\end{figure*}
+Video surveillance systems are typically built using the following main components: surveillance cameras, VMS, storage and VA modules (optional). VA can be implemented in two main configurations, as discussed below.
+\subsection{Edge Camera Based Implementation}
+In this approach, the VA is implemented through a  camera device or video encoder \cite{chen2017smart} such as that shown in Figure \ref{fig:va_b}, which must have sufficient processing power to run the VA functionality. Hence it is an expensive and challenging approach to wide-area video processing. On the surface, this approach seems otherwise ideal, however it does not perform satisfactorily in many cases as it imposes limitations on the overall surveillance system design and performance. Most camera device still lack sufficient processing power for highend VA requirements, and therefore, this approach has many drawbacks in real-world deployment. 
+\subsection{Video Management Server Based Implementation}
+In this approach, as shown in Figure \ref{fig:va_a}, VA is implemented through a dedicated server that pulls the video from the camera devices or from VMS, analyzes it, and issues analysis results. However, it has some challenges, which are listed below:
+\begin{itemize}
+\item The VA server requires the video to be transmitted and therefore causes an increase in network traffic. In detail, running video analytics by streaming all video to the cloud conflicts with the bandwidth constraints of some deploy-
+ments, which preclude uploading all camera data. Each camera’s uplink bandwidth is limited, both by the physical constraints of modern wide-area network infrastructure and the monetary cost of operating a widespread camera deploy-
+ment. Specifically, we consider large-scale deployments where each camera receives a bandwidth allocation of a few hundred kilobits per second, or less. For comparison, a low-quality H.264-encoded 1080p (1920×1080 pixels) stream is approximately two Mb/s, an order of magnitude greater than our available uplink bandwidth. Yet, such low-quality data is often insufficient to perform accurate analysis: Modern 4K (3840×2160 pixels) cameras produce up to 30-40 Mb/s, two
+orders of magnitude beyond the uplink bandwidth, and this
+gap will only expand as 8K (7680 × 4320 pixels) cameras become more common. As a concrete example, we have an off-campus deployments where cameras are mounted next
+to traffic lights at an intersection. The local Internet service provider charges \$400 per month for a single 35 Mb/s uplink, creating a strong economic incentive for us to share that bandwidth between as many cameras as possible (currently,
+eight 4K cameras share each uplink).This bandwidth gap, exacerbated by the requirement for high-quality data, necessitates an edge-based decision about
+which frames to send to the datacenter. An edge-based filter answers this challenge with semantic filtering that uploads only frames that are relevant to applications.
+\item The video quality being analyzed by the VA server is usually degraded because of compression and transmission effects, and therefore, the VA performance may be compromised.
+\item The VA server is limited by its processing power, which makes it infeasible for large scale surveillance installations which deploy hundreds (and increasingly thousands) of cameras requiring a variety of VA functionalities. For example, a 1920 × 1080 pixel stream at 30 frames per second is $\approx$ 1.5 Gb/s when decompressed. Accomplishing VA at scale requires abundant compute, memory, and storage resources, so existing systems often perform this processing in the cloud, using GPUs.
+\end{itemize}
+However, this approach is independent of video cameras, and is therefore applicable to most types of surveillance systems, and recent technological developments can reduce the effect of the above drawbacks. For example, the release of high definition video surveillance footage with resolutions up to 1080p will decrease the impact of the image quality degradation during codec processing and by releasing the new video coding standard as well as the transcoder \cite{thanh2019efficient}, high efficiency video coding (HEVC)\cite{sullivan2012overview} which has achieved approximately twice the standard compression\cite{ohm2012comparison} will decrease traffic in the network and at the central server, where powerful devices will have sufficient processing power to handle hundreds of camera. Moreover, some edge-based filtering approaches that
+is designed to overcome these above issues \cite{canel2019scaling}\cite{li2020reducto}\cite{chen2015glimpse}. These approaches use edge-compute resources collocates with the cameras to identify the video sequences that are most relevant to datacenter applications (“filtering”) and offloads only that data for further analysis (“forwarding”). In this way, it supports near-real-time processing running in datacenters while limiting the use of low-bandwidth wide-area network links. In this study, we present an edge-based filter, a system that offers the benefits of both edge computing and datacenter-centric approaches to wide-area video processing.
+\section{Compressed-Domain Based Moving Object Detection}
+% Uncomment this line, when you have siunitx package loaded.
+%The SI Units for dynamic viscosity is \si{\newton\second\per\metre\squared}.
+%I'm going to randomly include a picture Figure~\ref{fig:minion}.
+
+
+%If you have trouble viewing this document contact Krishna at: \href{mailto:kks32@cam.ac.uk}{kks32@cam.ac.uk} or raise an issue at \url{https://github.com/kks32/phd-thesis-template/}
+
+
+%\begin{figure}[htbp!] 
+%\centering    
+%\includegraphics[width=1.0\textwidth]{minion}
+%\caption[Minion]{This is just a long figure caption for the minion in Despicable Me from Pixar}
+%\label{fig:minion}
+%\end{figure}
+The traditional video coding standards, such as MPEG-1, MPEG-2, H.264 and H.265, are based on motion estimation process, which involves identifying a correspondence among consecutive images. In video coding standard, MV of a current block are correlated with the MVs of neighboring blocks in the current image or in the earlier coded pictures \cite{laroche2008rd}, \cite{jiang2019spatial}. While intra-picture prediction exploits correlations between spatially neighboring samples, inter-picture prediction makes use of temporal correlation between images to derive a motion-compensated prediction (MCP) for a block of image samples \cite{bross2014inter}.
+\begin{figure*}
+\centering
+ \includegraphics[width=0.8\linewidth]{Figures/mv.png}
+ \caption{ Reference motion vectors in video coding.}
+ \label{fig:mv}
+\end{figure*}
+For intra-prediction, we assume that neighboring blocks possibly correspond to the same moving object with similar motion and the motion of the object is not likely to abruptly change over time. Consequently, using MV in neighboring blocks as predictor reduces the size of the signaled motion vector difference. For this block-based MCP, a video image is divided into rectangular blocks. Figure \ref{fig:mv} shows the general concept of MCP based on a translational motion model. Using a translational motion model, the position of the block in a previously decoded picture is indicated by a motion vector $(\Delta x, \Delta y)$, where $\Delta x$ specifies the horizontal and $\Delta y$ the vertical displacement relative to the position of the current block. Note that the motion vectors $\Delta x$, $\Delta y$ could be of fractional sample accuracy to more accurately capture the movement of the underlying object. These MVs are coded by entropy coding and placed into a compressed bitstream for delivery to the video decoder, which uses MVs, along with one or more previously decoded pictures, to reconstruct the current image. Therefore, MV information indeed follow the real motion of objects and can be used for tracking.Therefore, MV information indeed follow the real motion of objects and can be used for tracking.\\
+On the other hand, H.264/AVC(Advanced Video Coding) in view of higher resolution, low bandwidth utilization and storage requirement becomes the popular video compression standard for surveillance video. In H.264/AVC, each video sequence is devided into groups of pictures (GOP), comprising at least one intra code I frame, uni-directionally predicted P frames and bi-directionally predicted B frames. Typically, the first frame in a GOP is intra coded I frame and follows by P, B frames. I frame uses raw data from camera, while other frames in a GOP ultilize the predictive coding involved motion vectors displacement. Each frame is partitioned into rectangular areas called macroblocks that further partitioned into variable size blocks. The motion compensation of displacement is performed at the macroblock and block levels for all intra-coded frames. In the process of motion compression, MVs are obtained for each motion block between the current and referenece frames. By minimising the prediction residual, the MVs represent the temporal displacement between the two block. \\
+%This is done by finding a displacement vector, i.e motion vector, for each block so that it optimises the rate-distortion requirements. As a result of the search criteria for 
+In recent studies, compressed-domain based video analytics methods  \cite{bombardelli2018efficient},\cite{khatoonabadi2012video} that rely on video coding artifact of compressed bitstreams, such as MVs, macroblock partition, and quantization coefficients, have been proposed. In \cite{bombardelli2018efficient}, the authors applied a probabilistic technique of computer vision for image separation, known as Graph Cut \cite{boykov2001fast}, modeling with MVs rather than pixels and adapted to the additional temporal dimension of video signals. Using MVs and a spatio-temporal Markov random field (ST-MRF) model that naturally integrates the spatial and temporal aspects of the object’s motion for tracking. In general, these approaches do not rely on pixels and studies by only using the codec’s MVs and block coding modes extracted bitstream through inexpensive partial decoding. In this manner, computing and storage requirements have been significantly reduced compared to “pixel-domain”.\\
+
+\begin{figure*}
+\centering
+\subfloat[]
+{
+    \includegraphics[width=0.5\linewidth]{Figures/noise.png}
+}
+\subfloat[]
+{
+    \includegraphics[width=0.5\linewidth]{Figures/34.jpg}
+}
+ \caption{ Example of motion vectors extraction.(a) Test video sequence from our recorded video, (b) Test video sequence from VIRAT.}
+ \label{fig:noise}
+\end{figure*}
+
+The primary limitation of this approach is that it may lead to a noisy MV field that does not necessarily correspond with actual object movement of the object in the scene, as shown in Figure \ref{fig:noise}. The noisy MVs fail to provide useful information such as those attributed to illumination changes and background movement. The amount of noise MVs is relatively reduced compared to the correctly estimated MVs because noisy vectors are continuous and similar MVs from real moving objects. Another challenge of this approach is the lack of information about the object’s appearance such as color, edges and texture, because these features would require complete decoding of the compressed bitstream. In this study, our aim is to work in the “compressed domain” and uses only the MVs from the compressed bitstream to detect and track moving objects in video frames. 
+%To apply the IoU-based object tracking algorithm \cite{rezatofighi2019generalized}, MVs are clustered into blobs and simply represented with object bounding boxes.
+
+\section{Pixels-Domain Based Moving Object Detection}
+Due to more reliable features that can be extracted from the pixel data, the majority of moving object detections require full decoding of the video stream. In pixels domain, a video analytics server analyzes the red-green-blue image to determine the appearance objects and spatial events. Ubiquitous real-time video analytics remains an open and exciting research problem, and it is fueled by the recent advantages of hardware and deep learning \cite{zeng2018background},\cite{chen2017pixel},\cite{babaee2018deep},\cite{wang2017interactive},\cite{patil2018msfgnet},\cite{ou2019moving}. There are two primary methods that are considered for moving object detection in pixels domain.
+\subsection{Hybrid model of background subtraction and object classification based moving object detection}
+\begin{figure*}
+\centering
+\subfloat[]
+{
+    \includegraphics[scale=0.5]{Figures/input_img.png}
+}
+\subfloat[]
+{
+    \includegraphics[scale=0.5]{Figures/fg_subtration.png}
+}\\
+\subfloat[]
+{
+    \includegraphics[scale=0.5]{Figures/blob_detection.png}
+}
+\subfloat[]
+{
+    \includegraphics[scale=0.5]{Figures/smoke_region.png}
+}
+\caption{Smoke detection process: (a) input image, (b) foreground subtraction, (c) blob detection, (d) smoke classification }
+\label{fig:bgmethod}
+\end{figure*}
+The background subtraction method \cite{lee2012adaptive}\cite{stauffer1999adaptive} subtracts the current frame and background image to eliminate an image’s background, and then detects moving targets based on gray value differences. This method is the most commonly used object detection technique. There are a number of methods that have been for building the background model, e.g.,  \cite{lu2008improved} proposed a novel real-time motion detection algorithm that integrates the temporal differencing method, double background filtering method, optical flow method, and morphological processing methods to obtain excellent performance. Moreover, the authors of \cite{stauffer1999adaptive} discussed modeling each pixel as a grouping of Gaussians using an on-line approximation to renew the model. The Gaussian distributions of the adaptive mixture model were then assessed to determine which model can be presumed to be obtained from a background process. This method’s advantage is its simple implementation, low computational resource requirements, robustness in the presence of environmental noise, and dynamic background. However, it has limitations with shadows, background changes, as well as object localization and classification. Furthermore, object detection based on the background model cannot detect the individual objects in a group or a block object. In general, the aim of background subtraction is to separate foreground images from background ones in the form of blobs, followed by an object classification process. The detected blobs then help classify each blob into subclasses, as shown in Figure \ref{fig:bgmethod}, which shows the complete process of this approach is to perform smoke detection. Fortunately, deep learning, a relatively new technique in machine learning, enables very accurate classification of images using convolutional neural networks (CNNs) \cite{lecun2010convolutional}\cite{jarrett2009best}\cite{lee2009convolutional}. The capacity of CNNs can be controlled by varying their depth and breadth; moreover, they make strong and mostly correct assumptions about the nature of images (i.e., stationarity of statistics and locality of pixel dependencies). For example, by combining CNN and transfer learning, the authors of \cite{hussain2018study} achieved an average accuracy of 70.1\% using the CIFAR-10  \cite{krizhevsky2009learning} dataset.
+
+\subsection{Deep Learning based Moving Object Detection}
+\label{subsec:frameworks}
+Hybrid background subtraction and deep learning classification enhance the system’s accuracy; however, there are issues with detection of individual objects in a group or blocked objects and the background changes by the lighting condition and the environmental noise. Hence, the usage of deep learning is considered for robust object detection tasks. We have identified three primary object detection methods using deep learning:
+\begin{itemize}
+\item R-CNN, Fast R-CNN, Faster R-CNN
+\item You Only Look Once (YOLO)
+\item Single Shot Detectors (SSDs) 
+\end{itemize}
+R-CNN \cite{girshick2014rich} uses selective search \cite{uijlings2013selective} to extract several regions, called region proposals, from the image; it then attempts to classify a large number of regions. Each region proposal is placed into CNNs to extract features, which are fed to a support vector machine to classify the presence of object within the candidate region proposal. The limitation of this method is that it requires a large amount of time to train and deploy networks because it has to classify multiple region proposals per image. Fast R-CNN \cite{girshick2015fast} solves the limitations of R-CNN by putting the entire image into the CNNs to generate a convolutional feature map and identify the region of proposals based on the map, thus reducing the number of classified region of proposals. Both R-CNN and Fast R-CNN use selective search to identify the region proposals. Selective search is a slow and tedious process that affects the network’s performance. Faster R-CNN \cite{ren2015faster} was proposed to allow the network to learn the region proposals; it uses a separate network to predict the region proposals rather than use a selection search algorithm on the feature maps output using the CNN layer. YOLO \cite{redmon2016you} is an object detection system targeted for real-time processing. Unlike R-CNN, Fast R-CNN and Faster R-CNN, which use regions to localize the object within the image, YOLO use a single neural network to predict the bounding boxes and the class probabilities for these boxes during training and test periods. Hence, YOLO only examines the input picture once to predict the presence and location of objects. YOLO divides the input image into an SxS grid, and multiple bounding boxes can exist within each grid. For each bounding box, the network outputs a class probability and offset value for the bounding box. The bounding boxes with class probabilities above a certain threshold value are then selected and used to locate the object within the image. Note that YOLO has 24 convolutional layers, followed by two fully connected layers. The initial convolutional layers of the network extract feature from the image, while the fully connected layers predict the output probabilities and coordinates. According to performance comparison in \cite{redmon2018yolov3}, YOLO is faster (45 frames per second (FPS)) than the other object detection algorithms. Faster R-CNN is more accurate than YOLO (a mean average precision (mAP) of 73.2, as compared to 63.4); however, YOLO is considerably faster than Faster R-CNN (FPS of 45, as compared to 7). Therefore, SSDs  \cite{liu2016ssd} were released as a balance between these two methods. Compared to YOLO, an SSD runs an input image through a convolutional network only once and computes a feature map. Then, a small 3 × 3 sized convolutional kernels are run on this feature map to predict the bounding boxes and categorization probability. Moreover, SSD uses anchor boxes at various aspect ratios comparable to Faster-RCNN and learns the off-set to a certain extent compared to learning the box. The SSD is able to detect objects of multiple scales because every convolutional layer function at a diverse scale. Compared to the YOLO method \cite{redmon2018yolov3}, the SSDs attain similar accuracy but run slower. In this study, YOLO was applied to robust human detection at cloud servers for our implementation. 

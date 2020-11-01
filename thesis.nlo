@@ -1,0 +1,18 @@
+\nomenclatureentry{z-VMSVMS@[{VMS}]\begingroup Video Management Software\nomeqref {1.0}|nompageref}{4}
+\nomenclatureentry{z-VAVA@[{VA}]\begingroup Video Analytics\nomeqref {1.0}|nompageref}{4}
+\nomenclatureentry{z-CCTVCCTV@[{CCTV}]\begingroup Closed Circuit Television\nomeqref {1.0}|nompageref}{4}
+\nomenclatureentry{z-CNNCNN@[{CNN}]\begingroup Convolutional Neural Networks\nomeqref {1.0}|nompageref}{4}
+\nomenclatureentry{z-FPSFPS@[{FPS}]\begingroup Frames Per Second\nomeqref {1.0}|nompageref}{4}
+\nomenclatureentry{z-MVMV@[{MV}]\begingroup Motion Vector\nomeqref {1.0}|nompageref}{4}
+\nomenclatureentry{z-AVCAVC@[{AVC}]\begingroup Advanced Video Coding\nomeqref {1.0}|nompageref}{4}
+\nomenclatureentry{z-RTSPRTSP@[{RTSP}]\begingroup Real-Time Streaming Protocol\nomeqref {1.0}|nompageref}{4}
+\nomenclatureentry{z-MCPMCP@[{MCP}]\begingroup Motion-Compensated Prediction\nomeqref {1.0}|nompageref}{4}
+\nomenclatureentry{z-HEVCHEVC@[{HEVC}]\begingroup High Efficiency Video Coding\nomeqref {1.0}|nompageref}{4}
+\nomenclatureentry{z-R-CNNR-CNN@[{R-CNN}]\begingroup Regions with CNN\nomeqref {1.0}|nompageref}{4}
+\nomenclatureentry{z-SSDSSD@[{SSD}]\begingroup Single Shot Multi-box Detector\nomeqref {1.0}|nompageref}{4}
+\nomenclatureentry{z-YOLOYOLO@[{YOLO}]\begingroup You Only Look Once\nomeqref {1.0}|nompageref}{4}
+\nomenclatureentry{z-CPUCPU@[{CPU}]\begingroup Central Processing Unit\nomeqref {1.0}|nompageref}{4}
+\nomenclatureentry{z-GPUGPU@[{GPU}]\begingroup Graphics Processing Unit\nomeqref {1.0}|nompageref}{4}
+\nomenclatureentry{z-RAMRAM@[{RAM}]\begingroup Random Access Memory\nomeqref {1.0}|nompageref}{4}
+\nomenclatureentry{z-CUDACUDA@[{CUDA}]\begingroup Compute Unified Device Architecture\nomeqref {1.0}|nompageref}{4}
+\nomenclatureentry{z-IOUIoU@[{IoU}]\begingroup Intersection Over Union\nomeqref {1.0}|nompageref}{4}

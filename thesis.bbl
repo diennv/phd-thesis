@@ -1,0 +1,323 @@
+\begin{thebibliography}{}
+
+\bibitem[VIR, 2020]{VIRAT}
+ (2020 (accessed September 3, 2020)).
+\newblock {\em Available Online}.
+\newblock \url{https://viratdata.org}.
+
+\bibitem[tes, 2020]{testvideo}
+ (2020 (accessed September 3, 2020)).
+\newblock {\em Available Online}.
+\newblock \url{https://youtu.be/v24ldT1AGRw}.
+
+\bibitem[sou, 2020]{source}
+ (2020 (accessed September 3, 2020)).
+\newblock {\em Available Online}.
+\newblock \url{https://github.com/diennv/MotionVectorAnalysis}.
+
+\bibitem[con, 2020]{convential}
+ (2020 (accessed September 3, 2020)).
+\newblock {\em Available Online}.
+\newblock \url{https://www.youtube.com/watch?v=Cz_zxr_ElTU}.
+
+\bibitem[pro, 2020]{proposed}
+ (2020 (accessed September 3, 2020)).
+\newblock {\em Available Online}.
+\newblock \url{https://www.youtube.com/watch?v=-fRc36HAduI&feature=youtu.b}.
+
+\bibitem[Achanta et~al., 2002]{achanta2002compressed}
+Achanta, R., Kankanhalli, M., and Mulhem, P. (2002).
+\newblock Compressed domain object tracking for automatic indexing of objects
+  in mpeg home video.
+\newblock In {\em Proceedings. IEEE International Conference on Multimedia and
+  Expo}, volume~2, pages 61--64. IEEE.
+
+\bibitem[Ananthanarayanan et~al., 2019]{ananthanarayanan2019demo}
+Ananthanarayanan, G., Bahl, V., Cox, L., Crown, A., Nogbahi, S., and Shu, Y.
+  (2019).
+\newblock Demo: Video analytics-killer app for edge computing.
+\newblock In {\em ACM MobiSys}.
+
+\bibitem[Babaee et~al., 2018]{babaee2018deep}
+Babaee, M., Dinh, D.~T., and Rigoll, G. (2018).
+\newblock A deep convolutional neural network for video sequence background
+  subtraction.
+\newblock {\em Pattern Recognition}, 76:635--649.
+
+\bibitem[Bombardelli et~al., 2018]{bombardelli2018efficient}
+Bombardelli, F., G{\"u}l, S., Becker, D., Schmidt, M., and Hellge, C. (2018).
+\newblock Efficient object tracking in compressed video streams with graph
+  cuts.
+\newblock In {\em 2018 IEEE 20th International Workshop on Multimedia Signal
+  Processing (MMSP)}, pages 1--6. IEEE.
+
+\bibitem[Boykov et~al., 2001]{boykov2001fast}
+Boykov, Y., Veksler, O., and Zabih, R. (2001).
+\newblock Fast approximate energy minimization via graph cuts.
+\newblock {\em IEEE Transactions on pattern analysis and machine intelligence},
+  23(11):1222--1239.
+
+\bibitem[Bross et~al., 2014]{bross2014inter}
+Bross, B., Helle, P., Lakshman, H., and Ugur, K. (2014).
+\newblock Inter-picture prediction in hevc.
+\newblock In {\em High Efficiency Video Coding (HEVC)}, pages 113--140.
+  Springer.
+
+\bibitem[Canel et~al., 2019]{canel2019scaling}
+Canel, C., Kim, T., Zhou, G., Li, C., Lim, H., Andersen, D.~G., Kaminsky, M.,
+  and Dulloor, S.~R. (2019).
+\newblock Scaling video analytics on constrained edge nodes.
+\newblock {\em arXiv preprint arXiv:1905.13536}.
+
+\bibitem[Chen et~al., 2017a]{chen2017smart}
+Chen, N., Chen, Y., Ye, X., Ling, H., Song, S., and Huang, C.-T. (2017a).
+\newblock Smart city surveillance in fog computing.
+\newblock In {\em Advances in Mobile Cloud Computing and Big Data in the 5G
+  Era}, pages 203--226. Springer.
+
+\bibitem[Chen et~al., 2015]{chen2015glimpse}
+Chen, T. Y.-H., Ravindranath, L., Deng, S., Bahl, P., and Balakrishnan, H.
+  (2015).
+\newblock Glimpse: Continuous, real-time object recognition on mobile devices.
+\newblock In {\em Proceedings of the 13th ACM Conference on Embedded Networked
+  Sensor Systems}, pages 155--168.
+
+\bibitem[Chen et~al., 2017b]{chen2017pixel}
+Chen, Y., Wang, J., Zhu, B., Tang, M., and Lu, H. (2017b).
+\newblock Pixel-wise deep sequence learning for moving object detection.
+\newblock {\em IEEE Transactions on Circuits and Systems for Video Technology}.
+
+\bibitem[Dong et~al., 2006]{dong2006object}
+Dong, L., Zoghlami, I., and Schwartz, S.~C. (2006).
+\newblock Object tracking in compressed video with confidence measures.
+\newblock In {\em 2006 IEEE International Conference on Multimedia and Expo},
+  pages 753--756. IEEE.
+
+\bibitem[Ester et~al., 1996]{ester1996density}
+Ester, M., Kriegel, H.-P., Sander, J., Xu, X., et~al. (1996).
+\newblock A density-based algorithm for discovering clusters in large spatial
+  databases with noise.
+\newblock In {\em Kdd}, volume~96, pages 226--231.
+
+\bibitem[Favalli et~al., 2000]{favalli2000object}
+Favalli, L., Mecocci, A., and Moschetti, F. (2000).
+\newblock Object tracking for retrieval applications in mpeg-2.
+\newblock {\em IEEE Transactions on Circuits and Systems for Video Technology},
+  10(3):427--432.
+
+\bibitem[Girshick, 2015]{girshick2015fast}
+Girshick, R. (2015).
+\newblock Fast r-cnn.
+\newblock In {\em Proceedings of the IEEE international conference on computer
+  vision}, pages 1440--1448.
+
+\bibitem[Girshick et~al., 2014]{girshick2014rich}
+Girshick, R., Donahue, J., Darrell, T., and Malik, J. (2014).
+\newblock Rich feature hierarchies for accurate object detection and semantic
+  segmentation.
+\newblock In {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, pages 580--587.
+
+\bibitem[Gujrathi et~al., 2014]{gujrathi2014detecting}
+Gujrathi, P., Priya, R.~A., and Malathi, P. (2014).
+\newblock Detecting moving object using background subtraction algorithm in
+  fpga.
+\newblock In {\em 2014 Fourth International Conference on Advances in Computing
+  and Communications}, pages 117--120. IEEE.
+
+\bibitem[Hussain et~al., 2018]{hussain2018study}
+Hussain, M., Bird, J.~J., and Faria, D.~R. (2018).
+\newblock A study on cnn transfer learning for image classification.
+\newblock In {\em UK Workshop on Computational Intelligence}, pages 191--202.
+  Springer.
+
+\bibitem[Jarrett et~al., 2009]{jarrett2009best}
+Jarrett, K., Kavukcuoglu, K., LeCun, Y., et~al. (2009).
+\newblock What is the best multi-stage architecture for object recognition?
+\newblock In {\em 2009 IEEE 12th International Conference on Computer Vision
+  (ICCV)}, pages 2146--2153. IEEE.
+
+\bibitem[Jiang et~al., 2019]{jiang2019spatial}
+Jiang, X., Song, T., Katayama, T., and Leu, J.-S. (2019).
+\newblock Spatial correlation-based motion-vector prediction for video-coding
+  efficiency improvement.
+\newblock {\em Symmetry}, 11(2):129.
+
+\bibitem[Khatoonabadi and Bajic, 2012]{khatoonabadi2012video}
+Khatoonabadi, S.~H. and Bajic, I.~V. (2012).
+\newblock Video object tracking in the compressed domain using spatio-temporal
+  markov random fields.
+\newblock {\em IEEE transactions on image processing}, 22(1):300--313.
+
+\bibitem[Krizhevsky and Hinton, 2009]{krizhevsky2009learning}
+Krizhevsky, A. and Hinton, G. (2009).
+\newblock Learning multiple layers of features from tiny images.
+\newblock Technical report, Citeseer.
+
+\bibitem[Kumar and Yadav, 2016]{kumar2016segmentation}
+Kumar, S. and Yadav, J.~S. (2016).
+\newblock Segmentation of moving objects using background subtraction method in
+  complex environments.
+\newblock {\em Radioengineering}, 25(2):399--408.
+
+\bibitem[Laroche et~al., 2008]{laroche2008rd}
+Laroche, G., Jung, J., and Pesquet-Popescu, B. (2008).
+\newblock Rd optimized coding for motion vector predictor selection.
+\newblock {\em IEEE Transactions on Circuits and Systems for Video Technology},
+  18(9):1247--1257.
+
+\bibitem[LeCun et~al., 2010]{lecun2010convolutional}
+LeCun, Y., Kavukcuoglu, K., and Farabet, C. (2010).
+\newblock Convolutional networks and applications in vision.
+\newblock In {\em Proceedings of 2010 IEEE International Symposium on Circuits
+  and Systems}, pages 253--256. IEEE.
+
+\bibitem[Lee et~al., 2009]{lee2009convolutional}
+Lee, H., Grosse, R., Ranganath, R., and Ng, A.~Y. (2009).
+\newblock Convolutional deep belief networks for scalable unsupervised learning
+  of hierarchical representations.
+\newblock In {\em Proceedings of the 26th annual international conference on
+  machine learning}, pages 609--616. ACM.
+
+\bibitem[Lee and Park, 2012]{lee2012adaptive}
+Lee, J. and Park, M. (2012).
+\newblock An adaptive background subtraction method based on kernel density
+  estimation.
+\newblock {\em Sensors}, 12(9):12279--12300.
+
+\bibitem[Li et~al., 2020a]{li2020hksiamfc}
+Li, C., Xing, Q., and Ma, Z. (2020a).
+\newblock Hksiamfc: Visual-tracking framework using prior information provided
+  by staple and kalman filter.
+\newblock {\em Sensors}, 20(7):2137.
+
+\bibitem[Li et~al., 2020b]{li2020reducto}
+Li, Y., Padmanabhan, A., Zhao, P., Wang, Y., Xu, G.~H., and Netravali, R.
+  (2020b).
+\newblock Reducto: On-camera filtering for resource-efficient real-time video
+  analytics.
+\newblock In {\em Proceedings of the Annual conference of the ACM Special
+  Interest Group on Data Communication on the applications, technologies,
+  architectures, and protocols for computer communication}, pages 359--376.
+
+\bibitem[Liu et~al., 2016]{liu2016ssd}
+Liu, W., Anguelov, D., Erhan, D., Szegedy, C., Reed, S., Fu, C.-Y., and Berg,
+  A.~C. (2016).
+\newblock Ssd: Single shot multibox detector.
+\newblock In {\em European conference on computer vision}, pages 21--37.
+  Springer.
+
+\bibitem[Lu et~al., 2008]{lu2008improved}
+Lu, N., Wang, J., Wu, Q., and Yang, L. (2008).
+\newblock An improved motion detection method for real-time surveillance.
+\newblock {\em IAENG International Journal of Computer Science}, 35(1).
+
+\bibitem[Lu et~al., 2014]{lu2014moving}
+Lu, X., Izumi, T., Takahashi, T., and Wang, L. (2014).
+\newblock Moving vehicle detection based on fuzzy background subtraction.
+\newblock In {\em 2014 IEEE International Conference on Fuzzy Systems
+  (FUZZ-IEEE)}, pages 529--532. IEEE.
+
+\bibitem[Ohm et~al., 2012]{ohm2012comparison}
+Ohm, J.-R., Sullivan, G.~J., Schwarz, H., Tan, T.~K., and Wiegand, T. (2012).
+\newblock Comparison of the coding efficiency of video coding
+  standards—including high efficiency video coding (hevc).
+\newblock {\em IEEE Transactions on circuits and systems for video technology},
+  22(12):1669--1684.
+
+\bibitem[Ou et~al., 2019]{ou2019moving}
+Ou, X., Yan, P., Zhang, Y., Tu, B., Zhang, G., Wu, J., and Li, W. (2019).
+\newblock Moving object detection method via resnet-18 with encoder--decoder
+  structure in complex scenes.
+\newblock {\em IEEE Access}, 7:108152--108160.
+
+\bibitem[Patil and Murala, 2018]{patil2018msfgnet}
+Patil, P.~W. and Murala, S. (2018).
+\newblock Msfgnet: A novel compact end-to-end deep network for moving object
+  detection.
+\newblock {\em IEEE Transactions on Intelligent Transportation Systems},
+  20(11):4066--4077.
+
+\bibitem[Philippou, 2020]{oliverreport}
+Philippou, O. (2020 (accessed September 3, 2020)).
+\newblock {\em Video Surveillance Installed Base Report – 2019}.
+\newblock
+  \url{https://technology.informa.com/607069/video-surveillance-installed-base-report-2019}.
+
+\bibitem[Redmon et~al., 2016]{redmon2016you}
+Redmon, J., Divvala, S., Girshick, R., and Farhadi, A. (2016).
+\newblock You only look once: Unified, real-time object detection.
+\newblock In {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, pages 779--788.
+
+\bibitem[Redmon and Farhadi, 2018]{redmon2018yolov3}
+Redmon, J. and Farhadi, A. (2018).
+\newblock Yolov3: An incremental improvement.
+\newblock {\em arXiv preprint arXiv:1804.02767}.
+
+\bibitem[Ren et~al., 2015]{ren2015faster}
+Ren, S., He, K., Girshick, R., and Sun, J. (2015).
+\newblock Faster r-cnn: Towards real-time object detection with region proposal
+  networks.
+\newblock In {\em Advances in neural information processing systems}, pages
+  91--99.
+
+\bibitem[Sheu et~al., 2019]{sheu2019stam}
+Sheu, R.-K., Pardeshi, M., Chen, L.-C., and Yuan, S.-M. (2019).
+\newblock Stam-ccf: Suspicious tracking across multiple camera based on
+  correlation filters.
+\newblock {\em Sensors}, 19(13):3016.
+
+\bibitem[Stauffer and Grimson, 1999]{stauffer1999adaptive}
+Stauffer, C. and Grimson, W. E.~L. (1999).
+\newblock Adaptive background mixture models for real-time tracking.
+\newblock In {\em Proceedings. 1999 IEEE Computer Society Conference on
+  Computer Vision and Pattern Recognition (Cat. No PR00149)}, volume~2, pages
+  246--252. IEEE.
+
+\bibitem[Stone et~al., 2019]{stone2019towards}
+Stone, T., Stone, N., Jain, P., Jiang, Y., Kim, K.-H., and Nelakuditi, S.
+  (2019).
+\newblock Towards scalable video analytics at the edge.
+\newblock In {\em 2019 16th Annual IEEE International Conference on Sensing,
+  Communication, and Networking (SECON)}, pages 1--9. IEEE.
+
+\bibitem[Sullivan et~al., 2012]{sullivan2012overview}
+Sullivan, G.~J., Ohm, J.-R., Han, W.-J., and Wiegand, T. (2012).
+\newblock Overview of the high efficiency video coding (hevc) standard.
+\newblock {\em IEEE Transactions on circuits and systems for video technology},
+  22(12):1649--1668.
+
+\bibitem[Thanh~Le et~al., 2019]{thanh2019efficient}
+Thanh~Le, T., Jeong, J., and Ryu, E.-S. (2019).
+\newblock Efficient transcoding and encryption for live 360 cctv system.
+\newblock {\em Applied Sciences}, 9(4):760.
+
+\bibitem[Uijlings et~al., 2013]{uijlings2013selective}
+Uijlings, J.~R., Van De~Sande, K.~E., Gevers, T., and Smeulders, A.~W. (2013).
+\newblock Selective search for object recognition.
+\newblock {\em International journal of computer vision}, 104(2):154--171.
+
+\bibitem[Wang et~al., 2017]{wang2017interactive}
+Wang, Y., Luo, Z., and Jodoin, P.-M. (2017).
+\newblock Interactive deep learning method for segmenting moving objects.
+\newblock {\em Pattern Recognition Letters}, 96:66--75.
+
+\bibitem[Wang et~al., 2019]{wang2019ground}
+Wang, Z., Sun, X., Diao, W., Zhang, Y., Yan, M., and Lan, L. (2019).
+\newblock Ground moving target indication based on optical flow in
+  single-channel sar.
+\newblock {\em IEEE Geoscience and Remote Sensing Letters}, 16(7):1051--1055.
+
+\bibitem[Yoneyama et~al., 1999]{yoneyama1999moving}
+Yoneyama, A., Nakajima, Y., Yanagihara, H., and Sugano, M. (1999).
+\newblock Moving object detection and identification from mpeg coded data.
+\newblock In {\em Proceedings 1999 International Conference on Image Processing
+  (Cat. 99CH36348)}, volume~2, pages 934--938. IEEE.
+
+\bibitem[Zeng and Zhu, 2018]{zeng2018background}
+Zeng, D. and Zhu, M. (2018).
+\newblock Background subtraction using multiscale fully convolutional network.
+\newblock {\em IEEE Access}, 6:16010--16021.
+
+\end{thebibliography}
