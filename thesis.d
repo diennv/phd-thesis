@@ -103,9 +103,18 @@ thesis.pdf thesis._graphics: $$(call graphics-target,Figures/Va-neta.png)
 -include Figures/Va-netb.png.gpi.d
 thesis.d: $$(call graphics-source,Figures/Va-netb.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,Figures/Va-netb.png)
+-include Figures/encoder.png.gpi.d
+thesis.d: $$(call graphics-source,Figures/encoder.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,Figures/encoder.png)
 -include Figures/opticalflow.jpeg.gpi.d
 thesis.d: $$(call graphics-source,Figures/opticalflow.jpeg)
 thesis.pdf thesis._graphics: $$(call graphics-target,Figures/opticalflow.jpeg)
+-include Figures/macroblock.png.gpi.d
+thesis.d: $$(call graphics-source,Figures/macroblock.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,Figures/macroblock.png)
+-include Figures/yuv420.png.gpi.d
+thesis.d: $$(call graphics-source,Figures/yuv420.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,Figures/yuv420.png)
 -include Figures/mv.png.gpi.d
 thesis.d: $$(call graphics-source,Figures/mv.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,Figures/mv.png)

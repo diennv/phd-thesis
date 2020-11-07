@@ -12,8 +12,10 @@
 \newlabel{fig:arch}
 \newlabel{fig:bgmethod}
 \newlabel{fig:cpu}
+\newlabel{fig:encoder}
 \newlabel{fig:gpu}
 \newlabel{fig:iou}
+\newlabel{fig:macroblock}
 \newlabel{fig:mvanalysis}
 \newlabel{fig:mvextract}
 \newlabel{fig:mvobject}
@@ -30,6 +32,7 @@
 \newlabel{fig:va_arch}
 \newlabel{fig:va_a}
 \newlabel{fig:va_b}
+\newlabel{fig:yuv420}
 \newlabel{sub:filter}
 \newlabel{sub@fig:va_a}
 \newlabel{sub@fig:va_b}
