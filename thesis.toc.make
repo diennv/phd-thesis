@@ -13,18 +13,18 @@
 \contentsline {section}{\numberline {2.2}Compressed-Domain Based Moving Object Detection}{14}{section.2.2}
 \contentsline {section}{\numberline {2.3}Pixels-Domain Based Moving Object Detection}{16}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Hybrid model of background subtraction and object classification based moving object detection}{16}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Deep Learning based Moving Object Detection}{18}{subsection.2.3.2}
-\contentsline {chapter}{\numberline {3}Methodology}{21}{chapter.3}
-\contentsline {section}{\numberline {3.1}The Edge-to-clound System Model for Surveillance Camera based Applications}{22}{section.3.1}
-\contentsline {section}{\numberline {3.2}The Light-weight Runtime Moving Object Detection in Video Compressed Domain}{23}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Median Filter and Moving Object Detection}{24}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}The IoU based Moving Objects Tracking}{27}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3} Performance Evaluated Model}{29}{section.3.3}
-\contentsline {chapter}{\numberline {4}Implementation And Performance Evaluation}{31}{chapter.4}
-\contentsline {subsection}{\numberline {4.0.1}Scenario Setup}{32}{subsection.4.0.1}
-\contentsline {section}{\numberline {4.1}The Light-weight Runtime Moving Object Detection in Video Compressed Domain}{34}{section.4.1}
-\contentsline {section}{\numberline {4.2}Performance Evaluation Results}{37}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Computing Resources Consumption}{37}{subsection.4.2.1}
-\contentsline {chapter}{References}{41}{chapter*.38}
-\contentsline {chapter}{Appendix \numberline {A}How to install \LaTeX }{47}{Appendix.a.A}
-\contentsline {chapter}{Appendix \numberline {B}Installing the CUED class file}{53}{Appendix.a.B}
+\contentsline {subsection}{\numberline {2.3.2}Deep Learning based Moving Object Detection}{19}{subsection.2.3.2}
+\contentsline {chapter}{\numberline {3}Methodology}{23}{chapter.3}
+\contentsline {section}{\numberline {3.1}The Edge-to-clound System Model for Surveillance Camera based Applications}{24}{section.3.1}
+\contentsline {section}{\numberline {3.2}The Light-weight Runtime Moving Object Detection in Video Compressed Domain}{25}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Median Filter and Moving Object Detection}{26}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}The IoU based Moving Objects Tracking}{29}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3} Performance Evaluated Model}{31}{section.3.3}
+\contentsline {chapter}{\numberline {4}Implementation And Performance Evaluation}{33}{chapter.4}
+\contentsline {subsection}{\numberline {4.0.1}Scenario Setup}{34}{subsection.4.0.1}
+\contentsline {section}{\numberline {4.1}The Light-weight Runtime Moving Object Detection in Video Compressed Domain}{36}{section.4.1}
+\contentsline {section}{\numberline {4.2}Performance Evaluation Results}{39}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Computing Resources Consumption}{39}{subsection.4.2.1}
+\contentsline {chapter}{References}{43}{chapter*.42}
+\contentsline {chapter}{Appendix \numberline {A}How to install \LaTeX }{49}{Appendix.a.A}
+\contentsline {chapter}{Appendix \numberline {B}Installing the CUED class file}{55}{Appendix.a.B}

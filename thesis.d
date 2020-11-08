@@ -136,6 +136,24 @@ thesis.pdf thesis._graphics: $$(call graphics-target,Figures/blob_detection.png)
 -include Figures/smoke_region.png.gpi.d
 thesis.d: $$(call graphics-source,Figures/smoke_region.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,Figures/smoke_region.png)
+-include Figures/smoke.jpg.gpi.d
+thesis.d: $$(call graphics-source,Figures/smoke.jpg)
+thesis.pdf thesis._graphics: $$(call graphics-target,Figures/smoke.jpg)
+-include Figures/rcnn.png.gpi.d
+thesis.d: $$(call graphics-source,Figures/rcnn.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,Figures/rcnn.png)
+-include Figures/faster_rcnn.png.gpi.d
+thesis.d: $$(call graphics-source,Figures/faster_rcnn.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,Figures/faster_rcnn.png)
+-include Figures/fast_rcnn.png.gpi.d
+thesis.d: $$(call graphics-source,Figures/fast_rcnn.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,Figures/fast_rcnn.png)
+-include Figures/yolo.png.gpi.d
+thesis.d: $$(call graphics-source,Figures/yolo.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,Figures/yolo.png)
+-include Figures/yolov3.png.gpi.d
+thesis.d: $$(call graphics-source,Figures/yolov3.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,Figures/yolov3.png)
 -include Figures/arch.png.gpi.d
 thesis.d: $$(call graphics-source,Figures/arch.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,Figures/arch.png)

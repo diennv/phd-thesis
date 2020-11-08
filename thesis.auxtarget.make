@@ -11,6 +11,7 @@
 \newlabel{eqn:cluster}
 \newlabel{fig:arch}
 \newlabel{fig:bgmethod}
+\newlabel{fig:cnn}
 \newlabel{fig:cpu}
 \newlabel{fig:encoder}
 \newlabel{fig:gpu}
@@ -27,11 +28,14 @@
 \newlabel{fig:opticalflow}
 \newlabel{fig:overall}
 \newlabel{fig:proposedMethod}
+\newlabel{fig:smoke}
 \newlabel{fig:sysdesign}
 \newlabel{fig:testbed}
 \newlabel{fig:va_arch}
 \newlabel{fig:va_a}
 \newlabel{fig:va_b}
+\newlabel{fig:yolov3}
+\newlabel{fig:yolo}
 \newlabel{fig:yuv420}
 \newlabel{sub:filter}
 \newlabel{sub@fig:va_a}
