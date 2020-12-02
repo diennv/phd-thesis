@@ -78,7 +78,14 @@ Figure \ref{fig:opticalflow} shows the optical flow (or motion vector) field of 
   In  motion compensation, MV of a current block are correlated with the MVs of neighboring blocks in the current frame or in the earlier coded frames \cite{laroche2008rd}, \cite{jiang2019spatial}. While intra-picture prediction exploits correlations between spatially neighboring samples, inter-picture prediction makes use of temporal correlation between frames to derive a motion-compensated prediction (MCP) for a block of frame samples \cite{bross2014inter}.
 \begin{figure*}
 \centering
- \includegraphics[width=0.8\linewidth]{Figures/mv.png}
+\subfloat[]
+{
+ \includegraphics[width=0.5\linewidth]{Figures/mv1.png}
+}
+\subfloat[]
+{
+ \includegraphics[width=0.5\linewidth]{Figures/mv.png}
+}
  \caption{ Reference motion vectors in video coding.}
  \label{fig:mv}
 \end{figure*}

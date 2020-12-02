@@ -80,9 +80,15 @@ Frame Rate                        & 25                  \\ \hline
 Total               & 164                         \\ \hline
 \end{tabular}
 \end{table}
+\begin{figure*}
+\centering
+ \includegraphics[scale=0.4]{Figures/ground-truth.png}
+ \caption{The ground-truth motion time of our video test sequence.}
+ \label{fig:ground}
+\end{figure*}
 \begin{itemize}
 \item Testbed: We built a testbed comprising a single edge device node and a single video analytics server that runs as a cloud node, as shown in Figure \ref{fig:testbed}. The edge device node involves the moving objects detection and runs on a low-computation device named \textit{Raspberry Pi 4} and video analytics server is executed on \textit{Nvidia- Jetson Xavier} because of a GPU that is supported to run YOLO. The hardware specifications of edge node and video analytics server are then listed in Table \ref{tab:hw}. Note that the two devices are directly connected to a router using a wired cable.
-\item Video Test Sequence: experiments have been conducted on the two video datasets. The VIRAT video dataset \cite{VIRAT} was collected in natural scenes showing people performing normal actions for video surveillance domains. The second dataset is previously recorded from the our surveillance camera and uploaded \cite{testvideo}. The details of our video test sequence and the ground-truth motion time are listed in Tables \ref{tab:motiontime} and \ref{tab:videotest}. 
+\item Video Test Sequence: experiments have been conducted on the two video datasets. The VIRAT video dataset \cite{VIRAT} was collected in natural scenes showing people performing normal actions for video surveillance domains. The second dataset is previously recorded from the our surveillance camera and uploaded \cite{testvideo}. The details of our video test sequence and the ground-truth motion time are shown in Figure \ref{fig:ground} and listed in Tables \ref{tab:motiontime},\ref{tab:videotest}. 
 \end{itemize}
 We evaluate the performance of the moving object detection method and the proposed edge-to-cloud system separately.
 
@@ -212,20 +218,13 @@ The green bounding boxes shown in the Figure are ground-truth bounding boxes, wh
 In this experiment, each $\alpha$ threshold was applied for three same scenarios of human walking in Figure \ref{fig:objecttracking} (a, d, g), human running in Figure \ref{fig:objecttracking} (b, e, h) and the far camera distance in Figure \ref{fig:objecttracking} (c, f, i).  We see that with each test scenario, with lower $\alpha$ threshold value,the tracking object capability is better with longer the object trajactories. However, it will increase the number of false alarm detection if the noise MVs apprear frequently in some specified areas.\\ To optimize the running time speed as well as the performance, the edge node and cloud node all are implemented in C++ using the multithread architecture. We observe that the proposed method does not indicate additional computational difficulty and achieve the approved evaluated results in terms of processing time when compared with previous studies \cite{bombardelli2018efficient} \cite{khatoonabadi2012video}. The average comsuming time  is messasured with different video resolutions and shown in Table \ref{tab:timemessasure}. Compare to other studies, the average processing time for high definition resolution video is approximately 39ms/frame, which outperforms most of the state of art method. This indicates that the proposed algorithm almost handles the data in real-time. 
 
 \section{Performance Evaluation Results}
- In this experiment, the proposed edge-to-clound platform will be implemented and evaluated. Our recored video test sequence is selected because of including different the moving object speeds. After experiments using different $\alpha$ in different scenarios, we found that the optimal $\alpha$ is 0.5 for this scenario. The entire demonstration was recorded and uploaded \cite{source}. The evaluated performances of the demonstration are presented in detail as follows.
+ In this experiment, the proposed edge-to-clound platform will be implemented and evaluated. Our recored video test sequence is selected because of including different the moving object speeds. Base on the last experiment result shown in Table \ref{tab:videotest}, we choose  $\alpha$ is 0.25 to cover both walking and running case and compared computing resources with the conventional method (no frame filter). The entire demonstration was recorded and uploaded \cite{source}. The evaluated performances of the demonstration are presented in detail as follows.
  
  \subsection{Computing Resources Consumption}
 \begin{figure*}
 \centering
-\subfloat[]
-{
-    \includegraphics[scale=0.25]{Figures/gpu_c.png}
-}
-\subfloat[]
-{
-    \includegraphics[scale=0.25]{Figures/gpu_p.png}
-}
-\caption{GPU Monitoring: (a)  With the conventional method, (b)  With the proposed method.}
+	\includegraphics[scale=0.35]{Figures/gpu_compare.png}
+\caption{GPU Monitoring with the conventional method and the proposed method.}
 \label{fig:gpu}
 \end{figure*}
 \begin{figure*}

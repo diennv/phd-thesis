@@ -94,9 +94,21 @@ thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,thesis.tex)
 -include Figs/University_Crest.pdf.gpi.d
 thesis.d: $$(call graphics-source,Figs/University_Crest.pdf)
 thesis.pdf thesis._graphics: $$(call graphics-target,Figs/University_Crest.pdf)
+-include Figures/cctv1.jpg.gpi.d
+thesis.d: $$(call graphics-source,Figures/cctv1.jpg)
+thesis.pdf thesis._graphics: $$(call graphics-target,Figures/cctv1.jpg)
+-include Figures/cctv2.jpg.gpi.d
+thesis.d: $$(call graphics-source,Figures/cctv2.jpg)
+thesis.pdf thesis._graphics: $$(call graphics-target,Figures/cctv2.jpg)
 -include Figures/cloud.png.gpi.d
 thesis.d: $$(call graphics-source,Figures/cloud.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,Figures/cloud.png)
+-include Figures/vachallenge.png.gpi.d
+thesis.d: $$(call graphics-source,Figures/vachallenge.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,Figures/vachallenge.png)
+-include Figures/motivation.jpg.gpi.d
+thesis.d: $$(call graphics-source,Figures/motivation.jpg)
+thesis.pdf thesis._graphics: $$(call graphics-target,Figures/motivation.jpg)
 -include Figures/Va-neta.png.gpi.d
 thesis.d: $$(call graphics-source,Figures/Va-neta.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,Figures/Va-neta.png)
@@ -115,6 +127,9 @@ thesis.pdf thesis._graphics: $$(call graphics-target,Figures/macroblock.png)
 -include Figures/yuv420.png.gpi.d
 thesis.d: $$(call graphics-source,Figures/yuv420.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,Figures/yuv420.png)
+-include Figures/mv1.png.gpi.d
+thesis.d: $$(call graphics-source,Figures/mv1.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,Figures/mv1.png)
 -include Figures/mv.png.gpi.d
 thesis.d: $$(call graphics-source,Figures/mv.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,Figures/mv.png)
@@ -214,6 +229,9 @@ thesis.pdf thesis._graphics: $$(call graphics-target,Figures/38_res.jpg)
 -include Figures/38_obj.jpg.gpi.d
 thesis.d: $$(call graphics-source,Figures/38_obj.jpg)
 thesis.pdf thesis._graphics: $$(call graphics-target,Figures/38_obj.jpg)
+-include Figures/filter.png.gpi.d
+thesis.d: $$(call graphics-source,Figures/filter.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,Figures/filter.png)
 -include Figures/iou.png.gpi.d
 thesis.d: $$(call graphics-source,Figures/iou.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,Figures/iou.png)
@@ -226,6 +244,9 @@ thesis.pdf thesis._graphics: $$(call graphics-target,Figures/TESTBED.jpg)
 -include Figures/pi.jpg.gpi.d
 thesis.d: $$(call graphics-source,Figures/pi.jpg)
 thesis.pdf thesis._graphics: $$(call graphics-target,Figures/pi.jpg)
+-include Figures/ground-truth.png.gpi.d
+thesis.d: $$(call graphics-source,Figures/ground-truth.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,Figures/ground-truth.png)
 -include Figures/1501_res.jpg.gpi.d
 thesis.d: $$(call graphics-source,Figures/1501_res.jpg)
 thesis.pdf thesis._graphics: $$(call graphics-target,Figures/1501_res.jpg)
@@ -289,12 +310,9 @@ thesis.pdf thesis._graphics: $$(call graphics-target,Figures/3923_05.jpg)
 -include Figures/478_05.jpg.gpi.d
 thesis.d: $$(call graphics-source,Figures/478_05.jpg)
 thesis.pdf thesis._graphics: $$(call graphics-target,Figures/478_05.jpg)
--include Figures/gpu_c.png.gpi.d
-thesis.d: $$(call graphics-source,Figures/gpu_c.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,Figures/gpu_c.png)
--include Figures/gpu_p.png.gpi.d
-thesis.d: $$(call graphics-source,Figures/gpu_p.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,Figures/gpu_p.png)
+-include Figures/gpu_compare.png.gpi.d
+thesis.d: $$(call graphics-source,Figures/gpu_compare.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,Figures/gpu_compare.png)
 -include Figures/cpu.png.gpi.d
 thesis.d: $$(call graphics-source,Figures/cpu.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,Figures/cpu.png)

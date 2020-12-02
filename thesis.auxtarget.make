@@ -11,12 +11,17 @@
 \newlabel{eqn:cluster}
 \newlabel{fig:arch}
 \newlabel{fig:bgmethod}
+\newlabel{fig:cctv}
+\newlabel{fig:chal}
 \newlabel{fig:cnn}
 \newlabel{fig:cpu}
 \newlabel{fig:encoder}
+\newlabel{fig:filter}
 \newlabel{fig:gpu}
+\newlabel{fig:ground}
 \newlabel{fig:iou}
 \newlabel{fig:macroblock}
+\newlabel{fig:mot}
 \newlabel{fig:mvanalysis}
 \newlabel{fig:mvextract}
 \newlabel{fig:mvobject}

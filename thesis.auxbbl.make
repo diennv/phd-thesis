@@ -12,136 +12,143 @@
 \@writefile{loa}{\addvspace {10\p@ }}
 \@writefile{loa}{\addvspace {10\p@ }}
 \@writefile{loa}{\addvspace {10\p@ }}
-\@writefile{loa}{\contentsline {algocf}{\numberline {1}{\ignorespaces  IoU for two bounding boxes.\relax }}{31}{algocf.1}}
+\@writefile{loa}{\contentsline {algocf}{\numberline {1}{\ignorespaces  IoU for two bounding boxes.\relax }}{34}{algocf.1}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lof}{\addvspace {10\p@ }}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.1}{\ignorespaces Overall of cloud based video analytics server\relax }}{2}{figure.caption.7}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.10}{\ignorespaces CNN based Object Detection Framework Structure.(a) RCNN, (b) Faster-RCNN, (c)Fast-RCNN.\relax }}{18}{figure.caption.19}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.11}{\ignorespaces YOLO Structer.\relax }}{19}{figure.caption.20}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.12}{\ignorespaces YOLOv3 Network Model.\relax }}{21}{figure.caption.21}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.1}{\ignorespaces Video Analytics Implementation, (a) Video management server based implementation, (b) Edge camera based implementation\relax }}{6}{figure.caption.8}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.2}{\ignorespaces Video encoder block diagram.\relax }}{9}{figure.caption.10}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.3}{\ignorespaces Motion Vector in Video Codec.\relax }}{11}{figure.caption.12}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.4}{\ignorespaces Macroblock in Video Encoder.\relax }}{11}{figure.caption.13}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.5}{\ignorespaces Macroblock (4:2:0).\relax }}{12}{figure.caption.14}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.6}{\ignorespaces  Reference motion vectors in video coding.\relax }}{13}{figure.caption.15}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.7}{\ignorespaces  Example of motion vectors extraction.(a) Test video sequence from our recorded video, (b) Test video sequence from VIRAT.\relax }}{15}{figure.caption.16}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.8}{\ignorespaces Smoke detection process: (a) input image, (b) foreground subtraction, (c) blob detection, (d) smoke classification \relax }}{16}{figure.caption.17}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.9}{\ignorespaces Flow chart of our video- based smoke detection algorithm.\relax }}{17}{figure.caption.18}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces  Overview of the proposed edge-to-cloud system model.\relax }}{23}{figure.caption.22}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Workflow of the proposed detection-based tracking approach in compressed domain.\relax }}{25}{figure.caption.23}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Video coding motion vector extraction from consecutive frames with two video test sequences.\relax }}{26}{figure.caption.24}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces Motion vector of a moving object in different video test sequences: (a, b) our record video, (c, d) Test video in VIRAT\relax }}{27}{figure.caption.25}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces Moving objects detection by the proposed method with two different video test sequences:(a,e) MV extraction; (b,f) Apply median filter; (c,g) Clustering MVs; (d,f) Blob detection.\relax }}{29}{figure.caption.26}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces Object matching method\relax }}{30}{figure.caption.27}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Overview of System Design\relax }}{34}{figure.caption.29}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces Testbed: (a) Scenario Setup, (b) The implemendted edge device.\relax }}{35}{figure.caption.30}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces Moving objects detection by the proposed method in different scenarios: (a, b, c, d) human walking; (e, f, g, h) human running; (i, j, k, l) test with a far distance of camera.\relax }}{37}{figure.caption.34}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces Moving objects tracking by the proposed method with different $\alpha $ thresholds: $\alpha $ = 0.25 in (a, b, c), $\alpha $ = 0.4 in (d, e, f) and $\alpha $ = 0.5 in (d, e, f).\relax }}{38}{figure.caption.37}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces GPU Monitoring: (a) With the conventional method, (b) With the proposed method.\relax }}{40}{figure.caption.38}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces CPU Monitoring with both the conventional method and the proposed method.\relax }}{40}{figure.caption.39}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces Network download throughput monitoring with both the conventional method and the proposed method.\relax }}{41}{figure.caption.40}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{15}{subfigure.7.1}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{16}{subfigure.8.1}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{18}{subfigure.10.1}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{26}{subfigure.3.1}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{27}{subfigure.4.1}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{29}{subfigure.5.1}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{35}{subfigure.2.1}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{37}{subfigure.3.1}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{38}{subfigure.4.1}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{40}{subfigure.5.1}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{40}{subfigure.6.1}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{41}{subfigure.7.1}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{6}{subfigure.1.1}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{15}{subfigure.7.2}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{16}{subfigure.8.2}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{18}{subfigure.10.2}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{26}{subfigure.3.2}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{27}{subfigure.4.2}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{29}{subfigure.5.2}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{35}{subfigure.2.2}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{37}{subfigure.3.2}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{38}{subfigure.4.2}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{40}{subfigure.5.2}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{6}{subfigure.1.2}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {}}}{16}{subfigure.8.3}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {}}}{18}{subfigure.10.3}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {}}}{26}{subfigure.3.3}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {}}}{27}{subfigure.4.3}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {}}}{29}{subfigure.5.3}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {}}}{37}{subfigure.3.3}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {}}}{38}{subfigure.4.3}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {}}}{16}{subfigure.8.4}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {}}}{26}{subfigure.3.4}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {}}}{27}{subfigure.4.4}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {}}}{29}{subfigure.5.4}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {}}}{37}{subfigure.3.4}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {}}}{38}{subfigure.4.4}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(e)}{\ignorespaces {}}}{26}{subfigure.3.5}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(e)}{\ignorespaces {}}}{29}{subfigure.5.5}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(e)}{\ignorespaces {}}}{37}{subfigure.3.5}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(e)}{\ignorespaces {}}}{38}{subfigure.4.5}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(f)}{\ignorespaces {}}}{26}{subfigure.3.6}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(f)}{\ignorespaces {}}}{29}{subfigure.5.6}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(f)}{\ignorespaces {}}}{37}{subfigure.3.6}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(f)}{\ignorespaces {}}}{38}{subfigure.4.6}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(g)}{\ignorespaces {}}}{29}{subfigure.5.7}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(g)}{\ignorespaces {}}}{37}{subfigure.3.7}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(g)}{\ignorespaces {}}}{38}{subfigure.4.7}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(h)}{\ignorespaces {}}}{29}{subfigure.5.8}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(h)}{\ignorespaces {}}}{37}{subfigure.3.8}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(h)}{\ignorespaces {}}}{38}{subfigure.4.8}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(i)}{\ignorespaces {}}}{37}{subfigure.3.9}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(i)}{\ignorespaces {}}}{38}{subfigure.4.9}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(j)}{\ignorespaces {}}}{37}{subfigure.3.10}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(k)}{\ignorespaces {}}}{37}{subfigure.3.11}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(l)}{\ignorespaces {}}}{37}{subfigure.3.12}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.1}{\ignorespaces Surveillance Camera Deployment and Application\relax }}{1}{figure.caption.7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.2}{\ignorespaces Overall of cloud based video analytics server\relax }}{2}{figure.caption.8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.3}{\ignorespaces Real-time Video Analytics Challenges\relax }}{3}{figure.caption.9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.4}{\ignorespaces The motivated system design\relax }}{4}{figure.caption.10}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.10}{\ignorespaces CNN based Object Detection Framework Structure.(a) RCNN, (b) Faster-RCNN, (c)Fast-RCNN.\relax }}{20}{figure.caption.22}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.11}{\ignorespaces YOLO Structer.\relax }}{21}{figure.caption.23}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.12}{\ignorespaces YOLOv3 Network Model.\relax }}{23}{figure.caption.24}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.1}{\ignorespaces Video Analytics Implementation, (a) Video management server based implementation, (b) Edge camera based implementation\relax }}{8}{figure.caption.11}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.2}{\ignorespaces Video encoder block diagram.\relax }}{11}{figure.caption.13}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.3}{\ignorespaces Motion Vector in Video Codec.\relax }}{13}{figure.caption.15}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.4}{\ignorespaces Macroblock in Video Encoder.\relax }}{13}{figure.caption.16}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.5}{\ignorespaces Macroblock (4:2:0).\relax }}{14}{figure.caption.17}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.6}{\ignorespaces  Reference motion vectors in video coding.\relax }}{15}{figure.caption.18}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.7}{\ignorespaces  Example of motion vectors extraction.(a) Test video sequence from our recorded video, (b) Test video sequence from VIRAT.\relax }}{17}{figure.caption.19}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.8}{\ignorespaces Smoke detection process: (a) input image, (b) foreground subtraction, (c) blob detection, (d) smoke classification \relax }}{18}{figure.caption.20}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.9}{\ignorespaces Flow chart of our video- based smoke detection algorithm.\relax }}{19}{figure.caption.21}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces  Overview of the proposed edge-to-cloud system model.\relax }}{25}{figure.caption.25}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Workflow of the proposed detection-based tracking approach in compressed domain.\relax }}{27}{figure.caption.26}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Video coding motion vector extraction from consecutive frames with two video test sequences.\relax }}{28}{figure.caption.27}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces Motion vector of a moving object in different video test sequences: (a, b) our record video, (c, d) Test video in VIRAT\relax }}{29}{figure.caption.28}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces Moving objects detection by the proposed method with two different video test sequences:(a,e) MV extraction; (b,f) Apply median filter; (c,g) Clustering MVs; (d,f) Blob detection.\relax }}{31}{figure.caption.29}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces Motion size based Filtering\relax }}{32}{figure.caption.30}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.7}{\ignorespaces Object matching method\relax }}{33}{figure.caption.31}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Overview of System Design\relax }}{38}{figure.caption.33}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces Testbed: (a) Scenario Setup, (b) The implemendted edge device.\relax }}{39}{figure.caption.34}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces The ground-truth motion time of our video test sequence.\relax }}{39}{figure.caption.38}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces Moving objects detection by the proposed method in different scenarios: (a, b, c, d) human walking; (e, f, g, h) human running; (i, j, k, l) test with a far distance of camera.\relax }}{41}{figure.caption.39}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces Moving objects tracking by the proposed method with different $\alpha $ thresholds: $\alpha $ = 0.25 in (a, b, c), $\alpha $ = 0.4 in (d, e, f) and $\alpha $ = 0.5 in (d, e, f).\relax }}{42}{figure.caption.42}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces GPU Monitoring with the conventional method and the proposed method.\relax }}{44}{figure.caption.43}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces CPU Monitoring with both the conventional method and the proposed method.\relax }}{44}{figure.caption.44}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces Network download throughput monitoring with both the conventional method and the proposed method.\relax }}{45}{figure.caption.45}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{15}{subfigure.6.1}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{17}{subfigure.7.1}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{18}{subfigure.8.1}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{1}{subfigure.1.1}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{20}{subfigure.10.1}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{28}{subfigure.3.1}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{29}{subfigure.4.1}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{31}{subfigure.5.1}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{39}{subfigure.2.1}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{41}{subfigure.4.1}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{42}{subfigure.5.1}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{44}{subfigure.7.1}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{45}{subfigure.8.1}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{8}{subfigure.1.1}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{15}{subfigure.6.2}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{17}{subfigure.7.2}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{18}{subfigure.8.2}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{1}{subfigure.1.2}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{20}{subfigure.10.2}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{28}{subfigure.3.2}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{29}{subfigure.4.2}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{31}{subfigure.5.2}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{39}{subfigure.2.2}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{41}{subfigure.4.2}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{42}{subfigure.5.2}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{8}{subfigure.1.2}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {}}}{18}{subfigure.8.3}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {}}}{20}{subfigure.10.3}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {}}}{28}{subfigure.3.3}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {}}}{29}{subfigure.4.3}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {}}}{31}{subfigure.5.3}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {}}}{41}{subfigure.4.3}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {}}}{42}{subfigure.5.3}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {}}}{18}{subfigure.8.4}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {}}}{28}{subfigure.3.4}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {}}}{29}{subfigure.4.4}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {}}}{31}{subfigure.5.4}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {}}}{41}{subfigure.4.4}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {}}}{42}{subfigure.5.4}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(e)}{\ignorespaces {}}}{28}{subfigure.3.5}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(e)}{\ignorespaces {}}}{31}{subfigure.5.5}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(e)}{\ignorespaces {}}}{41}{subfigure.4.5}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(e)}{\ignorespaces {}}}{42}{subfigure.5.5}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(f)}{\ignorespaces {}}}{28}{subfigure.3.6}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(f)}{\ignorespaces {}}}{31}{subfigure.5.6}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(f)}{\ignorespaces {}}}{41}{subfigure.4.6}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(f)}{\ignorespaces {}}}{42}{subfigure.5.6}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(g)}{\ignorespaces {}}}{31}{subfigure.5.7}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(g)}{\ignorespaces {}}}{41}{subfigure.4.7}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(g)}{\ignorespaces {}}}{42}{subfigure.5.7}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(h)}{\ignorespaces {}}}{31}{subfigure.5.8}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(h)}{\ignorespaces {}}}{41}{subfigure.4.8}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(h)}{\ignorespaces {}}}{42}{subfigure.5.8}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(i)}{\ignorespaces {}}}{41}{subfigure.4.9}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(i)}{\ignorespaces {}}}{42}{subfigure.5.9}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(j)}{\ignorespaces {}}}{41}{subfigure.4.10}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(k)}{\ignorespaces {}}}{41}{subfigure.4.11}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(l)}{\ignorespaces {}}}{41}{subfigure.4.12}}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Hardware Specifications.\relax }}{34}{table.caption.31}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.2}{\ignorespaces Video Test Squence.\relax }}{34}{table.caption.32}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.3}{\ignorespaces Testbed: Tested Video Grouth-truth motion time.\relax }}{35}{table.caption.33}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.4}{\ignorespaces Average IoU of the moving object detection in compressed-domain in different scenarios.\relax }}{37}{table.caption.35}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.5}{\ignorespaces Average per-frame running times for preprocessing and tracking procedures. Values are expressed in miliseconds (ms) and frame per second(FPS).\relax }}{37}{table.caption.36}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.6}{\ignorespaces Average computing resources of both the conventional method and the proposed method.\relax }}{39}{table.caption.41}}
-\@writefile{toc}{\contentsline {chapter}{Appendix \numberline {A}How to install \LaTeX  }{49}{Appendix.a.A}}
-\@writefile{toc}{\contentsline {chapter}{Appendix \numberline {B}Installing the CUED class file}{55}{Appendix.a.B}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Hardware Specifications.\relax }}{38}{table.caption.35}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.2}{\ignorespaces Video Test Squence.\relax }}{38}{table.caption.36}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.3}{\ignorespaces Testbed: Tested Video Grouth-truth motion time.\relax }}{39}{table.caption.37}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.4}{\ignorespaces Average IoU of the moving object detection in compressed-domain in different scenarios.\relax }}{41}{table.caption.40}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.5}{\ignorespaces Average per-frame running times for preprocessing and tracking procedures. Values are expressed in miliseconds (ms) and frame per second(FPS).\relax }}{41}{table.caption.41}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.6}{\ignorespaces Average computing resources of both the conventional method and the proposed method.\relax }}{45}{table.caption.46}}
+\@writefile{toc}{\contentsline {chapter}{Appendix \numberline {A}How to install \LaTeX  }{53}{Appendix.a.A}}
+\@writefile{toc}{\contentsline {chapter}{Appendix \numberline {B}Installing the CUED class file}{59}{Appendix.a.B}}
 \@writefile{toc}{\contentsline {chapter}{List of figures}{ix}{chapter*.4}}
 \@writefile{toc}{\contentsline {chapter}{List of tables}{xi}{chapter*.5}}
 \@writefile{toc}{\contentsline {chapter}{Nomenclature}{xiii}{chapter*.6}}
-\@writefile{toc}{\contentsline {chapter}{References}{43}{chapter*.42}}
+\@writefile{toc}{\contentsline {chapter}{References}{47}{chapter*.47}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {2}Background}{5}{chapter.2}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {3}Methodology}{23}{chapter.3}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {4}Implementation And Performance Evaluation}{33}{chapter.4}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.1}Surveillance Video Analytics Architectures and Challenges}{5}{section.2.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.2}Compressed-Domain Based Moving Object Detection}{14}{section.2.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.3}Pixels-Domain Based Moving Object Detection}{16}{section.2.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.1}The Edge-to-clound System Model for Surveillance Camera based Applications}{24}{section.3.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.2}The Light-weight Runtime Moving Object Detection in Video Compressed Domain}{25}{section.3.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.3} Performance Evaluated Model}{31}{section.3.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}The Light-weight Runtime Moving Object Detection in Video Compressed Domain}{36}{section.4.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}Performance Evaluation Results}{39}{section.4.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.1}Edge Camera Based Implementation}{6}{subsection.2.1.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.2}Video Management Server Based Implementation}{6}{subsection.2.1.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.3}Video Codec and Video Coding Motion Vectors}{8}{subsection.2.1.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.1}Hybrid model of background subtraction and object classification based moving object detection}{16}{subsection.2.3.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.2}Deep Learning based Moving Object Detection}{19}{subsection.2.3.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Median Filter and Moving Object Detection}{26}{subsection.3.2.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}The IoU based Moving Objects Tracking}{29}{subsection.3.2.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.0.1}Scenario Setup}{34}{subsection.4.0.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}Computing Resources Consumption}{39}{subsection.4.2.1}}
-\@writefile{toc}{\contentsline {subsubsection}{Video Codec}{8}{section*.9}}
-\@writefile{toc}{\contentsline {subsubsection}{Video Coding Motion Vectors and Blocked-based Motion Estimation}{10}{section*.11}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {2}Background}{7}{chapter.2}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}Methodology}{25}{chapter.3}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Implementation And Performance Evaluation}{37}{chapter.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.1}Surveillance Video Analytics Architectures and Challenges}{7}{section.2.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.2}Compressed-Domain Based Moving Object Detection}{16}{section.2.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.3}Pixels-Domain Based Moving Object Detection}{17}{section.2.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}The Edge-to-clound System Model for Surveillance Camera based Applications}{26}{section.3.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}The Light-weight Runtime Moving Object Detection in Video Compressed Domain}{27}{section.3.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.3} Performance Evaluated Model}{34}{section.3.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}The Light-weight Runtime Moving Object Detection in Video Compressed Domain}{40}{section.4.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Performance Evaluation Results}{43}{section.4.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.1}Edge Camera Based Implementation}{8}{subsection.2.1.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.2}Video Management Server Based Implementation}{8}{subsection.2.1.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.3}Video Codec and Video Coding Motion Vectors}{10}{subsection.2.1.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.1}Hybrid model of background subtraction and object classification based moving object detection}{18}{subsection.2.3.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.2}Deep Learning based Moving Object Detection}{20}{subsection.2.3.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Median Filter and Moving Object Detection}{29}{subsection.3.2.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}The IoU based Moving Objects Tracking}{32}{subsection.3.2.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.0.1}Scenario Setup}{38}{subsection.4.0.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}Computing Resources Consumption}{43}{subsection.4.2.1}}
+\@writefile{toc}{\contentsline {subsubsection}{Video Codec}{10}{section*.12}}
+\@writefile{toc}{\contentsline {subsubsection}{Video Coding Motion Vectors and Blocked-based Motion Estimation}{12}{section*.14}}
 \@writefile{toc}{\thispagestyle {empty}}
 \AtEndDocument{\ifx\hyper@anchor\@undefined
 \HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
@@ -430,9 +437,9 @@
 \setcounter{figure}{0}
 \setcounter{figure}{0}
 \setcounter{figure}{12}
-\setcounter{figure}{1}
-\setcounter{figure}{6}
+\setcounter{figure}{4}
 \setcounter{figure}{7}
+\setcounter{figure}{8}
 \setcounter{footnote}{0}
 \setcounter{footnote}{0}
 \setcounter{footnote}{0}
@@ -465,13 +472,13 @@
 \setcounter{mpfootnote}{0}
 \setcounter{mpfootnote}{0}
 \setcounter{mpfootnote}{0}
-\setcounter{page}{22}
-\setcounter{page}{33}
-\setcounter{page}{43}
+\setcounter{page}{24}
+\setcounter{page}{36}
+\setcounter{page}{47}
 \setcounter{page}{4}
-\setcounter{page}{54}
-\setcounter{page}{56}
-\setcounter{page}{5}
+\setcounter{page}{58}
+\setcounter{page}{60}
+\setcounter{page}{7}
 \setcounter{page}{7}
 \setcounter{paragraph}{0}
 \setcounter{paragraph}{0}
@@ -515,10 +522,10 @@
 \setcounter{section}{3}
 \setcounter{subfigure@save}{0}
 \setcounter{subfigure@save}{0}
-\setcounter{subfigure@save}{0}
 \setcounter{subfigure@save}{1}
 \setcounter{subfigure@save}{1}
 \setcounter{subfigure@save}{1}
+\setcounter{subfigure@save}{2}
 \setcounter{subfigure@save}{3}
 \setcounter{subfigure@save}{8}
 \setcounter{subfigure}{0}
