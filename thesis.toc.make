@@ -26,5 +26,3 @@
 \contentsline {section}{\numberline {4.2}Performance Evaluation Results}{43}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Computing Resources Consumption}{43}{subsection.4.2.1}
 \contentsline {chapter}{References}{47}{chapter*.47}
-\contentsline {chapter}{Appendix \numberline {A}How to install \LaTeX }{53}{Appendix.a.A}
-\contentsline {chapter}{Appendix \numberline {B}Installing the CUED class file}{59}{Appendix.a.B}

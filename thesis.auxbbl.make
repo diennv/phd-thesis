@@ -1,7 +1,5 @@
 \@setckpt{Abstract/abstract}{
 \@setckpt{Acknowledgement/acknowledgement}{
-\@setckpt{Appendix1/appendix1}{
-\@setckpt{Appendix2/appendix2}{
 \@setckpt{Chapter1/chapter1}{
 \@setckpt{Chapter2/chapter2}{
 \@setckpt{Chapter3/chapter3}{
@@ -10,11 +8,7 @@
 \@writefile{loa}{\addvspace {10\p@ }}
 \@writefile{loa}{\addvspace {10\p@ }}
 \@writefile{loa}{\addvspace {10\p@ }}
-\@writefile{loa}{\addvspace {10\p@ }}
-\@writefile{loa}{\addvspace {10\p@ }}
 \@writefile{loa}{\contentsline {algocf}{\numberline {1}{\ignorespaces  IoU for two bounding boxes.\relax }}{34}{algocf.1}}
-\@writefile{lof}{\addvspace {10\p@ }}
-\@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lof}{\addvspace {10\p@ }}
@@ -112,16 +106,12 @@
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Hardware Specifications.\relax }}{38}{table.caption.35}}
 \@writefile{lot}{\contentsline {table}{\numberline {4.2}{\ignorespaces Video Test Squence.\relax }}{38}{table.caption.36}}
 \@writefile{lot}{\contentsline {table}{\numberline {4.3}{\ignorespaces Testbed: Tested Video Grouth-truth motion time.\relax }}{39}{table.caption.37}}
 \@writefile{lot}{\contentsline {table}{\numberline {4.4}{\ignorespaces Average IoU of the moving object detection in compressed-domain in different scenarios.\relax }}{41}{table.caption.40}}
 \@writefile{lot}{\contentsline {table}{\numberline {4.5}{\ignorespaces Average per-frame running times for preprocessing and tracking procedures. Values are expressed in miliseconds (ms) and frame per second(FPS).\relax }}{41}{table.caption.41}}
 \@writefile{lot}{\contentsline {table}{\numberline {4.6}{\ignorespaces Average computing resources of both the conventional method and the proposed method.\relax }}{45}{table.caption.46}}
-\@writefile{toc}{\contentsline {chapter}{Appendix \numberline {A}How to install \LaTeX  }{53}{Appendix.a.A}}
-\@writefile{toc}{\contentsline {chapter}{Appendix \numberline {B}Installing the CUED class file}{59}{Appendix.a.B}}
 \@writefile{toc}{\contentsline {chapter}{List of figures}{ix}{chapter*.4}}
 \@writefile{toc}{\contentsline {chapter}{List of tables}{xi}{chapter*.5}}
 \@writefile{toc}{\contentsline {chapter}{Nomenclature}{xiii}{chapter*.6}}
@@ -246,10 +236,6 @@
 \providecommand\hyper@newdestlabel[2]{}
 \providecommand\hyper@newdestlabel[2]{}
 \providecommand\hyper@newdestlabel[2]{}
-\providecommand\hyper@newdestlabel[2]{}
-\providecommand\hyper@newdestlabel[2]{}
-\setcounter{@ppsaveapp}{0}
-\setcounter{@ppsaveapp}{0}
 \setcounter{@ppsaveapp}{0}
 \setcounter{@ppsaveapp}{0}
 \setcounter{@ppsaveapp}{0}
@@ -262,18 +248,12 @@
 \setcounter{@ppsavesec}{0}
 \setcounter{@ppsavesec}{0}
 \setcounter{@ppsavesec}{0}
-\setcounter{@ppsavesec}{4}
-\setcounter{@ppsavesec}{4}
 \setcounter{@pps}{0}
 \setcounter{@pps}{0}
 \setcounter{@pps}{0}
 \setcounter{@pps}{0}
 \setcounter{@pps}{0}
 \setcounter{@pps}{0}
-\setcounter{@pps}{1}
-\setcounter{@pps}{1}
-\setcounter{ALC@depth}{0}
-\setcounter{ALC@depth}{0}
 \setcounter{ALC@depth}{0}
 \setcounter{ALC@depth}{0}
 \setcounter{ALC@depth}{0}
@@ -286,10 +266,6 @@
 \setcounter{ALC@line}{0}
 \setcounter{ALC@line}{0}
 \setcounter{ALC@line}{0}
-\setcounter{ALC@line}{0}
-\setcounter{ALC@line}{0}
-\setcounter{ALC@rem}{0}
-\setcounter{ALC@rem}{0}
 \setcounter{ALC@rem}{0}
 \setcounter{ALC@rem}{0}
 \setcounter{ALC@rem}{0}
@@ -302,10 +278,6 @@
 \setcounter{ALC@unique}{0}
 \setcounter{ALC@unique}{0}
 \setcounter{ALC@unique}{0}
-\setcounter{ALC@unique}{0}
-\setcounter{ALC@unique}{0}
-\setcounter{AlgoLine}{0}
-\setcounter{AlgoLine}{0}
 \setcounter{AlgoLine}{0}
 \setcounter{AlgoLine}{0}
 \setcounter{AlgoLine}{0}
@@ -318,10 +290,6 @@
 \setcounter{ContinuedFloat}{0}
 \setcounter{ContinuedFloat}{0}
 \setcounter{ContinuedFloat}{0}
-\setcounter{ContinuedFloat}{0}
-\setcounter{ContinuedFloat}{0}
-\setcounter{Hfootnote}{0}
-\setcounter{Hfootnote}{0}
 \setcounter{Hfootnote}{0}
 \setcounter{Hfootnote}{0}
 \setcounter{Hfootnote}{0}
@@ -334,10 +302,6 @@
 \setcounter{Item}{0}
 \setcounter{Item}{0}
 \setcounter{Item}{0}
-\setcounter{Item}{23}
-\setcounter{Item}{23}
-\setcounter{KVtest}{0}
-\setcounter{KVtest}{0}
 \setcounter{KVtest}{0}
 \setcounter{KVtest}{0}
 \setcounter{KVtest}{0}
@@ -350,14 +314,10 @@
 \setcounter{NAT@ctr}{0}
 \setcounter{NAT@ctr}{0}
 \setcounter{NAT@ctr}{0}
-\setcounter{NAT@ctr}{61}
-\setcounter{NAT@ctr}{61}
 \setcounter{algocfline}{0}
 \setcounter{algocfline}{0}
 \setcounter{algocfline}{0}
 \setcounter{algocfline}{0}
-\setcounter{algocfline}{1}
-\setcounter{algocfline}{1}
 \setcounter{algocfline}{1}
 \setcounter{algocfline}{1}
 \setcounter{algocfproc}{0}
@@ -366,14 +326,10 @@
 \setcounter{algocfproc}{0}
 \setcounter{algocfproc}{1}
 \setcounter{algocfproc}{1}
-\setcounter{algocfproc}{1}
-\setcounter{algocfproc}{1}
 \setcounter{algocf}{0}
 \setcounter{algocf}{0}
 \setcounter{algocf}{0}
 \setcounter{algocf}{0}
-\setcounter{algocf}{1}
-\setcounter{algocf}{1}
 \setcounter{algocf}{1}
 \setcounter{algocf}{1}
 \setcounter{bookmark@seq@number}{0}
@@ -381,14 +337,10 @@
 \setcounter{bookmark@seq@number}{14}
 \setcounter{bookmark@seq@number}{20}
 \setcounter{bookmark@seq@number}{25}
-\setcounter{bookmark@seq@number}{27}
-\setcounter{bookmark@seq@number}{28}
 \setcounter{bookmark@seq@number}{5}
 \setcounter{chapter}{0}
 \setcounter{chapter}{0}
 \setcounter{chapter}{1}
-\setcounter{chapter}{1}
-\setcounter{chapter}{2}
 \setcounter{chapter}{2}
 \setcounter{chapter}{3}
 \setcounter{chapter}{4}
@@ -398,18 +350,12 @@
 \setcounter{enumiii}{0}
 \setcounter{enumiii}{0}
 \setcounter{enumiii}{0}
-\setcounter{enumiii}{0}
-\setcounter{enumiii}{0}
 \setcounter{enumii}{0}
 \setcounter{enumii}{0}
 \setcounter{enumii}{0}
 \setcounter{enumii}{0}
 \setcounter{enumii}{0}
 \setcounter{enumii}{0}
-\setcounter{enumii}{0}
-\setcounter{enumii}{0}
-\setcounter{enumiv}{0}
-\setcounter{enumiv}{0}
 \setcounter{enumiv}{0}
 \setcounter{enumiv}{0}
 \setcounter{enumiv}{0}
@@ -422,18 +368,12 @@
 \setcounter{enumi}{0}
 \setcounter{enumi}{0}
 \setcounter{enumi}{0}
-\setcounter{enumi}{6}
-\setcounter{enumi}{6}
-\setcounter{equation}{0}
-\setcounter{equation}{0}
 \setcounter{equation}{0}
 \setcounter{equation}{0}
 \setcounter{equation}{0}
 \setcounter{equation}{0}
 \setcounter{equation}{1}
 \setcounter{equation}{9}
-\setcounter{figure}{0}
-\setcounter{figure}{0}
 \setcounter{figure}{0}
 \setcounter{figure}{0}
 \setcounter{figure}{12}
@@ -446,10 +386,6 @@
 \setcounter{footnote}{0}
 \setcounter{footnote}{0}
 \setcounter{footnote}{0}
-\setcounter{footnote}{0}
-\setcounter{footnote}{0}
-\setcounter{lofdepth}{1}
-\setcounter{lofdepth}{1}
 \setcounter{lofdepth}{1}
 \setcounter{lofdepth}{1}
 \setcounter{lofdepth}{1}
@@ -462,10 +398,6 @@
 \setcounter{lotdepth}{1}
 \setcounter{lotdepth}{1}
 \setcounter{lotdepth}{1}
-\setcounter{lotdepth}{1}
-\setcounter{lotdepth}{1}
-\setcounter{mpfootnote}{0}
-\setcounter{mpfootnote}{0}
 \setcounter{mpfootnote}{0}
 \setcounter{mpfootnote}{0}
 \setcounter{mpfootnote}{0}
@@ -476,8 +408,6 @@
 \setcounter{page}{36}
 \setcounter{page}{47}
 \setcounter{page}{4}
-\setcounter{page}{58}
-\setcounter{page}{60}
 \setcounter{page}{7}
 \setcounter{page}{7}
 \setcounter{paragraph}{0}
@@ -486,18 +416,12 @@
 \setcounter{paragraph}{0}
 \setcounter{paragraph}{0}
 \setcounter{paragraph}{0}
-\setcounter{paragraph}{0}
-\setcounter{paragraph}{0}
 \setcounter{parentequation}{0}
 \setcounter{parentequation}{0}
 \setcounter{parentequation}{0}
 \setcounter{parentequation}{0}
 \setcounter{parentequation}{0}
 \setcounter{parentequation}{0}
-\setcounter{parentequation}{0}
-\setcounter{parentequation}{0}
-\setcounter{part}{0}
-\setcounter{part}{0}
 \setcounter{part}{0}
 \setcounter{part}{0}
 \setcounter{part}{0}
@@ -510,10 +434,6 @@
 \setcounter{section@level}{1}
 \setcounter{section@level}{2}
 \setcounter{section@level}{2}
-\setcounter{section@level}{2}
-\setcounter{section@level}{2}
-\setcounter{section}{0}
-\setcounter{section}{0}
 \setcounter{section}{0}
 \setcounter{section}{0}
 \setcounter{section}{0}
@@ -522,8 +442,6 @@
 \setcounter{section}{3}
 \setcounter{subfigure@save}{0}
 \setcounter{subfigure@save}{0}
-\setcounter{subfigure@save}{1}
-\setcounter{subfigure@save}{1}
 \setcounter{subfigure@save}{1}
 \setcounter{subfigure@save}{2}
 \setcounter{subfigure@save}{3}
@@ -534,18 +452,12 @@
 \setcounter{subfigure}{0}
 \setcounter{subfigure}{0}
 \setcounter{subfigure}{0}
-\setcounter{subfigure}{0}
-\setcounter{subfigure}{0}
 \setcounter{subparagraph}{0}
 \setcounter{subparagraph}{0}
 \setcounter{subparagraph}{0}
 \setcounter{subparagraph}{0}
 \setcounter{subparagraph}{0}
 \setcounter{subparagraph}{0}
-\setcounter{subparagraph}{0}
-\setcounter{subparagraph}{0}
-\setcounter{subsection}{0}
-\setcounter{subsection}{0}
 \setcounter{subsection}{0}
 \setcounter{subsection}{0}
 \setcounter{subsection}{0}
@@ -558,10 +470,6 @@
 \setcounter{subsubsection}{0}
 \setcounter{subsubsection}{0}
 \setcounter{subsubsection}{0}
-\setcounter{subsubsection}{0}
-\setcounter{subsubsection}{0}
-\setcounter{subtable@save}{0}
-\setcounter{subtable@save}{0}
 \setcounter{subtable@save}{0}
 \setcounter{subtable@save}{0}
 \setcounter{subtable@save}{0}
@@ -574,18 +482,12 @@
 \setcounter{subtable}{0}
 \setcounter{subtable}{0}
 \setcounter{subtable}{0}
-\setcounter{subtable}{0}
-\setcounter{subtable}{0}
-\setcounter{table}{0}
-\setcounter{table}{0}
 \setcounter{table}{0}
 \setcounter{table}{0}
 \setcounter{table}{0}
 \setcounter{table}{0}
 \setcounter{table}{0}
 \setcounter{table}{6}
-}
-}
 }
 }
 }

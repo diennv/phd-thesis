@@ -91,5 +91,3 @@
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{44}{subfigure.7.1}
 \contentsline {figure}{\numberline {4.8}{\ignorespaces Network download throughput monitoring with both the conventional method and the proposed method.\relax }}{45}{figure.caption.45}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{45}{subfigure.8.1}
-\addvspace {10\p@ }
-\addvspace {10\p@ }

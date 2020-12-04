@@ -3,38 +3,38 @@
  \nomgroup{Z}
 
   \item [{AVC}]\begingroup Advanced Video Coding\nomeqref {1.0}
-		\nompageref{4}
+		\nompageref{6}
   \item [{CCTV}]\begingroup Closed Circuit Television\nomeqref {1.0}
-		\nompageref{4}
+		\nompageref{6}
   \item [{CNN}]\begingroup Convolutional Neural Networks\nomeqref {1.0}
-		\nompageref{4}
+		\nompageref{6}
   \item [{CPU}]\begingroup Central Processing Unit\nomeqref {1.0}
-		\nompageref{4}
+		\nompageref{6}
   \item [{CUDA}]\begingroup Compute Unified Device Architecture\nomeqref {1.0}
-		\nompageref{4}
+		\nompageref{6}
   \item [{FPS}]\begingroup Frames Per Second\nomeqref {1.0}
-		\nompageref{4}
+		\nompageref{6}
   \item [{GPU}]\begingroup Graphics Processing Unit\nomeqref {1.0}
-		\nompageref{4}
+		\nompageref{6}
   \item [{HEVC}]\begingroup High Efficiency Video Coding\nomeqref {1.0}
-		\nompageref{4}
+		\nompageref{6}
   \item [{IoU}]\begingroup Intersection Over Union\nomeqref {1.0}
-		\nompageref{4}
+		\nompageref{6}
   \item [{MCP}]\begingroup Motion-Compensated Prediction\nomeqref {1.0}
-		\nompageref{4}
-  \item [{MV}]\begingroup Motion Vector\nomeqref {1.0}\nompageref{4}
+		\nompageref{6}
+  \item [{MV}]\begingroup Motion Vector\nomeqref {1.0}\nompageref{6}
   \item [{R-CNN}]\begingroup Regions with CNN\nomeqref {1.0}
-		\nompageref{4}
+		\nompageref{6}
   \item [{RAM}]\begingroup Random Access Memory\nomeqref {1.0}
-		\nompageref{4}
+		\nompageref{6}
   \item [{RTSP}]\begingroup Real-Time Streaming Protocol\nomeqref {1.0}
-		\nompageref{4}
+		\nompageref{6}
   \item [{SSD}]\begingroup Single Shot Multi-box Detector\nomeqref {1.0}
-		\nompageref{4}
-  \item [{VA}]\begingroup Video Analytics\nomeqref {1.0}\nompageref{4}
+		\nompageref{6}
+  \item [{VA}]\begingroup Video Analytics\nomeqref {1.0}\nompageref{6}
   \item [{VMS}]\begingroup Video Management Software\nomeqref {1.0}
-		\nompageref{4}
+		\nompageref{6}
   \item [{YOLO}]\begingroup You Only Look Once\nomeqref {1.0}
-		\nompageref{4}
+		\nompageref{6}
 
 \end{thenomenclature}

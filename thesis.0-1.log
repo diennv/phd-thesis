@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.11.8)  28 NOV 2020 22:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.12.4)  4 DEC 2020 11:43
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2233,52 +2233,24 @@ Underfull \hbox (badness 3375) in paragraph at lines 289--293
 ) .  [][]$https : / / technology . informa . com / 607069 /
  []
 
-[50]) [51]
-\openout2 = `Appendix1/appendix1.aux'.
-
-(./Appendix1/appendix1.tex [52
-
-
-]
-Appendix A.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
-[53] [54]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 72.
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-[55] [56]) [57]
-\openout2 = `Appendix2/appendix2.aux'.
-
-(./Appendix2/appendix2.tex [58
-
-
-
-]
-Appendix B.
-) [59] [60
-
+[50]) [51] [52
 
 ] (./thesis.ind)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 187.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 187.
 (./thesis.aux (./Acknowledgement/acknowledgement.aux) (./Abstract/abstract.aux)
 (./Chapter1/chapter1.aux) (./Chapter2/chapter2.aux) (./Chapter3/chapter3.aux) (
-./Chapter4/chapter4.aux) (./Appendix1/appendix1.aux) (./Appendix2/appendix2.aux
-))
+./Chapter4/chapter4.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 187.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 187.
-Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 1B5D25B1074EE42364A13B5E0A8CDB65;7416.
+
+Package rerunfilecheck Warning: File `thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `thesis.out':
+(rerunfilecheck)             Before: 1B5D25B1074EE42364A13B5E0A8CDB65;7416
+(rerunfilecheck)             After:  C9F9FF83933A7BE249E8053F60AEC345;6931.
 
 LaTeX Warning: There were undefined references.
 
@@ -2287,28 +2259,33 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 29137 strings out of 494805
- 514054 string characters out of 6178000
- 598299 words of memory out of 5000000
- 31403 multiletter control sequences out of 15000+600000
- 608152 words of font info for 278 fonts, out of 8000000 for 9000
+ 28981 strings out of 494805
+ 511257 string characters out of 6178000
+ 598092 words of memory out of 5000000
+ 31315 multiletter control sequences out of 15000+600000
+ 595111 words of font info for 242 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
  55i,16n,92p,10379b,990s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/demo/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600p
-k>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
-rw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (74 pages, 15571078 bytes).
+pdfTeX warning (dest): name{Appendix.a.B} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Appendix.a.A} has been referenced but does not exis
+t, replaced by a fixed one
+
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
+/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/urw/times/utmri8a.pfb>
+Output written on thesis.pdf (66 pages, 15547552 bytes).
 PDF statistics:
- 1139 PDF objects out of 1200 (max. 8388607)
- 885 compressed objects within 9 object streams
- 316 named destinations out of 1000 (max. 500000)
- 45656 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 990 PDF objects out of 1000 (max. 8388607)
+ 796 compressed objects within 8 object streams
+ 269 named destinations out of 1000 (max. 500000)
+ 33880 words of extra memory for PDF output out of 35830 (max. 10000000)
 
