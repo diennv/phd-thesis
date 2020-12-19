@@ -25,6 +25,3 @@
 \contentsline {section}{\numberline {4.1}The Light-weight Runtime Moving Object Detection in Video Compressed Domain}{40}{section.4.1}
 \contentsline {section}{\numberline {4.2}Performance Evaluation Results}{43}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Computing Resources Consumption}{43}{subsection.4.2.1}
-\contentsline {chapter}{References}{51}{chapter*.53}
-\contentsline {chapter}{Appendix \numberline {A}How to install \LaTeX }{59}{Appendix.a.A}
-\contentsline {chapter}{Appendix \numberline {B}Installing the CUED class file}{65}{Appendix.a.B}

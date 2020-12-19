@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.11.8)  19 DEC 2020 10:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.11.8)  19 DEC 2020 10:39
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1377,13 +1377,8 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@toks=\toks29
 \enit@inbox=\box59
 \enitdp@description=\count345
-) (./thesis-info.tex) (./thesis.aux (./Acknowledgement/acknowledgement.aux) (./
-Abstract/abstract.aux) (./Chapter1/chapter1.aux) (./Chapter2/chapter2.aux) (./C
-hapter3/chapter3.aux) (./Chapter4/chapter4.aux
-
-LaTeX Warning: Label `tab:videotest' multiply defined.
-
-) (./Appendix1/appendix1.aux) (./Appendix2/appendix2.aux))
+) (./thesis-info.tex)
+No file thesis.aux.
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 110.
@@ -1453,7 +1448,6 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 110.
 LaTeX Info: Redefining \pageref on input line 110.
 LaTeX Info: Redefining \nameref on input line 110.
-(./thesis.out) (./thesis.out)
 \@outlinefile=\write5
 \openout5 = `thesis.out'.
 
@@ -1558,7 +1552,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 114.
 \PHD@crest=\box63
-<Figs/University_Crest.pdf, id=116, 113.9457pt x 113.9457pt>
+<Figs/University_Crest.pdf, id=4, 113.9457pt x 113.9457pt>
 File: Figs/University_Crest.pdf Graphic file (type pdf)
 <use Figs/University_Crest.pdf>
 Package pdftex.def Info: Figs/University_Crest.pdf  used on input line 114.
@@ -1597,52 +1591,101 @@ f>]
 ]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 119.
-[6] (./thesis.toc [7
-
-
-
-]
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 29.
-)
+[6]
 \tf@toc=\write6
 \openout6 = `thesis.toc'.
 
-[8] (./thesis.lof [9
+[7
 
-] [10])
+
+
+] [8
+
+]
 \tf@lof=\write7
 \openout7 = `thesis.lof'.
 
-[11] [12
+[9] [10
 
-] (./thesis.lot)
+]
 \tf@lot=\write8
 \openout8 = `thesis.lot'.
 
-(./thesis.nls [13] [14
+No file thesis.nls.
+[11] [12
 
-] [15]) [16]
+]
 \openout2 = `Chapter1/chapter1.aux'.
 
 (./Chapter1/chapter1.tex
 Chapter 1.
-<Figures/cctv1.jpg, id=307, 690.58pt x 422.57875pt>
+<Figures/cctv1.jpg, id=66, 690.58pt x 422.57875pt>
 File: Figures/cctv1.jpg Graphic file (type jpg)
 <use Figures/cctv1.jpg>
 Package pdftex.def Info: Figures/cctv1.jpg  used on input line 20.
 (pdftex.def)             Requested size: 207.1756pt x 126.7746pt.
-<Figures/cctv2.jpg, id=308, 255.95625pt x 198.7425pt>
+<Figures/cctv2.jpg, id=67, 255.95625pt x 198.7425pt>
 File: Figures/cctv2.jpg Graphic file (type jpg)
 <use Figures/cctv2.jpg>
 Package pdftex.def Info: Figures/cctv2.jpg  used on input line 24.
 (pdftex.def)             Requested size: 163.81143pt x 127.19475pt.
-<Figures/cloud.png, id=318, 426.09187pt x 155.83218pt>
+
+Package natbib Warning: Citation `ananthanarayanan2019demo' on page 1 undefined
+ on input line 28.
+
+
+LaTeX Warning: Reference `fig:cctv' on page 1 undefined on input line 28.
+
+
+Package natbib Warning: Citation `ref0' on page 1 undefined on input line 28.
+
+
+Package natbib Warning: Citation `ref1' on page 1 undefined on input line 28.
+
+
+Package natbib Warning: Citation `ref2' on page 1 undefined on input line 28.
+
+
+Package natbib Warning: Citation `oliverreport' on page 1 undefined on input li
+ne 28.
+
+
+Package natbib Warning: Citation `cai2015learning' on page 1 undefined on input
+ line 29.
+
+
+Package natbib Warning: Citation `krizhevsky2017imagenet' on page 1 undefined o
+n input line 29.
+
+
+Package natbib Warning: Citation `li2015convolutional' on page 1 undefined on i
+nput line 29.
+
+<Figures/cloud.png, id=68, 426.09187pt x 155.83218pt>
 File: Figures/cloud.png Graphic file (type png)
 <use Figures/cloud.png>
 Package pdftex.def Info: Figures/cloud.png  used on input line 33.
 (pdftex.def)             Requested size: 437.46112pt x 160.00009pt.
-<Figures/vachallenge.png, id=325, 952.55875pt x 301.125pt>
+
+LaTeX Warning: Reference `fig:overall' on page 1 undefined on input line 37.
+
+
+Package natbib Warning: Citation `canel2019scaling' on page 1 undefined on inpu
+t line 38.
+
+
+Package natbib Warning: Citation `chen2015glimpse' on page 1 undefined on input
+ line 38.
+
+
+Package natbib Warning: Citation `hsieh2018focus' on page 1 undefined on input 
+line 38.
+
+
+Package natbib Warning: Citation `jiang2018chameleon' on page 1 undefined on in
+put line 38.
+
+<Figures/vachallenge.png, id=70, 952.55875pt x 301.125pt>
 File: Figures/vachallenge.png Graphic file (type png)
 <use Figures/vachallenge.png>
 Package pdftex.def Info: Figures/vachallenge.png  used on input line 42.
@@ -1650,83 +1693,217 @@ Package pdftex.def Info: Figures/vachallenge.png  used on input line 42.
 [1
 
 
-
  <./Figures/cctv1.jpg> <./Figures/cctv2.jpg>] [2 <./Figures/cloud.png>]
 LaTeX Font Info:    Try loading font information for TS1+ptm on input line 48.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<Figures/motivation.jpg, id=351, 530.4618pt x 212.9556pt>
+
+Package natbib Warning: Citation `canel2019scaling' on page 3 undefined on inpu
+t line 48.
+
+
+Package natbib Warning: Citation `kang2017noscope' on page 3 undefined on input
+ line 48.
+
+
+Package natbib Warning: Citation `chen2015glimpse' on page 3 undefined on input
+ line 49.
+
+
+Package natbib Warning: Citation `stone2019towards' on page 3 undefined on inpu
+t line 52.
+
+
+LaTeX Warning: Reference `fig:chal' on page 3 undefined on input line 52.
+
+<Figures/motivation.jpg, id=86, 530.4618pt x 212.9556pt>
 File: Figures/motivation.jpg Graphic file (type jpg)
 <use Figures/motivation.jpg>
 Package pdftex.def Info: Figures/motivation.jpg  used on input line 55.
 (pdftex.def)             Requested size: 437.46112pt x 175.62553pt.
+
+LaTeX Warning: Reference `fig:mot' on page 3 undefined on input line 59.
+
+
+Package natbib Warning: Citation `lu2014moving' on page 3 undefined on input li
+ne 60.
+
+
+Package natbib Warning: Citation `kumar2016segmentation' on page 3 undefined on
+ input line 60.
+
+
+Package natbib Warning: Citation `gujrathi2014detecting' on page 3 undefined on
+ input line 60.
+
+
+Package natbib Warning: Citation `wang2019ground' on page 3 undefined on input 
+line 60.
+
+
+Package natbib Warning: Citation `favalli2000object' on page 3 undefined on inp
+ut line 61.
+
+
+Package natbib Warning: Citation `yoneyama1999moving' on page 3 undefined on in
+put line 61.
+
+
+Package natbib Warning: Citation `dong2006object' on page 3 undefined on input 
+line 61.
+
+
+Package natbib Warning: Citation `achanta2002compressed' on page 3 undefined on
+ input line 61.
+
 [3 <./Figures/vachallenge.png>] [4 <./Figures/motivation.jpg>] [5]) [6]
 \openout2 = `Chapter2/chapter2.aux'.
 
 (./Chapter2/chapter2.tex
 Chapter 2.
-<Figures/Va-neta.png, id=393, 208.52907pt x 332.74312pt>
+<Figures/Va-neta.png, id=106, 208.52907pt x 332.74312pt>
 File: Figures/Va-neta.png Graphic file (type png)
 <use Figures/Va-neta.png>
 Package pdftex.def Info: Figures/Va-neta.png  used on input line 11.
 (pdftex.def)             Requested size: 125.1184pt x 199.6474pt.
-<Figures/Va-netb.png, id=394, 227.34938pt x 324.46219pt>
+<Figures/Va-netb.png, id=107, 227.34938pt x 324.46219pt>
 File: Figures/Va-netb.png Graphic file (type png)
 <use Figures/Va-netb.png>
 Package pdftex.def Info: Figures/Va-netb.png  used on input line 16.
 (pdftex.def)             Requested size: 136.41068pt x 194.6788pt.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 21.
+
+Package natbib Warning: Citation `chen2017smart' on page 7 undefined on input l
+ine 22.
+
+
+LaTeX Warning: Reference `fig:va_b' on page 7 undefined on input line 22.
+
 [7
 
 
 
-] [8 <./Figures/Va-neta.png> <./Figures/Va-netb.png>] [9]
-<Figures/encoder.png, id=422, 682.55pt x 222.8325pt>
+]
+
+LaTeX Warning: Reference `fig:va_a' on page 8 undefined on input line 24.
+
+[8 <./Figures/Va-neta.png> <./Figures/Va-netb.png>] [9]
+
+Package natbib Warning: Citation `thanh2019efficient' on page 10 undefined on i
+nput line 36.
+
+
+Package natbib Warning: Citation `sullivan2012overview' on page 10 undefined on
+ input line 36.
+
+
+Package natbib Warning: Citation `ohm2012comparison' on page 10 undefined on in
+put line 36.
+
+
+Package natbib Warning: Citation `canel2019scaling' on page 10 undefined on inp
+ut line 37.
+
+
+Package natbib Warning: Citation `li2020reducto' on page 10 undefined on input 
+line 37.
+
+
+Package natbib Warning: Citation `chen2015glimpse' on page 10 undefined on inpu
+t line 37.
+
+<Figures/encoder.png, id=130, 682.55pt x 222.8325pt>
 File: Figures/encoder.png Graphic file (type png)
 <use Figures/encoder.png>
 Package pdftex.def Info: Figures/encoder.png  used on input line 42.
 (pdftex.def)             Requested size: 349.97023pt x 114.2551pt.
+
+LaTeX Warning: Reference `fig:encoder' on page 10 undefined on input line 46.
+
 [10] [11 <./Figures/encoder.png>]
-<Figures/opticalflow.jpeg, id=439, 602.25pt x 451.6875pt>
+<Figures/opticalflow.jpeg, id=144, 602.25pt x 451.6875pt>
 File: Figures/opticalflow.jpeg Graphic file (type jpg)
 <use Figures/opticalflow.jpeg>
 Package pdftex.def Info: Figures/opticalflow.jpeg  used on input line 54.
 (pdftex.def)             Requested size: 349.97023pt x 262.48895pt.
-<Figures/macroblock.png, id=440, 578.16pt x 327.2225pt>
+<Figures/macroblock.png, id=145, 578.16pt x 327.2225pt>
 File: Figures/macroblock.png Graphic file (type png)
 <use Figures/macroblock.png>
 Package pdftex.def Info: Figures/macroblock.png  used on input line 60.
 (pdftex.def)             Requested size: 349.97023pt x 198.07257pt.
+
+LaTeX Warning: Reference `fig:opticalflow' on page 12 undefined on input line 6
+4.
+
+
+LaTeX Warning: Reference `fig:macroblock' on page 12 undefined on input line 65
+.
+
 [12] [13 <./Figures/opticalflow.jpeg> <./Figures/macroblock.png>]
-<Figures/yuv420.png, id=453, 460.72125pt x 150.5625pt>
+<Figures/yuv420.png, id=160, 460.72125pt x 150.5625pt>
 File: Figures/yuv420.png Graphic file (type png)
 <use Figures/yuv420.png>
 Package pdftex.def Info: Figures/yuv420.png  used on input line 73.
 (pdftex.def)             Requested size: 349.97023pt x 114.36894pt.
-<Figures/mv.png, id=458, 566.115pt x 274.02374pt>
+
+LaTeX Warning: Reference `fig:yuv420' on page 14 undefined on input line 77.
+
+
+Package natbib Warning: Citation `laroche2008rd' on page 14 undefined on input 
+line 78.
+
+
+Package natbib Warning: Citation `jiang2019spatial' on page 14 undefined on inp
+ut line 78.
+
+
+Package natbib Warning: Citation `bross2014inter' on page 14 undefined on input
+ line 78.
+
+<Figures/mv.png, id=161, 566.115pt x 274.02374pt>
 File: Figures/mv.png Graphic file (type png)
 <use Figures/mv.png>
 Package pdftex.def Info: Figures/mv.png  used on input line 81.
 (pdftex.def)             Requested size: 437.46112pt x 211.75574pt.
+
+LaTeX Warning: Reference `fig:mv' on page 14 undefined on input line 85.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 77--87
 
  []
 
 [14 <./Figures/yuv420.png>] [15 <./Figures/mv.png>]
+
+Package natbib Warning: Citation `bombardelli2018efficient' on page 16 undefine
+d on input line 103.
+
+
+Package natbib Warning: Citation `khatoonabadi2012video' on page 16 undefined o
+n input line 103.
+
+
+Package natbib Warning: Citation `bombardelli2018efficient' on page 16 undefine
+d on input line 103.
+
+
+Package natbib Warning: Citation `boykov2001fast' on page 16 undefined on input
+ line 103.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 102--104
 
  []
 
 [16]
-<Figures/noise.png, id=489, 1445.4pt x 813.0375pt>
+<Figures/noise.png, id=182, 1445.4pt x 813.0375pt>
 File: Figures/noise.png Graphic file (type png)
 <use Figures/noise.png>
 Package pdftex.def Info: Figures/noise.png  used on input line 110.
 (pdftex.def)             Requested size: 218.73056pt x 123.02968pt.
-<Figures/156_mv_0.jpg, id=490, 642.4pt x 361.35pt>
+<Figures/156_mv_0.jpg, id=183, 642.4pt x 361.35pt>
 File: Figures/156_mv_0.jpg Graphic file (type jpg)
 <use Figures/156_mv_0.jpg>
 Package pdftex.def Info: Figures/156_mv_0.jpg  used on input line 114.
@@ -1736,12 +1913,12 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 110--114
  [][][][] 
  []
 
-<Figures/3.jpg, id=491, 963.6pt x 542.025pt>
+<Figures/3.jpg, id=184, 963.6pt x 542.025pt>
 File: Figures/3.jpg Graphic file (type jpg)
 <use Figures/3.jpg>
 Package pdftex.def Info: Figures/3.jpg  used on input line 118.
 (pdftex.def)             Requested size: 218.73056pt x 123.03381pt.
-<Figures/34.jpg, id=492, 963.6pt x 542.025pt>
+<Figures/34.jpg, id=185, 963.6pt x 542.025pt>
 File: Figures/34.jpg Graphic file (type jpg)
 <use Figures/34.jpg>
 Package pdftex.def Info: Figures/34.jpg  used on input line 122.
@@ -1751,64 +1928,189 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 118--123
  [][][][] 
  []
 
+
+LaTeX Warning: Reference `fig:noise' on page 17 undefined on input line 127.
+
 [17 <./Figures/noise.png> <./Figures/156_mv_0.jpg> <./Figures/3.jpg> <./Figures
 /34.jpg>]
-<Figures/input_img.png, id=509, 246.1697pt x 183.68625pt>
+
+Package natbib Warning: Citation `zeng2018background' on page 18 undefined on i
+nput line 131.
+
+
+Package natbib Warning: Citation `chen2017pixel' on page 18 undefined on input 
+line 131.
+
+
+Package natbib Warning: Citation `babaee2018deep' on page 18 undefined on input
+ line 131.
+
+
+Package natbib Warning: Citation `wang2017interactive' on page 18 undefined on 
+input line 131.
+
+
+Package natbib Warning: Citation `patil2018msfgnet' on page 18 undefined on inp
+ut line 131.
+
+
+Package natbib Warning: Citation `ou2019moving' on page 18 undefined on input l
+ine 131.
+
+<Figures/input_img.png, id=196, 246.1697pt x 183.68625pt>
 File: Figures/input_img.png Graphic file (type png)
 <use Figures/input_img.png>
 Package pdftex.def Info: Figures/input_img.png  used on input line 138.
 (pdftex.def)             Requested size: 123.08453pt x 91.84288pt.
-<Figures/fg_subtration.png, id=510, 243.91125pt x 184.43906pt>
+<Figures/fg_subtration.png, id=197, 243.91125pt x 184.43906pt>
 File: Figures/fg_subtration.png Graphic file (type png)
 <use Figures/fg_subtration.png>
 Package pdftex.def Info: Figures/fg_subtration.png  used on input line 142.
 (pdftex.def)             Requested size: 121.95532pt x 92.2193pt.
-<Figures/blob_detection.png, id=511, 241.65282pt x 184.43906pt>
+<Figures/blob_detection.png, id=198, 241.65282pt x 184.43906pt>
 File: Figures/blob_detection.png Graphic file (type png)
 <use Figures/blob_detection.png>
 Package pdftex.def Info: Figures/blob_detection.png  used on input line 146.
 (pdftex.def)             Requested size: 120.82611pt x 92.2193pt.
-<Figures/smoke_region.png, id=512, 242.40562pt x 182.93344pt>
+<Figures/smoke_region.png, id=199, 242.40562pt x 182.93344pt>
 File: Figures/smoke_region.png Graphic file (type png)
 <use Figures/smoke_region.png>
 Package pdftex.def Info: Figures/smoke_region.png  used on input line 150.
 (pdftex.def)             Requested size: 121.2025pt x 91.46649pt.
-<Figures/smoke.jpg, id=513, 249.93375pt x 388.45125pt>
+<Figures/smoke.jpg, id=200, 249.93375pt x 388.45125pt>
 File: Figures/smoke.jpg Graphic file (type jpg)
 <use Figures/smoke.jpg>
 Package pdftex.def Info: Figures/smoke.jpg  used on input line 156.
 (pdftex.def)             Requested size: 131.23967pt x 203.98145pt.
-<Figures/AlexNet.png, id=524, 671.50874pt x 420.06938pt>
+
+Package natbib Warning: Citation `lee2012adaptive' on page 18 undefined on inpu
+t line 160.
+
+
+Package natbib Warning: Citation `stauffer1999adaptive' on page 18 undefined on
+ input line 160.
+
+
+Package natbib Warning: Citation `lu2008improved' on page 18 undefined on input
+ line 160.
+
+
+Package natbib Warning: Citation `stauffer1999adaptive' on page 18 undefined on
+ input line 160.
+
+
+LaTeX Warning: Reference `fig:bgmethod' on page 18 undefined on input line 160.
+
+
+
+LaTeX Warning: Reference `fig:smoke' on page 18 undefined on input line 160.
+
+
+Package natbib Warning: Citation `krizhevsky2017imagenet' on page 18 undefined 
+on input line 160.
+
+
+Package natbib Warning: Citation `lecun2010convolutional' on page 18 undefined 
+on input line 160.
+
+
+Package natbib Warning: Citation `jarrett2009best' on page 18 undefined on inpu
+t line 160.
+
+
+Package natbib Warning: Citation `lee2009convolutional' on page 18 undefined on
+ input line 160.
+
+<Figures/AlexNet.png, id=201, 671.50874pt x 420.06938pt>
 File: Figures/AlexNet.png Graphic file (type png)
 <use Figures/AlexNet.png>
 Package pdftex.def Info: Figures/AlexNet.png  used on input line 163.
 (pdftex.def)             Requested size: 349.97023pt x 218.92447pt.
+
+LaTeX Warning: Reference `fig:alex' on page 18 undefined on input line 167.
+
 [18] [19 <./Figures/input_img.png> <./Figures/fg_subtration.png> <./Figures/blo
 b_detection.png> <./Figures/smoke_region.png> <./Figures/smoke.jpg>] [20 <./Fig
 ures/AlexNet.png>]
-<Figures/rcnn.png, id=561, 558.085pt x 499.8675pt>
+
+Package natbib Warning: Citation `hussain2018study' on page 21 undefined on inp
+ut line 169.
+
+
+Package natbib Warning: Citation `krizhevsky2009learning' on page 21 undefined 
+on input line 169.
+
+<Figures/rcnn.png, id=229, 558.085pt x 499.8675pt>
 File: Figures/rcnn.png Graphic file (type png)
 <use Figures/rcnn.png>
 Package pdftex.def Info: Figures/rcnn.png  used on input line 178.
 (pdftex.def)             Requested size: 167.42679pt x 149.9614pt.
-<Figures/faster_rcnn.png, id=562, 329.23pt x 336.25626pt>
+<Figures/faster_rcnn.png, id=230, 329.23pt x 336.25626pt>
 File: Figures/faster_rcnn.png Graphic file (type png)
 <use Figures/faster_rcnn.png>
 Package pdftex.def Info: Figures/faster_rcnn.png  used on input line 182.
 (pdftex.def)             Requested size: 148.15211pt x 151.3139pt.
-<Figures/fast_rcnn.png, id=563, 702.625pt x 285.065pt>
+<Figures/fast_rcnn.png, id=231, 702.625pt x 285.065pt>
 File: Figures/fast_rcnn.png Graphic file (type png)
 <use Figures/fast_rcnn.png>
 Package pdftex.def Info: Figures/fast_rcnn.png  used on input line 186.
 (pdftex.def)             Requested size: 351.31163pt x 142.53215pt.
-<Figures/yolo.png, id=564, 702.625pt x 460.72125pt>
+<Figures/yolo.png, id=232, 702.625pt x 460.72125pt>
 File: Figures/yolo.png Graphic file (type png)
 <use Figures/yolo.png>
 Package pdftex.def Info: Figures/yolo.png  used on input line 193.
 (pdftex.def)             Requested size: 349.97023pt x 229.48833pt.
 [21 <./Figures/rcnn.png (PNG copy)> <./Figures/faster_rcnn.png> <./Figures/fast
-_rcnn.png (PNG copy)>] [22 <./Figures/yolo.png (PNG copy)>] [23]
-<Figures/yolov3.png, id=604, 853.1875pt x 441.65pt>
+_rcnn.png (PNG copy)>]
+
+Package natbib Warning: Citation `girshick2014rich' on page 22 undefined on inp
+ut line 204.
+
+
+Package natbib Warning: Citation `uijlings2013selective' on page 22 undefined o
+n input line 204.
+
+
+LaTeX Warning: Reference `fig:cnn' on page 22 undefined on input line 204.
+
+
+Package natbib Warning: Citation `girshick2015fast' on page 22 undefined on inp
+ut line 204.
+
+
+LaTeX Warning: Reference `fig:cnn' on page 22 undefined on input line 204.
+
+
+Package natbib Warning: Citation `ren2015faster' on page 22 undefined on input 
+line 204.
+
+
+LaTeX Warning: Reference `fig:cnn' on page 22 undefined on input line 204.
+
+
+Package natbib Warning: Citation `redmon2016you' on page 22 undefined on input 
+line 204.
+
+
+LaTeX Warning: Reference `fig:yolo' on page 22 undefined on input line 204.
+
+
+LaTeX Warning: Reference `fig:yolov3' on page 22 undefined on input line 204.
+
+
+Package natbib Warning: Citation `redmon2018yolov3' on page 22 undefined on inp
+ut line 204.
+
+
+Package natbib Warning: Citation `liu2016ssd' on page 22 undefined on input lin
+e 204.
+
+
+Package natbib Warning: Citation `redmon2018yolov3' on page 22 undefined on inp
+ut line 204.
+
+[22 <./Figures/yolo.png (PNG copy)>] [23]
+<Figures/yolov3.png, id=252, 853.1875pt x 441.65pt>
 File: Figures/yolov3.png Graphic file (type png)
 <use Figures/yolov3.png>
 Package pdftex.def Info: Figures/yolov3.png  used on input line 208.
@@ -1823,32 +2125,35 @@ Overfull \hbox (13.92293pt too wide) in paragraph at lines 20--20
 []\T1/ptm/b/n/17.28 The Edge-to-clound Sys-tem Model for Surveil-lance Cam-
  []
 
-<Figures/arch.png, id=610, 447.92343pt x 152.82094pt>
+<Figures/arch.png, id=259, 447.92343pt x 152.82094pt>
 File: Figures/arch.png Graphic file (type png)
 <use Figures/arch.png>
 Package pdftex.def Info: Figures/arch.png  used on input line 23.
 (pdftex.def)             Requested size: 437.46112pt x 149.25513pt.
+
+LaTeX Warning: Reference `fig:arch' on page 25 undefined on input line 27.
+
 [25
 
 
 
  <./Figures/arch.png>] [26]
-<Figures/arch.jpg, id=621, 825.0825pt x 310.15875pt>
+<Figures/arch.jpg, id=273, 825.0825pt x 310.15875pt>
 File: Figures/arch.jpg Graphic file (type jpg)
 <use Figures/arch.jpg>
 Package pdftex.def Info: Figures/arch.jpg  used on input line 38.
 (pdftex.def)             Requested size: 437.46112pt x 164.4496pt.
-<Figures/1340.jpg, id=622, 1445.4pt x 813.0375pt>
+<Figures/1340.jpg, id=274, 1445.4pt x 813.0375pt>
 File: Figures/1340.jpg Graphic file (type jpg)
 <use Figures/1340.jpg>
 Package pdftex.def Info: Figures/1340.jpg  used on input line 47.
 (pdftex.def)             Requested size: 131.23967pt x 73.81532pt.
-<Figures/1350.jpg, id=623, 1445.4pt x 813.0375pt>
+<Figures/1350.jpg, id=275, 1445.4pt x 813.0375pt>
 File: Figures/1350.jpg Graphic file (type jpg)
 <use Figures/1350.jpg>
 Package pdftex.def Info: Figures/1350.jpg  used on input line 51.
 (pdftex.def)             Requested size: 131.23967pt x 73.81532pt.
-<Figures/1360.jpg, id=624, 1445.4pt x 813.0375pt>
+<Figures/1360.jpg, id=276, 1445.4pt x 813.0375pt>
 File: Figures/1360.jpg Graphic file (type jpg)
 <use Figures/1360.jpg>
 Package pdftex.def Info: Figures/1360.jpg  used on input line 55.
@@ -1857,61 +2162,97 @@ File: Figures/3.jpg Graphic file (type jpg)
 <use Figures/3.jpg>
 Package pdftex.def Info: Figures/3.jpg  used on input line 59.
 (pdftex.def)             Requested size: 131.23967pt x 73.81532pt.
-<Figures/35.jpg, id=625, 963.6pt x 542.025pt>
+<Figures/35.jpg, id=277, 963.6pt x 542.025pt>
 File: Figures/35.jpg Graphic file (type jpg)
 <use Figures/35.jpg>
 Package pdftex.def Info: Figures/35.jpg  used on input line 63.
 (pdftex.def)             Requested size: 131.23967pt x 73.81532pt.
-<Figures/70.jpg, id=626, 963.6pt x 542.025pt>
+<Figures/70.jpg, id=278, 963.6pt x 542.025pt>
 File: Figures/70.jpg Graphic file (type jpg)
 <use Figures/70.jpg>
 Package pdftex.def Info: Figures/70.jpg  used on input line 67.
 (pdftex.def)             Requested size: 131.23967pt x 73.81532pt.
 [27 <./Figures/arch.jpg>]
-<Figures/1327_mv.jpg, id=634, 252.19218pt x 416.30531pt>
+
+LaTeX Warning: Reference `fig:proposedMethod' on page 28 undefined on input lin
+e 77.
+
+
+LaTeX Warning: Reference `fig:mvextract' on page 28 undefined on input line 77.
+
+
+<Figures/1327_mv.jpg, id=285, 252.19218pt x 416.30531pt>
 File: Figures/1327_mv.jpg Graphic file (type jpg)
 <use Figures/1327_mv.jpg>
 Package pdftex.def Info: Figures/1327_mv.jpg  used on input line 85.
 (pdftex.def)             Requested size: 81.96149pt x 135.29762pt.
-<Figures/1350_mv.jpg, id=635, 202.50656pt x 450.9347pt>
+<Figures/1350_mv.jpg, id=286, 202.50656pt x 450.9347pt>
 File: Figures/1350_mv.jpg Graphic file (type jpg)
 <use Figures/1350_mv.jpg>
 Package pdftex.def Info: Figures/1350_mv.jpg  used on input line 89.
 (pdftex.def)             Requested size: 60.75243pt x 135.28145pt.
-<Figures/30_mv.jpg, id=636, 75.28125pt x 136.25906pt>
+<Figures/30_mv.jpg, id=287, 75.28125pt x 136.25906pt>
 File: Figures/30_mv.jpg Graphic file (type jpg)
 <use Figures/30_mv.jpg>
 Package pdftex.def Info: Figures/30_mv.jpg  used on input line 93.
 (pdftex.def)             Requested size: 75.28105pt x 136.25871pt.
-<Figures/10_mv.jpg, id=637, 70.76437pt x 137.7647pt>
+<Figures/10_mv.jpg, id=288, 70.76437pt x 137.7647pt>
 File: Figures/10_mv.jpg Graphic file (type jpg)
 <use Figures/10_mv.jpg>
 Package pdftex.def Info: Figures/10_mv.jpg  used on input line 97.
 (pdftex.def)             Requested size: 70.76419pt x 137.76434pt.
 [28 <./Figures/1340.jpg> <./Figures/1350.jpg> <./Figures/1360.jpg> <./Figures/3
 5.jpg> <./Figures/70.jpg>]
+
+LaTeX Warning: Reference `fig:mvanalysis' on page 29 undefined on input line 10
+1.
+
+
+LaTeX Warning: Reference `eqn:1' on page 29 undefined on input line 101.
+
+
+LaTeX Warning: Reference `fig:mvanalysis' on page 29 undefined on input line 10
+6.
+
+
+LaTeX Warning: Reference `fig:mvobject' on page 29 undefined on input line 106.
+
+
+
+LaTeX Warning: Reference `eqn:cluster' on page 29 undefined on input line 106.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 105--107
 
  []
 
 [29 <./Figures/1327_mv.jpg> <./Figures/1350_mv.jpg> <./Figures/30_mv.jpg> <./Fi
 gures/10_mv.jpg>]
-<Figures/1328_mv.jpg, id=665, 722.7pt x 481.8pt>
+
+Package natbib Warning: Citation `ester1996density' on page 30 undefined on inp
+ut line 114.
+
+[30]
+
+Package natbib Warning: Citation `ester1996density' on page 31 undefined on inp
+ut line 117.
+
+<Figures/1328_mv.jpg, id=318, 722.7pt x 481.8pt>
 File: Figures/1328_mv.jpg Graphic file (type jpg)
 <use Figures/1328_mv.jpg>
 Package pdftex.def Info: Figures/1328_mv.jpg  used on input line 123.
 (pdftex.def)             Requested size: 109.36528pt x 72.90646pt.
-<Figures/1328_occ.jpg, id=666, 722.7pt x 481.8pt>
+<Figures/1328_occ.jpg, id=319, 722.7pt x 481.8pt>
 File: Figures/1328_occ.jpg Graphic file (type jpg)
 <use Figures/1328_occ.jpg>
 Package pdftex.def Info: Figures/1328_occ.jpg  used on input line 127.
 (pdftex.def)             Requested size: 109.36528pt x 72.90646pt.
-<Figures/1328_res.jpg, id=667, 321.2pt x 240.9pt>
+<Figures/1328_res.jpg, id=320, 321.2pt x 240.9pt>
 File: Figures/1328_res.jpg Graphic file (type jpg)
 <use Figures/1328_res.jpg>
 Package pdftex.def Info: Figures/1328_res.jpg  used on input line 131.
 (pdftex.def)             Requested size: 96.36073pt x 72.27055pt.
-<Figures/1328_obj.jpg, id=668, 722.7pt x 481.8pt>
+<Figures/1328_obj.jpg, id=321, 722.7pt x 481.8pt>
 File: Figures/1328_obj.jpg Graphic file (type jpg)
 <use Figures/1328_obj.jpg>
 Package pdftex.def Info: Figures/1328_obj.jpg  used on input line 135.
@@ -1921,22 +2262,22 @@ Overfull \hbox (10.99545pt too wide) in paragraph at lines 123--135
  [][][][][][][][] 
  []
 
-<Figures/38_mv.jpg, id=669, 722.7pt x 481.8pt>
+<Figures/38_mv.jpg, id=322, 722.7pt x 481.8pt>
 File: Figures/38_mv.jpg Graphic file (type jpg)
 <use Figures/38_mv.jpg>
 Package pdftex.def Info: Figures/38_mv.jpg  used on input line 139.
 (pdftex.def)             Requested size: 109.36528pt x 72.90646pt.
-<Figures/38_occ.jpg, id=670, 722.7pt x 481.8pt>
+<Figures/38_occ.jpg, id=323, 722.7pt x 481.8pt>
 File: Figures/38_occ.jpg Graphic file (type jpg)
 <use Figures/38_occ.jpg>
 Package pdftex.def Info: Figures/38_occ.jpg  used on input line 143.
 (pdftex.def)             Requested size: 109.36528pt x 72.90646pt.
-<Figures/38_res.jpg, id=671, 321.2pt x 240.9pt>
+<Figures/38_res.jpg, id=324, 321.2pt x 240.9pt>
 File: Figures/38_res.jpg Graphic file (type jpg)
 <use Figures/38_res.jpg>
 Package pdftex.def Info: Figures/38_res.jpg  used on input line 147.
 (pdftex.def)             Requested size: 96.36073pt x 72.27055pt.
-<Figures/38_obj.jpg, id=672, 722.7pt x 481.8pt>
+<Figures/38_obj.jpg, id=325, 722.7pt x 481.8pt>
 File: Figures/38_obj.jpg Graphic file (type jpg)
 <use Figures/38_obj.jpg>
 Package pdftex.def Info: Figures/38_obj.jpg  used on input line 151.
@@ -1946,24 +2287,53 @@ Overfull \hbox (10.99545pt too wide) in paragraph at lines 139--152
  [][][][][][][][] 
  []
 
-<Figures/filter.png, id=674, 785.93625pt x 450.68375pt>
+
+LaTeX Warning: Reference `fig:filter' on page 31 undefined on input line 155.
+
+<Figures/filter.png, id=326, 785.93625pt x 450.68375pt>
 File: Figures/filter.png Graphic file (type png)
 <use Figures/filter.png>
 Package pdftex.def Info: Figures/filter.png  used on input line 158.
 (pdftex.def)             Requested size: 437.46112pt x 250.86137pt.
-[30] [31 <./Figures/1328_mv.jpg> <./Figures/1328_occ.jpg> <./Figures/1328_res.j
-pg> <./Figures/1328_obj.jpg> <./Figures/38_mv.jpg> <./Figures/38_occ.jpg> <./Fi
-gures/38_res.jpg> <./Figures/38_obj.jpg>]
+
+LaTeX Warning: Reference `fig:mvanalysis' on page 31 undefined on input line 16
+2.
+
+
+Package natbib Warning: Citation `sheu2019stam' on page 31 undefined on input l
+ine 164.
+
+
+Package natbib Warning: Citation `li2020hksiamfc' on page 31 undefined on input
+ line 164.
+
+[31 <./Figures/1328_mv.jpg> <./Figures/1328_occ.jpg> <./Figures/1328_res.jpg> <
+./Figures/1328_obj.jpg> <./Figures/38_mv.jpg> <./Figures/38_occ.jpg> <./Figures
+/38_res.jpg> <./Figures/38_obj.jpg>]
+
+LaTeX Warning: Reference `fig:mvanalysis' on page 32 undefined on input line 16
+7.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 167--168
 
  []
 
 [32 <./Figures/filter.png>]
-<Figures/iou.png, id=705, 300.3722pt x 318.43968pt>
+<Figures/iou.png, id=349, 300.3722pt x 318.43968pt>
 File: Figures/iou.png Graphic file (type png)
 <use Figures/iou.png>
 Package pdftex.def Info: Figures/iou.png  used on input line 174.
 (pdftex.def)             Requested size: 174.98177pt x 185.51144pt.
+
+LaTeX Warning: Reference `eqn:2' on page 33 undefined on input line 178.
+
+
+LaTeX Warning: Reference `alg:iou_alg' on page 33 undefined on input line 178.
+
+
+LaTeX Warning: Reference `fig:iou' on page 33 undefined on input line 178.
+
 
 Overfull \hbox (53.40778pt too wide) in paragraph at lines 183--183
 []  
@@ -1974,22 +2344,22 @@ Overfull \hbox (53.40778pt too wide) in paragraph at lines 193--195
 [] 
  []
 
-
+[33 <./Figures/iou.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 197--199
 
  []
 
-[33 <./Figures/iou.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 202--204
 
  []
 
-
+[34]
 Underfull \hbox (badness 10000) in paragraph at lines 207--209
 
  []
 
-[34]
+
 Underfull \hbox (badness 10000) in paragraph at lines 212--214
 
  []
@@ -2013,8 +2383,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 222--224
 
 ]
 Chapter 4.
+
+LaTeX Warning: Reference `fig:sysdesign' on page 37 undefined on input line 13.
+
+
 [37]
-<Figures/SysDesign.png, id=743, 776.9025pt x 241.65282pt>
+<Figures/SysDesign.png, id=386, 776.9025pt x 241.65282pt>
 File: Figures/SysDesign.png Graphic file (type png)
 <use Figures/SysDesign.png>
 Package pdftex.def Info: Figures/SysDesign.png  used on input line 20.
@@ -2028,12 +2402,12 @@ Overfull \hbox (43.74878pt too wide) in paragraph at lines 20--21
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 24.
 
-<Figures/TESTBED.jpg, id=744, 3035.34pt x 3035.34pt>
+<Figures/TESTBED.jpg, id=387, 3035.34pt x 3035.34pt>
 File: Figures/TESTBED.jpg Graphic file (type jpg)
 <use Figures/TESTBED.jpg>
 Package pdftex.def Info: Figures/TESTBED.jpg  used on input line 30.
 (pdftex.def)             Requested size: 218.73056pt x 218.70178pt.
-<Figures/pi.jpg, id=745, 1742.51pt x 1124.2pt>
+<Figures/pi.jpg, id=388, 1742.51pt x 1124.2pt>
 File: Figures/pi.jpg Graphic file (type jpg)
 <use Figures/pi.jpg>
 Package pdftex.def Info: Figures/pi.jpg  used on input line 34.
@@ -2055,69 +2429,98 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 66.
 
-<Figures/ground-truth.png, id=746, 702.625pt x 423.5825pt>
+<Figures/ground-truth.png, id=389, 702.625pt x 423.5825pt>
 File: Figures/ground-truth.png Graphic file (type png)
 <use Figures/ground-truth.png>
 Package pdftex.def Info: Figures/ground-truth.png  used on input line 85.
 (pdftex.def)             Requested size: 281.04501pt x 169.43pt.
+
+LaTeX Warning: Reference `fig:testbed' on page 38 undefined on input line 90.
+
+
+LaTeX Warning: Reference `tab:hw' on page 38 undefined on input line 90.
+
 [38 <./Figures/SysDesign.png>] [39 <./Figures/TESTBED.jpg> <./Figures/pi.jpg> <
 ./Figures/ground-truth.png>]
-<Figures/1501_res.jpg, id=768, 321.2pt x 240.9pt>
+
+Package natbib Warning: Citation `VIRAT' on page 40 undefined on input line 91.
+
+
+
+Package natbib Warning: Citation `testvideo' on page 40 undefined on input line
+ 91.
+
+
+LaTeX Warning: Reference `fig:ground' on page 40 undefined on input line 91.
+
+
+LaTeX Warning: Reference `tab:motiontime' on page 40 undefined on input line 91
+.
+
+
+LaTeX Warning: Reference `tab:videotest' on page 40 undefined on input line 91.
+
+
+
+LaTeX Warning: Reference `fig:objectdetect' on page 40 undefined on input line 
+96.
+
+<Figures/1501_res.jpg, id=408, 321.2pt x 240.9pt>
 File: Figures/1501_res.jpg Graphic file (type jpg)
 <use Figures/1501_res.jpg>
 Package pdftex.def Info: Figures/1501_res.jpg  used on input line 102.
 (pdftex.def)             Requested size: 83.51003pt x 62.6325pt.
-<Figures/1500_track.jpg, id=769, 963.6pt x 542.025pt>
+<Figures/1500_track.jpg, id=409, 963.6pt x 542.025pt>
 File: Figures/1500_track.jpg Graphic file (type jpg)
 <use Figures/1500_track.jpg>
 Package pdftex.def Info: Figures/1500_track.jpg  used on input line 106.
 (pdftex.def)             Requested size: 109.36528pt x 61.5169pt.
-<Figures/1537_res.jpg, id=770, 321.2pt x 240.9pt>
+<Figures/1537_res.jpg, id=410, 321.2pt x 240.9pt>
 File: Figures/1537_res.jpg Graphic file (type jpg)
 <use Figures/1537_res.jpg>
 Package pdftex.def Info: Figures/1537_res.jpg  used on input line 110.
 (pdftex.def)             Requested size: 83.51003pt x 62.6325pt.
-<Figures/1536_track.jpg, id=771, 963.6pt x 542.025pt>
+<Figures/1536_track.jpg, id=411, 963.6pt x 542.025pt>
 File: Figures/1536_track.jpg Graphic file (type jpg)
 <use Figures/1536_track.jpg>
 Package pdftex.def Info: Figures/1536_track.jpg  used on input line 114.
 (pdftex.def)             Requested size: 109.36528pt x 61.5169pt.
-<Figures/3940_res.jpg, id=772, 321.2pt x 240.9pt>
+<Figures/3940_res.jpg, id=412, 321.2pt x 240.9pt>
 File: Figures/3940_res.jpg Graphic file (type jpg)
 <use Figures/3940_res.jpg>
 Package pdftex.def Info: Figures/3940_res.jpg  used on input line 118.
 (pdftex.def)             Requested size: 83.51003pt x 62.6325pt.
-<Figures/3939_track.jpg, id=773, 963.6pt x 542.025pt>
+<Figures/3939_track.jpg, id=413, 963.6pt x 542.025pt>
 File: Figures/3939_track.jpg Graphic file (type jpg)
 <use Figures/3939_track.jpg>
 Package pdftex.def Info: Figures/3939_track.jpg  used on input line 122.
 (pdftex.def)             Requested size: 109.36528pt x 61.5169pt.
-<Figures/3949_res.jpg, id=774, 321.2pt x 240.9pt>
+<Figures/3949_res.jpg, id=414, 321.2pt x 240.9pt>
 File: Figures/3949_res.jpg Graphic file (type jpg)
 <use Figures/3949_res.jpg>
 Package pdftex.def Info: Figures/3949_res.jpg  used on input line 126.
 (pdftex.def)             Requested size: 83.51003pt x 62.6325pt.
-<Figures/3949_track.jpg, id=775, 963.6pt x 542.025pt>
+<Figures/3949_track.jpg, id=415, 963.6pt x 542.025pt>
 File: Figures/3949_track.jpg Graphic file (type jpg)
 <use Figures/3949_track.jpg>
 Package pdftex.def Info: Figures/3949_track.jpg  used on input line 130.
 (pdftex.def)             Requested size: 109.36528pt x 61.5169pt.
-<Figures/370_res.jpg, id=776, 321.2pt x 240.9pt>
+<Figures/370_res.jpg, id=416, 321.2pt x 240.9pt>
 File: Figures/370_res.jpg Graphic file (type jpg)
 <use Figures/370_res.jpg>
 Package pdftex.def Info: Figures/370_res.jpg  used on input line 134.
 (pdftex.def)             Requested size: 83.51003pt x 62.6325pt.
-<Figures/370_track.jpg, id=777, 963.6pt x 542.025pt>
+<Figures/370_track.jpg, id=417, 963.6pt x 542.025pt>
 File: Figures/370_track.jpg Graphic file (type jpg)
 <use Figures/370_track.jpg>
 Package pdftex.def Info: Figures/370_track.jpg  used on input line 138.
 (pdftex.def)             Requested size: 109.36528pt x 61.5169pt.
-<Figures/435_res.jpg, id=778, 321.2pt x 240.9pt>
+<Figures/435_res.jpg, id=418, 321.2pt x 240.9pt>
 File: Figures/435_res.jpg Graphic file (type jpg)
 <use Figures/435_res.jpg>
 Package pdftex.def Info: Figures/435_res.jpg  used on input line 142.
 (pdftex.def)             Requested size: 83.51003pt x 62.6325pt.
-<Figures/435_track.jpg, id=779, 963.6pt x 542.025pt>
+<Figures/435_track.jpg, id=419, 963.6pt x 542.025pt>
 File: Figures/435_track.jpg Graphic file (type jpg)
 <use Figures/435_track.jpg>
 Package pdftex.def Info: Figures/435_track.jpg  used on input line 146.
@@ -2130,32 +2533,40 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 165.
 
-<Figures/1502_025.jpg, id=782, 1284.8pt x 722.7pt>
+
+LaTeX Warning: Reference `tab:videotest' on page 40 undefined on input line 176
+.
+
+
+LaTeX Warning: Reference `fig:objecttracking' on page 40 undefined on input lin
+e 176.
+
+<Figures/1502_025.jpg, id=420, 1284.8pt x 722.7pt>
 File: Figures/1502_025.jpg Graphic file (type jpg)
 <use Figures/1502_025.jpg>
 Package pdftex.def Info: Figures/1502_025.jpg  used on input line 182.
 (pdftex.def)             Requested size: 131.23967pt x 73.81807pt.
-<Figures/3923_025.jpg, id=783, 1284.8pt x 722.7pt>
+<Figures/3923_025.jpg, id=421, 1284.8pt x 722.7pt>
 File: Figures/3923_025.jpg Graphic file (type jpg)
 <use Figures/3923_025.jpg>
 Package pdftex.def Info: Figures/3923_025.jpg  used on input line 186.
 (pdftex.def)             Requested size: 131.23967pt x 73.81807pt.
-<Figures/478_025.jpg, id=784, 1284.8pt x 722.7pt>
+<Figures/478_025.jpg, id=422, 1284.8pt x 722.7pt>
 File: Figures/478_025.jpg Graphic file (type jpg)
 <use Figures/478_025.jpg>
 Package pdftex.def Info: Figures/478_025.jpg  used on input line 190.
 (pdftex.def)             Requested size: 131.23967pt x 73.81807pt.
-<Figures/1502_04.jpg, id=785, 1284.8pt x 722.7pt>
+<Figures/1502_04.jpg, id=423, 1284.8pt x 722.7pt>
 File: Figures/1502_04.jpg Graphic file (type jpg)
 <use Figures/1502_04.jpg>
 Package pdftex.def Info: Figures/1502_04.jpg  used on input line 194.
 (pdftex.def)             Requested size: 131.23967pt x 73.81807pt.
-<Figures/3923_04.jpg, id=786, 1284.8pt x 722.7pt>
+<Figures/3923_04.jpg, id=424, 1284.8pt x 722.7pt>
 File: Figures/3923_04.jpg Graphic file (type jpg)
 <use Figures/3923_04.jpg>
 Package pdftex.def Info: Figures/3923_04.jpg  used on input line 198.
 (pdftex.def)             Requested size: 131.23967pt x 73.81807pt.
-<Figures/478_04.jpg, id=787, 1284.8pt x 722.7pt>
+<Figures/478_04.jpg, id=425, 1284.8pt x 722.7pt>
 File: Figures/478_04.jpg Graphic file (type jpg)
 <use Figures/478_04.jpg>
 Package pdftex.def Info: Figures/478_04.jpg  used on input line 202.
@@ -2164,16 +2575,40 @@ File: Figures/1502_04.jpg Graphic file (type jpg)
 <use Figures/1502_04.jpg>
 Package pdftex.def Info: Figures/1502_04.jpg  used on input line 206.
 (pdftex.def)             Requested size: 131.23967pt x 73.81807pt.
-<Figures/3923_05.jpg, id=788, 1284.8pt x 722.7pt>
+<Figures/3923_05.jpg, id=426, 1284.8pt x 722.7pt>
 File: Figures/3923_05.jpg Graphic file (type jpg)
 <use Figures/3923_05.jpg>
 Package pdftex.def Info: Figures/3923_05.jpg  used on input line 210.
 (pdftex.def)             Requested size: 131.23967pt x 73.81807pt.
-<Figures/478_05.jpg, id=789, 1284.8pt x 722.7pt>
+<Figures/478_05.jpg, id=427, 1284.8pt x 722.7pt>
 File: Figures/478_05.jpg Graphic file (type jpg)
 <use Figures/478_05.jpg>
 Package pdftex.def Info: Figures/478_05.jpg  used on input line 214.
 (pdftex.def)             Requested size: 131.23967pt x 73.81807pt.
+
+LaTeX Warning: Reference `fig:objecttracking' on page 40 undefined on input lin
+e 218.
+
+
+LaTeX Warning: Reference `fig:objecttracking' on page 40 undefined on input lin
+e 218.
+
+
+LaTeX Warning: Reference `fig:objecttracking' on page 40 undefined on input lin
+e 218.
+
+
+Package natbib Warning: Citation `bombardelli2018efficient' on page 40 undefine
+d on input line 218.
+
+
+Package natbib Warning: Citation `khatoonabadi2012video' on page 40 undefined o
+n input line 218.
+
+
+LaTeX Warning: Reference `tab:timemessasure' on page 40 undefined on input line
+ 218.
+
 [40] [41 <./Figures/1501_res.jpg> <./Figures/1500_track.jpg> <./Figures/1537_re
 s.jpg> <./Figures/1536_track.jpg> <./Figures/3940_res.jpg> <./Figures/3939_trac
 k.jpg> <./Figures/3949_res.jpg> <./Figures/3949_track.jpg> <./Figures/370_res.j
@@ -2181,17 +2616,25 @@ pg> <./Figures/370_track.jpg> <./Figures/435_res.jpg> <./Figures/435_track.jpg>
 ] [42 <./Figures/1502_025.jpg> <./Figures/3923_025.jpg> <./Figures/478_025.jpg>
  <./Figures/1502_04.jpg> <./Figures/3923_04.jpg> <./Figures/478_04.jpg> <./Figu
 res/3923_05.jpg> <./Figures/478_05.jpg>]
-<Figures/gpu_compare.png, id=833, 1151.30125pt x 648.4225pt>
+
+LaTeX Warning: Reference `tab:videotest' on page 43 undefined on input line 221
+.
+
+
+Package natbib Warning: Citation `source' on page 43 undefined on input line 22
+1.
+
+<Figures/gpu_compare.png, id=466, 1151.30125pt x 648.4225pt>
 File: Figures/gpu_compare.png Graphic file (type png)
 <use Figures/gpu_compare.png>
 Package pdftex.def Info: Figures/gpu_compare.png  used on input line 226.
 (pdftex.def)             Requested size: 402.96149pt x 226.95126pt.
-<Figures/gpu_0_5.jpg, id=834, 1072.75781pt x 441.14813pt>
+<Figures/gpu_0_5.jpg, id=467, 1072.75781pt x 441.14813pt>
 File: Figures/gpu_0_5.jpg Graphic file (type jpg)
 <use Figures/gpu_0_5.jpg>
 Package pdftex.def Info: Figures/gpu_0_5.jpg  used on input line 235.
 (pdftex.def)             Requested size: 218.73056pt x 89.94455pt.
-<Figures/gpu_0_25.jpg, id=835, 1114.91531pt x 446.41782pt>
+<Figures/gpu_0_25.jpg, id=468, 1114.91531pt x 446.41782pt>
 File: Figures/gpu_0_25.jpg Graphic file (type jpg)
 <use Figures/gpu_0_25.jpg>
 Package pdftex.def Info: Figures/gpu_0_25.jpg  used on input line 239.
@@ -2201,7 +2644,7 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 235--239
  [][][][] 
  []
 
-<Figures/gpu_0_75.jpg, id=836, 1086.30844pt x 444.15938pt>
+<Figures/gpu_0_75.jpg, id=469, 1086.30844pt x 444.15938pt>
 File: Figures/gpu_0_75.jpg Graphic file (type jpg)
 <use Figures/gpu_0_75.jpg>
 Package pdftex.def Info: Figures/gpu_0_75.jpg  used on input line 243.
@@ -2215,22 +2658,22 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 243--248
  [][][][] 
  []
 
-<Figures/cpu.png, id=837, 586.8324pt x 312.6882pt>
+<Figures/cpu.png, id=470, 586.8324pt x 312.6882pt>
 File: Figures/cpu.png Graphic file (type png)
 <use Figures/cpu.png>
 Package pdftex.def Info: Figures/cpu.png  used on input line 253.
 (pdftex.def)             Requested size: 410.77988pt x 218.88023pt.
-<Figures/cpu_utilization.png, id=838, 570.13pt x 385.44pt>
+<Figures/cpu_utilization.png, id=471, 570.13pt x 385.44pt>
 File: Figures/cpu_utilization.png Graphic file (type png)
 <use Figures/cpu_utilization.png>
 Package pdftex.def Info: Figures/cpu_utilization.png  used on input line 259.
 (pdftex.def)             Requested size: 399.08829pt x 269.80615pt.
-<Figures/network.png, id=839, 586.8324pt x 312.6882pt>
+<Figures/network.png, id=472, 586.8324pt x 312.6882pt>
 File: Figures/network.png Graphic file (type png)
 <use Figures/network.png>
 Package pdftex.def Info: Figures/network.png  used on input line 265.
 (pdftex.def)             Requested size: 410.77988pt x 218.88023pt.
-<Figures/download_throughput.png, id=840, 557.08125pt x 353.32pt>
+<Figures/download_throughput.png, id=473, 557.08125pt x 353.32pt>
 File: Figures/download_throughput.png Graphic file (type png)
 <use Figures/download_throughput.png>
 Package pdftex.def Info: Figures/download_throughput.png  used on input line 27
@@ -2264,6 +2707,41 @@ Overfull \hbox (24.25548pt too wide) in paragraph at lines 304--311
  []
 
 
+LaTeX Warning: Reference `fig:sysdesign' on page 43 undefined on input line 314
+.
+
+
+LaTeX Warning: Reference `fig:overall' on page 43 undefined on input line 314.
+
+
+Package natbib Warning: Citation `convential' on page 43 undefined on input lin
+e 314.
+
+
+Package natbib Warning: Citation `proposed' on page 43 undefined on input line 
+314.
+
+
+LaTeX Warning: Reference `fig:gpu' on page 43 undefined on input line 314.
+
+
+LaTeX Warning: Reference `fig:gpu_monitor' on page 43 undefined on input line 3
+17.
+
+
+LaTeX Warning: Reference `fig:cpu' on page 43 undefined on input line 320.
+
+
+LaTeX Warning: Reference `fig:network' on page 43 undefined on input line 320.
+
+
+LaTeX Warning: Reference `tab:motiontime' on page 43 undefined on input line 32
+3.
+
+
+LaTeX Warning: Reference `eqn:5' on page 43 undefined on input line 326.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 314--327
 
  []
@@ -2276,98 +2754,54 @@ tion.png>] [46 <./Figures/network.png> <./Figures/download_throughput.png>] [47
 LaTeX Warning: Reference `tab:computingresource0' on page 49 undefined on input
  line 331.
 
+
+LaTeX Warning: Reference `tab:computingresource1' on page 49 undefined on input
+ line 331.
+
+
+LaTeX Warning: Reference `tab:computingresource2' on page 49 undefined on input
+ line 331.
+
 ) [49] [50
 
 
-] (./thesis.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 10--14
-[]\T1/ptm/m/n/12 (+20) (2020 (ac-cessed Septem-ber 3, 2020)b).  \T1/ptm/m/it/12
- (+20) Avail-able On-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--14
-\T1/ptm/m/it/12 (+20) line\T1/ptm/m/n/12 (+20) .  [][]$https : / / www . telegr
-aph . co . uk / technology / 10172298 /
- []
-
-[51
-
-] [52] [53] [54] [55]
-Underfull \hbox (badness 10000) in paragraph at lines 294--298
-[]\T1/ptm/m/n/12 (+20) Philippou, O. (2020 (ac-cessed Septem-ber 3, 2020)).  \T
-1/ptm/m/it/12 (+20) Video Surveil-
- []
-
-
-Underfull \hbox (badness 3375) in paragraph at lines 294--298
-\T1/ptm/m/it/12 (+20) lance In-stalled Base Re-port ^^U 2019\T1/ptm/m/n/12 (+20
-) .  [][]$https : / / technology . informa . com / 607069 /
- []
-
-[56]) [57]
-\openout2 = `Appendix1/appendix1.aux'.
-
-(./Appendix1/appendix1.tex [58
-
-
 ]
-Appendix A.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
-[59] [60]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 72.
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-[61] [62]) [63]
-\openout2 = `Appendix2/appendix2.aux'.
+No file thesis.bbl.
+No file thesis.ind.
 
-(./Appendix2/appendix2.tex [64
+Package natbib Warning: There were undefined citations.
 
-
-
-]
-Appendix B.
-) [65] [66
-
-
-] (./thesis.ind)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 187.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 187.
 (./thesis.aux (./Acknowledgement/acknowledgement.aux) (./Abstract/abstract.aux)
 (./Chapter1/chapter1.aux) (./Chapter2/chapter2.aux) (./Chapter3/chapter3.aux) (
-./Chapter4/chapter4.aux) (./Appendix1/appendix1.aux) (./Appendix2/appendix2.aux
-))
+./Chapter4/chapter4.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 187.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 187.
-Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 02D46A540FA618CB62295872C5FFAEDA;7416.
+
+Package rerunfilecheck Warning: File `thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `thesis.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  CA54625CC9D4EA68A188DC7EFB0B5AED;6732.
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 29189 strings out of 494805
- 515190 string characters out of 6178000
- 599678 words of memory out of 5000000
- 31435 multiletter control sequences out of 15000+600000
- 608022 words of font info for 276 fonts, out of 8000000 for 9000
+ 28703 strings out of 494805
+ 506043 string characters out of 6178000
+ 586833 words of memory out of 5000000
+ 31183 multiletter control sequences out of 15000+600000
+ 588462 words of font info for 205 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
- 55i,16n,92p,10379b,990s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/demo/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600p
-k>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+ 55i,16n,92p,10379b,865s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
@@ -2377,10 +2811,10 @@ rw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (82 pages, 15646944 bytes).
+Output written on thesis.pdf (62 pages, 15583783 bytes).
 PDF statistics:
- 1208 PDF objects out of 1440 (max. 8388607)
- 936 compressed objects within 10 object streams
- 333 named destinations out of 1000 (max. 500000)
- 45686 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 620 PDF objects out of 1000 (max. 8388607)
+ 424 compressed objects within 5 object streams
+ 208 named destinations out of 1000 (max. 500000)
+ 33174 words of extra memory for PDF output out of 35830 (max. 10000000)
 

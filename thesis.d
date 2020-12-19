@@ -79,8 +79,6 @@ thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,/usr/share/texl
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Abstract/abstract.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Acknowledgement/acknowledgement.tex)
-thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Appendix1/appendix1.tex)
-thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Appendix2/appendix2.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Chapter1/chapter1.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Chapter2/chapter2.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Chapter3/chapter3.tex)

@@ -97,5 +97,3 @@
 \contentsline {figure}{\numberline {4.9}{\ignorespaces CPU Ultilization with different alpha threshold.\relax }}{45}{figure.caption.47}
 \contentsline {figure}{\numberline {4.10}{\ignorespaces Network download throughput monitoring with both the conventional method and the proposed method.\relax }}{46}{figure.caption.48}
 \contentsline {figure}{\numberline {4.11}{\ignorespaces Download Throughput with different alpha threshold.\relax }}{46}{figure.caption.49}
-\addvspace {10\p@ }
-\addvspace {10\p@ }

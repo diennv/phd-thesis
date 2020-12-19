@@ -10,5 +10,3 @@
 \contentsline {table}{\numberline {4.6}{\ignorespaces Average computing resources of both the conventional method and the proposed method with $\alpha $=0.25\relax }}{47}{table.caption.50}
 \contentsline {table}{\numberline {4.7}{\ignorespaces Average computing resources of both the conventional method and the proposed method with $\alpha $=0.5\relax }}{47}{table.caption.51}
 \contentsline {table}{\numberline {4.8}{\ignorespaces Average computing resources of both the conventional method and the proposed method with $\alpha $=0.7\relax }}{47}{table.caption.52}
-\addvspace {10\p@ }
-\addvspace {10\p@ }
