@@ -224,42 +224,108 @@ In this experiment, each $\alpha$ threshold was applied for three same scenarios
 \begin{figure*}
 \centering
 	\includegraphics[scale=0.35]{Figures/gpu_compare.png}
-\caption{GPU Monitoring with the conventional method and the proposed method.}
+\caption{GPU Monitoring with the conventional method and the proposed method ($\alpha$ = 0.25).}
 \label{fig:gpu}
 \end{figure*}
 \begin{figure*}
 \centering
 \subfloat[]
 {
-    \includegraphics[scale=0.7]{Figures/cpu.png}
+    \includegraphics[width=0.5\linewidth]{Figures/gpu_0_5.jpg}
 }
+\subfloat[]
+{
+    \includegraphics[width=0.5\linewidth]{Figures/gpu_0_25.jpg}
+}\\
+\subfloat[]
+{
+    \includegraphics[width=0.5\linewidth]{Figures/gpu_0_75.jpg}
+}
+\subfloat[]
+{
+    \includegraphics[width=0.5\linewidth]{Figures/ground-truth.png}
+}
+\caption{GPU Monitoring: (a) $\alpha$ = 0.5, (b) $\alpha$ = 0.25, (c) $\alpha$ = 0.75, (d) Ground Truth Motion Chart }
+\label{fig:gpu_monitor}
+\end{figure*}
+\begin{figure*}
+\centering
+\includegraphics[scale=0.7]{Figures/cpu.png}
 \caption{CPU Monitoring with both the conventional method and the proposed method.}
 \label{fig:cpu}
 \end{figure*}
 \begin{figure*}
 \centering
-\subfloat[]
-{
-    \includegraphics[scale=0.7]{Figures/network.png}
-}
+\includegraphics[scale=0.7]{Figures/cpu_utilization.png}
+\caption{CPU Ultilization with different alpha threshold.}
+\label{fig:cpu_ultilization}
+\end{figure*}
+\begin{figure*}
+\centering
+\includegraphics[scale=0.7]{Figures/network.png}
 \caption{Network download throughput monitoring with both the conventional method and the proposed method.}
 \label{fig:network}
 \end{figure*}
+\begin{figure*}
+\centering
+\includegraphics[scale=0.7]{Figures/download_throughput.png}
+\caption{Download Throughput with different alpha threshold.}
+\label{fig:download_throughput}
+\end{figure*}
 \begin{table}[]
 \centering
-\caption{Average computing resources of both the conventional method and the proposed method.}
-\label{tab:computingresource}
+\caption{Average computing resources of both the conventional method and the proposed method with $\alpha$=0.25}
 \begin{tabular}{|c|c|c|c|}
 \hline
 \textbf{Computing Resources}                                         & \textbf{Conventional Method} & \textbf{Proposed Method} & \textbf{Performance Ratio} \\ \hline
-GPU Utilization (\%)                                                  & 65.61                        & 33.73                    & 0.51                       \\ \hline
-CPU Utilization (\%)                                                  & 50.24                        & 25.9                     & 0.51                       \\ \hline
-\begin{tabular}[c]{@{}c@{}}Download Throughput\\ (Kbps)\end{tabular} & 4028                         & 1808.2                   & 0.45                       \\ \hline
+GPU Utilization (\%)                                                  & 65.61                        & 30                    & 0.45                       \\ \hline
+CPU Utilization (\%)                                                  & 50.24                        & 39.64                     & 0.51                       \\ \hline
+\begin{tabular}[c]{@{}c@{}}Download Throughput\\ (Kbps)\end{tabular} & 4028                         & 1509                   & 0.35                       \\ \hline
 \end{tabular}
 \end{table}
-During demonstration of  intrusion detection application, the clouds node’s computing resources, including CPU, GPU utilization, and network download throughput, was monitored and recorded and shown in Figure \ref{fig:sysdesign}. For comparison, the performance results are compared to that of the conventional method, which did not use edge node as shown in Figure \ref{fig:overall}. The results indicate that both methods achieve the same accuracy in terms of alert notification when humans entered the restricted area. The demonstration's record of both these methods are uploaded to \cite{convential}, \cite{proposed}. In terms of consumption of computational resources, GPU, CPU utilizations, and download throughput of both methods are measured and presented in Figure \ref{fig:gpu}, \ref{fig:cpu} and \ref{fig:network} respectively. The figures clearly show the advantage of using the proposed method. While the conventional method of processing all video frames captured from camera leads to consumption of computational resources, our method only processes when there is motion, and therefore computational resources are dynamically allocated and economical. Another observation is that our proposed method is extremely effective for detecting motion of the scene compared to the ground-truth motion time in Table \ref{tab:motiontime}. In detail,  the time for consuming and releasing computing resources of VA server was matched with the time for appearance and disappearance of motion in ground-truth table. Since the conventional method processes all video frames, we assume that the its computing resource average is S. According to formulation \ref{eqn:5}, the performance ratio of both methods in this video will be as follows:\\
+
+\begin{table}[]
+\centering
+\caption{Average computing resources of both the conventional method and the proposed method with $\alpha$=0.5}
+\label{tab:computingresource1}
+\begin{tabular}{|c|c|c|c|}
+\hline
+\textbf{Computing Resources}                                         & \textbf{Conventional Method} & \textbf{Proposed Method} & \textbf{Performance Ratio} \\ \hline
+GPU Utilization (\%)                                                  & 65.61                        & 22.3                    & 0.34                       \\ \hline
+CPU Utilization (\%)                                                  & 50.24                        & 34                    & 0.45                       \\ \hline
+\begin{tabular}[c]{@{}c@{}}Download Throughput\\ (Kbps)\end{tabular} & 4028                         & 1478                  & 0.36                       \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[]
+\centering
+\caption{Average computing resources of both the conventional method and the proposed method with $\alpha$=0.7}
+\label{tab:computingresource2}
+\begin{tabular}{|c|c|c|c|}
+\hline
+\textbf{Computing Resources}                                         & \textbf{Conventional Method} & \textbf{Proposed Method} & \textbf{Performance Ratio} \\ \hline
+GPU Utilization (\%)                                                  & 65.61                        & 33.73                    & 0.33                       \\ \hline
+CPU Utilization (\%)                                                  & 50.24                        & 25.9                     & 0.43                       \\ \hline
+\begin{tabular}[c]{@{}c@{}}Download Throughput\\ (Kbps)\end{tabular} & 4028                         & 1808.2                   & 0.35                       \\ \hline
+\end{tabular}
+\end{table}
+
+
+During demonstration of  intrusion detection application, the clouds node’s computing resources, including CPU, GPU utilization, and network download throughput, was monitored and recorded and shown in Figure \ref{fig:sysdesign}. For comparison, the performance results are compared to that of the conventional method, which did not use edge node as shown in Figure \ref{fig:overall}. The results indicate that both methods achieve the same accuracy in terms of alert notification when humans entered the restricted area. The demonstration's record of both these methods are uploaded to \cite{convential}, \cite{proposed}. In terms of consumption of computational resources, GPU, CPU utilizations, and download throughput of both methods are measured. In figure \ref{fig:gpu}, We measured the GPU computing resource of both the conventional
+method and proposed method. In conventional method, all frame is pushed into by deep learning model to detect object. So GPU was always at high loading status during video time. In contrast, the proposed method filters all static frame so GPU load status will change according to moving object status of the video. Compare the ground-truth motion chart and GPU load consumption chart, we can see the similarity between them.
+We also test the same experiment with other threshold alpha to
+evaluate the change of GPU load consumption graph. The results was shown in Figure \ref{fig:gpu_monitor}. We found that when alpha value is big ($\alpha$ = 0.7), the moving object at high speed
+will be missed. Because the IoU score is small when object move fast. 
+Similar with GPU load consumption, CPU load and Download
+throughput have same story as presented in Figure \ref{fig:cpu} and \ref{fig:network} . With conventional method always be high consumption load and the proposed method, consumption load is varied following the ground-
+truth motion chart. And, alpha value have same effect to CPU and download throughput. When alpha is small, it can detect well for moving object at different speed (running and walking), however can be included false alarm.
+When alpha is too big value, some fast moving motion was missed detection.
+The figures clearly show the advantage of using the proposed method. While the conventional method of processing all video frames captured from camera leads to consumption of computational resources, our method only processes when there is motion, and therefore computational resources are dynamically allocated and economical. Another observation is that our proposed method is extremely effective for detecting motion of the scene compared to the ground-truth motion time in Table \ref{tab:motiontime}. In detail,  the time for consuming and releasing computing resources of VA server was matched with the time for appearance and disappearance of motion in ground-truth table. \\
+In order to evaluate the efficiency of the proposed method, we
+calculate the performance ratio of the conventional method and the
+proposed method. Since the conventional method processes all video frames, we assume that the its computing resource average is S. According to formulation \ref{eqn:5}, the performance ratio of both methods in this video will be as follows:\\
 \begin{equation}
 \label{eqn:10}
 \frac{Comp_{p}}{Comp_{c}}=\frac{(K*S+(N-K)*T)}{N*S}=\frac{K}{N} + (1 - \frac{K}{N})*\frac{T}{S}=\frac{140}{360} + (1 - \frac{140}{360})*\frac{T}{S} = 0.4 + 0.6*\frac{T}{S}
 \end{equation}
-Compared with the performance ratio, which is calculated in real scenario test in Table \ref{tab:computingresource}, our performance theory model and real measurement are matching and reasonable.
+Compared with the performance ratio, which is calculated in real scenario test in Table \ref{tab:computingresource0}, \ref{tab:computingresource1}, \ref{tab:computingresource2}, our performance theory model and real measurement are matching and reasonable.

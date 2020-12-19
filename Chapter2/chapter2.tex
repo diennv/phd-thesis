@@ -78,14 +78,7 @@ Figure \ref{fig:opticalflow} shows the optical flow (or motion vector) field of 
   In  motion compensation, MV of a current block are correlated with the MVs of neighboring blocks in the current frame or in the earlier coded frames \cite{laroche2008rd}, \cite{jiang2019spatial}. While intra-picture prediction exploits correlations between spatially neighboring samples, inter-picture prediction makes use of temporal correlation between frames to derive a motion-compensated prediction (MCP) for a block of frame samples \cite{bross2014inter}.
 \begin{figure*}
 \centering
-\subfloat[]
-{
- \includegraphics[width=0.5\linewidth]{Figures/mv1.png}
-}
-\subfloat[]
-{
- \includegraphics[width=0.5\linewidth]{Figures/mv.png}
-}
+ \includegraphics[width=1.0\linewidth]{Figures/mv.png}
  \caption{ Reference motion vectors in video coding.}
  \label{fig:mv}
 \end{figure*}
@@ -117,9 +110,17 @@ In recent studies, compressed-domain based video analytics methods  \cite{bombar
 }
 \subfloat[]
 {
+    \includegraphics[width=0.5\linewidth]{Figures/156_mv_0.jpg}
+}\\
+\subfloat[]
+{
+    \includegraphics[width=0.5\linewidth]{Figures/3.jpg}
+}
+\subfloat[]
+{
     \includegraphics[width=0.5\linewidth]{Figures/34.jpg}
 }
- \caption{ Example of motion vectors extraction.(a) Test video sequence from our recorded video, (b) Test video sequence from VIRAT.}
+ \caption{ Example of motion vectors extraction.(a) Test video sequence from our recorded video, (b, c, d) Test video sequence from VIRAT.}
  \label{fig:noise}
 \end{figure*}
 
@@ -156,7 +157,16 @@ Due to more reliable features that can be extracted from the pixel data, the maj
  \caption{Flow chart of our video- based smoke detection algorithm.}
  \label{fig:smoke}
 \end{figure*}
-The background subtraction method \cite{lee2012adaptive}\cite{stauffer1999adaptive} subtracts the current frame and background image to eliminate an image’s background, and then detects moving targets based on gray value differences. This method is the most commonly used object detection technique. There are a number of methods that have been for building the background model, e.g.,  \cite{lu2008improved} proposed a novel real-time motion detection algorithm that integrates the temporal differencing method, double background filtering method, optical flow method, and morphological processing methods to obtain excellent performance. Moreover, the authors of \cite{stauffer1999adaptive} discussed modeling each pixel as a grouping of Gaussians using an on-line approximation to renew the model. The Gaussian distributions of the adaptive mixture model were then assessed to determine which model can be presumed to be obtained from a background process. This method’s advantage is its simple implementation, low computational resource requirements, robustness in the presence of environmental noise, and dynamic background. However, it has limitations with shadows, background changes, as well as object localization and classification. Furthermore, object detection based on the background model cannot detect the individual objects in a group or a block object. In general, the aim of background subtraction is to separate foreground images from background ones in the form of blobs, followed by an object classification process. The detected blobs then help classify each blob into subclasses, as shown in Figure \ref{fig:bgmethod}, which shows the complete process of this approach is to perform smoke detection with the detail of flow-char is drawn in Figure \ref{fig:smoke}. Fortunately, deep learning, a relatively new technique in machine learning, enables very accurate classification of images using convolutional neural networks (CNNs) \cite{lecun2010convolutional}\cite{jarrett2009best}\cite{lee2009convolutional}. The capacity of CNNs can be controlled by varying their depth and breadth; moreover, they make strong and mostly correct assumptions about the nature of images (i.e., stationarity of statistics and locality of pixel dependencies). For example, by combining CNN and transfer learning, the authors of \cite{hussain2018study} achieved an average accuracy of 70.1\% using the CIFAR-10  \cite{krizhevsky2009learning} dataset.
+The background subtraction method \cite{lee2012adaptive}\cite{stauffer1999adaptive} subtracts the current frame and background image to eliminate an image’s background, and then detects moving targets based on gray value differences. This method is the most commonly used object detection technique. There are a number of methods that have been for building the background model, e.g.,  \cite{lu2008improved} proposed a novel real-time motion detection algorithm that integrates the temporal differencing method, double background filtering method, optical flow method, and morphological processing methods to obtain excellent performance. Moreover, the authors of \cite{stauffer1999adaptive} discussed modeling each pixel as a grouping of Gaussians using an on-line approximation to renew the model. The Gaussian distributions of the adaptive mixture model were then assessed to determine which model can be presumed to be obtained from a background process. This method’s advantage is its simple implementation, low computational resource requirements, robustness in the presence of environmental noise, and dynamic background. However, it has limitations with shadows, background changes, as well as object localization and classification. Furthermore, object detection based on the background model cannot detect the individual objects in a group or a block object. In general, the aim of background subtraction is to separate foreground images from background ones in the form of blobs, followed by an object classification process. The detected blobs then help classify each blob into subclasses, as shown in Figure \ref{fig:bgmethod}, which shows the complete process of this approach is to perform smoke detection with the detail of flow-char is drawn in Figure \ref{fig:smoke}. In this example, smoke classification was done by trained convolutional neural networks (CNN) model which was described in \cite{krizhevsky2017imagenet} for image classification. This a relatively new technique in machine learning, enables very accurate classification of images using CNNs. \cite{lecun2010convolutional}\cite{jarrett2009best}\cite{lee2009convolutional}. 
+\begin{figure*}
+\centering
+ \includegraphics[width=0.8\linewidth]{Figures/AlexNet.png}
+ \caption{Architecture of the Alexnet CNN model.}
+ \label{fig:alex}
+\end{figure*}
+Figure \ref{fig:alex} shows the original architecture of the trained model, first five layer are convolutional and some of them are followed by max pooling layer. The next are three fully-connected layer, the last fully-connected layer computes class score of trained class labels.
+
+The capacity of CNNs can be controlled by varying their depth and breadth; moreover, they make strong and mostly correct assumptions about the nature of images (i.e., stationarity of statistics and locality of pixel dependencies). For example, by combining CNN and transfer learning, the authors of \cite{hussain2018study} achieved an average accuracy of 70.1\% using the CIFAR-10  \cite{krizhevsky2009learning} dataset.
 
 \subsection{Deep Learning based Moving Object Detection}
 \label{subsec:frameworks}

@@ -45,8 +45,8 @@ Video analytics at the edge has multiple benefits such as decreasing the respons
 \end{figure*}
 In previous works, the solutions are based on either:
 \begin{itemize}
-\item Binary classification model: eliminate frames that do not contain an object of interest.
-\item Simple frame differencing: eliminate frames whose low-level
+\item Binary classification model\cite{canel2019scaling}\cite{kang2017noscope}: eliminate frames that do not contain an object of interest.
+\item Simple frame differencing\cite{chen2015glimpse}: eliminate frames whose low-level
 features (e.g., pixel values) have not changed substantially.
 \end{itemize}
 Typically, exist systems use deep-learning framework to understand video frame context. Video frame is analyzed on pixel domain which require fully video decoding. However, edge devices are typically much less powerful than the cloud, with limited computing resources such as a few GPUs (graphics processing units) and CPUs (central processing units), as well as smaller RAM (Random Access Memory) capacities \cite{stone2019towards}. In the field of public safety, the ability to simultaneously process multiple feeds and provide real-time video analytics is critical. Thus, this study seeks to answers how edge devices and the cloud can cooperate in an efficient manner to achieve real-time and scalable video analytics. Our motivation is based on the observation that surveillance camera images are unchanged for a long time and video content is often quite redundant. So, it is undesirable to conduct analytics on redundant video frames from cameras, leading to increase latency and system expense by a waste of network bandwidth, computing resources and power consumption in the cloud as described in Figure \ref{fig:chal}. \\

@@ -179,6 +179,11 @@ Jiang, X., Song, T., Katayama, T., and Leu, J.-S. (2019).
   efficiency improvement.
 \newblock {\em Symmetry}, 11(2):129.
 
+\bibitem[Kang et~al., 2017]{kang2017noscope}
+Kang, D., Emmons, J., Abuzaid, F., Bailis, P., and Zaharia, M. (2017).
+\newblock Noscope: optimizing neural network queries over video at scale.
+\newblock {\em arXiv preprint arXiv:1703.02529}.
+
 \bibitem[Khatoonabadi and Bajic, 2012]{khatoonabadi2012video}
 Khatoonabadi, S.~H. and Bajic, I.~V. (2012).
 \newblock Video object tracking in the compressed domain using spatio-temporal
