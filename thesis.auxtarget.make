@@ -51,6 +51,7 @@
 \newlabel{sub@fig:va_b}
 \newlabel{subsec:1}
 \newlabel{subsec:frameworks}
+\newlabel{tab:computingresource0}
 \newlabel{tab:computingresource1}
 \newlabel{tab:computingresource2}
 \newlabel{tab:hw}

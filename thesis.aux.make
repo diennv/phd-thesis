@@ -123,6 +123,7 @@
 \@writefile{toc}{\contentsline {chapter}{List of figures}{ix}{chapter*.4}}
 \@writefile{toc}{\contentsline {chapter}{List of tables}{xiii}{chapter*.5}}
 \@writefile{toc}{\contentsline {chapter}{Nomenclature}{xv}{chapter*.6}}
+\@writefile{toc}{\contentsline {chapter}{References}{51}{chapter*.53}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {2}Background}{7}{chapter.2}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {3}Methodology}{25}{chapter.3}}
@@ -288,6 +289,7 @@
 \newlabel{sub@fig:va_b}
 \newlabel{subsec:1}
 \newlabel{subsec:frameworks}
+\newlabel{tab:computingresource0}
 \newlabel{tab:computingresource1}
 \newlabel{tab:computingresource2}
 \newlabel{tab:hw}
