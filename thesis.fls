@@ -387,13 +387,13 @@ INPUT ./Figures/Va-netb.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
-INPUT Figures/encoder.png
-INPUT ./Figures/encoder.png
-INPUT ./Figures/encoder.png
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/zptmcm7y.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
+INPUT Figures/encoder.png
+INPUT ./Figures/encoder.png
+INPUT ./Figures/encoder.png
 INPUT Figures/opticalflow.jpeg
 INPUT ./Figures/opticalflow.jpeg
 INPUT ./Figures/opticalflow.jpeg
@@ -649,8 +649,6 @@ INPUT ./Figures/network.png
 INPUT Figures/download_throughput.png
 INPUT ./Figures/download_throughput.png
 INPUT ./Figures/download_throughput.png
-INPUT thesis.bbl
-INPUT thesis.bbl
 INPUT thesis.ind
 INPUT thesis.ind
 INPUT thesis.aux

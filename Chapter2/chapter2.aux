@@ -14,7 +14,7 @@
 \newlabel{fig:va_arch}{{2.1}{8}{Video Analytics Implementation, (a) Video management server based implementation, (b) Edge camera based implementation\relax }{figure.caption.11}{}}
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{8}{subfigure.1.1}}
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{8}{subfigure.1.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.1}Edge Camera Based Implementation}{8}{subsection.2.1.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.1}Edge Camera Based Deployment}{8}{subsection.2.1.1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1.2}Video Management Server Based Implementation}{8}{subsection.2.1.2}}
 \citation{thanh2019efficient}
 \citation{sullivan2012overview}
@@ -22,18 +22,18 @@
 \citation{canel2019scaling}
 \citation{li2020reducto}
 \citation{chen2015glimpse}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.2}{\ignorespaces Video encoder block diagram.\relax }}{10}{figure.caption.13}}
+\newlabel{fig:encoder}{{2.2}{10}{Video encoder block diagram.\relax }{figure.caption.13}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1.3}Video Codec and Video Coding Motion Vectors}{10}{subsection.2.1.3}}
 \@writefile{toc}{\contentsline {subsubsection}{Video Codec}{10}{section*.12}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.2}{\ignorespaces Video encoder block diagram.\relax }}{11}{figure.caption.13}}
-\newlabel{fig:encoder}{{2.2}{11}{Video encoder block diagram.\relax }{figure.caption.13}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.3}{\ignorespaces Motion Vector in Video Codec.\relax }}{12}{figure.caption.15}}
+\newlabel{fig:opticalflow}{{2.3}{12}{Motion Vector in Video Codec.\relax }{figure.caption.15}{}}
 \@writefile{toc}{\contentsline {subsubsection}{Video Coding Motion Vectors and Blocked-based Motion Estimation}{12}{section*.14}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.3}{\ignorespaces Motion Vector in Video Codec.\relax }}{13}{figure.caption.15}}
-\newlabel{fig:opticalflow}{{2.3}{13}{Motion Vector in Video Codec.\relax }{figure.caption.15}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.4}{\ignorespaces Macroblock in Video Encoder.\relax }}{13}{figure.caption.16}}
-\newlabel{fig:macroblock}{{2.4}{13}{Macroblock in Video Encoder.\relax }{figure.caption.16}{}}
 \citation{laroche2008rd}
 \citation{jiang2019spatial}
 \citation{bross2014inter}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.4}{\ignorespaces Macroblock in Video Encoder.\relax }}{13}{figure.caption.16}}
+\newlabel{fig:macroblock}{{2.4}{13}{Macroblock in Video Encoder.\relax }{figure.caption.16}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2.5}{\ignorespaces Macroblock (4:2:0).\relax }}{14}{figure.caption.17}}
 \newlabel{fig:yuv420}{{2.5}{14}{Macroblock (4:2:0).\relax }{figure.caption.17}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2.6}{\ignorespaces  Reference motion vectors in video coding.\relax }}{15}{figure.caption.18}}
@@ -42,9 +42,9 @@
 \citation{khatoonabadi2012video}
 \citation{bombardelli2018efficient}
 \citation{boykov2001fast}
-\@writefile{toc}{\contentsline {section}{\numberline {2.2}Compressed-Domain Based Moving Object Detection}{16}{section.2.2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.7}{\ignorespaces  Example of motion vectors extraction.(a) Test video sequence from our recorded video, (b, c, d) Test video sequence from VIRAT.\relax }}{17}{figure.caption.19}}
-\newlabel{fig:noise}{{2.7}{17}{Example of motion vectors extraction.(a) Test video sequence from our recorded video, (b, c, d) Test video sequence from VIRAT.\relax }{figure.caption.19}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.2}Compressed-Domain Based Moving Object Detection Using Motion Vector}{16}{section.2.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.7}{\ignorespaces  The example of MV extraction.(a) Test video sequence from recorded camera, (b, c, d) Test video sequence from VIRAT dataset.\relax }}{17}{figure.caption.19}}
+\newlabel{fig:noise}{{2.7}{17}{The example of MV extraction.(a) Test video sequence from recorded camera, (b, c, d) Test video sequence from VIRAT dataset.\relax }{figure.caption.19}{}}
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{17}{subfigure.7.1}}
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{17}{subfigure.7.2}}
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {}}}{17}{subfigure.7.3}}
@@ -63,25 +63,18 @@
 \citation{lecun2010convolutional}
 \citation{jarrett2009best}
 \citation{lee2009convolutional}
-\@writefile{toc}{\contentsline {section}{\numberline {2.3}Pixels-Domain Based Moving Object Detection}{18}{section.2.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.1}Hybrid model of background subtraction and object classification based moving object detection}{18}{subsection.2.3.1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.8}{\ignorespaces Smoke detection process: (a) input image, (b) foreground subtraction, (c) blob detection, (d) smoke classification \relax }}{19}{figure.caption.20}}
-\newlabel{fig:bgmethod}{{2.8}{19}{Smoke detection process: (a) input image, (b) foreground subtraction, (c) blob detection, (d) smoke classification \relax }{figure.caption.20}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.3}Pixels-Domain Based Moving Object Detection using Deep Learning}{18}{section.2.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.1}The combination of background subtraction and object classification based moving object detection}{18}{subsection.2.3.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.8}{\ignorespaces Smoke detection pipeline: (a) input frame, (b) the foreground subtraction, (c) the blob detection, (d) the smoke candidates classification \relax }}{19}{figure.caption.20}}
+\newlabel{fig:bgmethod}{{2.8}{19}{Smoke detection pipeline: (a) input frame, (b) the foreground subtraction, (c) the blob detection, (d) the smoke candidates classification \relax }{figure.caption.20}{}}
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{19}{subfigure.8.1}}
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{19}{subfigure.8.2}}
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {}}}{19}{subfigure.8.3}}
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {}}}{19}{subfigure.8.4}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.9}{\ignorespaces Flow chart of our video- based smoke detection algorithm.\relax }}{19}{figure.caption.21}}
-\newlabel{fig:smoke}{{2.9}{19}{Flow chart of our video- based smoke detection algorithm.\relax }{figure.caption.21}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.10}{\ignorespaces Architecture of the Alexnet CNN model.\relax }}{20}{figure.caption.22}}
-\newlabel{fig:alex}{{2.10}{20}{Architecture of the Alexnet CNN model.\relax }{figure.caption.22}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.9}{\ignorespaces The pipeline of video- based smoke detection algorithm.\relax }}{19}{figure.caption.21}}
+\newlabel{fig:smoke}{{2.9}{19}{The pipeline of video- based smoke detection algorithm.\relax }{figure.caption.21}{}}
 \citation{hussain2018study}
 \citation{krizhevsky2009learning}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.11}{\ignorespaces CNN based Object Detection Framework Structure.(a) RCNN, (b) Faster-RCNN, (c)Fast-RCNN.\relax }}{21}{figure.caption.23}}
-\newlabel{fig:cnn}{{2.11}{21}{CNN based Object Detection Framework Structure.(a) RCNN, (b) Faster-RCNN, (c)Fast-RCNN.\relax }{figure.caption.23}{}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{21}{subfigure.11.1}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{21}{subfigure.11.2}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {}}}{21}{subfigure.11.3}}
 \citation{girshick2014rich}
 \citation{uijlings2013selective}
 \citation{girshick2015fast}
@@ -90,14 +83,21 @@
 \citation{redmon2018yolov3}
 \citation{liu2016ssd}
 \citation{redmon2018yolov3}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.12}{\ignorespaces YOLO Structer.\relax }}{22}{figure.caption.24}}
-\newlabel{fig:yolo}{{2.12}{22}{YOLO Structer.\relax }{figure.caption.24}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.2}Deep Learning based Moving Object Detection}{22}{subsection.2.3.2}}
-\newlabel{subsec:frameworks}{{2.3.2}{22}{Deep Learning based Moving Object Detection}{subsection.2.3.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.13}{\ignorespaces YOLOv3 Network Model.\relax }}{24}{figure.caption.25}}
-\newlabel{fig:yolov3}{{2.13}{24}{YOLOv3 Network Model.\relax }{figure.caption.25}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.10}{\ignorespaces Architecture of the Alexnet CNN model.\relax }}{21}{figure.caption.22}}
+\newlabel{fig:alex}{{2.10}{21}{Architecture of the Alexnet CNN model.\relax }{figure.caption.22}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.2}Deep Learning based Moving Object Detection}{21}{subsection.2.3.2}}
+\newlabel{subsec:frameworks}{{2.3.2}{21}{Deep Learning based Moving Object Detection}{subsection.2.3.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.11}{\ignorespaces CNN based Object Detection Framework Structure.(a) RCNN, (b) Faster-RCNN, (c)Fast-RCNN.\relax }}{22}{figure.caption.23}}
+\newlabel{fig:cnn}{{2.11}{22}{CNN based Object Detection Framework Structure.(a) RCNN, (b) Faster-RCNN, (c)Fast-RCNN.\relax }{figure.caption.23}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{22}{subfigure.11.1}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{22}{subfigure.11.2}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {}}}{22}{subfigure.11.3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.12}{\ignorespaces YOLO Structer.\relax }}{23}{figure.caption.24}}
+\newlabel{fig:yolo}{{2.12}{23}{YOLO Structer.\relax }{figure.caption.24}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.13}{\ignorespaces YOLOv3 Network Model.\relax }}{25}{figure.caption.25}}
+\newlabel{fig:yolov3}{{2.13}{25}{YOLOv3 Network Model.\relax }{figure.caption.25}{}}
 \@setckpt{Chapter2/chapter2}{
-\setcounter{page}{25}
+\setcounter{page}{26}
 \setcounter{equation}{0}
 \setcounter{enumi}{0}
 \setcounter{enumii}{0}

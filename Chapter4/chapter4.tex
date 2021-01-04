@@ -65,7 +65,7 @@ Frame Rate                        & 25                  \\ \hline
 \end{table}
 \begin{table}[]
 \centering
-\caption{Testbed: Tested Video Grouth-truth motion time.}
+\caption{Testbed: video sequence grouth-truth motion time.}
 \label{tab:motiontime}
 \begin{tabular}{|c|c|}
 \hline
@@ -144,7 +144,7 @@ To evaluate the quality of the proposed method for the moving object detection, 
 {
     \includegraphics[width=0.25\linewidth]{Figures/435_track.jpg}
 }
-\caption{Moving objects detection by the proposed method in different scenarios: (a, b, c, d) human walking; (e, f, g, h) human running; (i, j, k, l) test with a far distance of camera.}
+\caption{The comparision of moving objects detection by the proposed method in different cases: (a, b, c, d) for human walking; (e, f, g, h) for human running; (i, j, k, l) when test with a far distance of camera.}
 \label{fig:objectdetect}
 \end{figure*}
 
@@ -212,7 +212,7 @@ The green bounding boxes shown in the Figure are ground-truth bounding boxes, wh
 {
     \includegraphics[width=0.3\linewidth]{Figures/478_05.jpg}
 }
-\caption{Moving objects tracking by the proposed method with different $\alpha$ thresholds: $\alpha$ = 0.25 in (a, b, c), $\alpha$ = 0.4 in (d, e, f) and $\alpha$ = 0.5 in (d, e, f).}
+\caption{The performance of moving objects tracking by the proposed method with different $\alpha$ value: for $\alpha$ = 0.25 in (a, b, c), for $\alpha$ = 0.4 in (d, e, f) and for $\alpha$ = 0.5 in (d, e, f).}
 \label{fig:objecttracking}
 \end{figure*}
 In this experiment, each $\alpha$ threshold was applied for three same scenarios of human walking in Figure \ref{fig:objecttracking} (a, d, g), human running in Figure \ref{fig:objecttracking} (b, e, h) and the far camera distance in Figure \ref{fig:objecttracking} (c, f, i).  We see that with each test scenario, with lower $\alpha$ threshold value,the tracking object capability is better with longer the object trajactories. However, it will increase the number of false alarm detection if the noise MVs apprear frequently in some specified areas.\\ To optimize the running time speed as well as the performance, the edge node and cloud node all are implemented in C++ using the multithread architecture. We observe that the proposed method does not indicate additional computational difficulty and achieve the approved evaluated results in terms of processing time when compared with previous studies \cite{bombardelli2018efficient} \cite{khatoonabadi2012video}. The average comsuming time  is messasured with different video resolutions and shown in Table \ref{tab:timemessasure}. Compare to other studies, the average processing time for high definition resolution video is approximately 39ms/frame, which outperforms most of the state of art method. This indicates that the proposed algorithm almost handles the data in real-time. 
@@ -323,8 +323,8 @@ truth motion chart. And, alpha value have same effect to CPU and download throug
 When alpha is too big value, some fast moving motion was missed detection.
 The figures clearly show the advantage of using the proposed method. While the conventional method of processing all video frames captured from camera leads to consumption of computational resources, our method only processes when there is motion, and therefore computational resources are dynamically allocated and economical. Another observation is that our proposed method is extremely effective for detecting motion of the scene compared to the ground-truth motion time in Table \ref{tab:motiontime}. In detail,  the time for consuming and releasing computing resources of VA server was matched with the time for appearance and disappearance of motion in ground-truth table. \\
 In order to evaluate the efficiency of the proposed method, we
-calculate the performance ratio of the conventional method and the
-proposed method. Since the conventional method processes all video frames, we assume that the its computing resource average is S. According to formulation \ref{eqn:5}, the performance ratio of both methods in this video will be as follows:\\
+calculate the performance ratio of the conventional method (without filtering function)and the
+proposed method (with filter function run on the edge). Since the conventional method processes all video frames, we assume that the its computing resource average is S. According to formulation \ref{eqn:5}, the performance ratio of both methods in this video will be as follows:\\
 \begin{equation}
 \label{eqn:10}
 \frac{Comp_{p}}{Comp_{c}}=\frac{(K*S+(N-K)*T)}{N*S}=\frac{K}{N} + (1 - \frac{K}{N})*\frac{T}{S}=\frac{140}{360} + (1 - \frac{140}{360})*\frac{T}{S} = 0.4 + 0.6*\frac{T}{S}
