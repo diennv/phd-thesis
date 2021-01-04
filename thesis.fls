@@ -1,4 +1,4 @@
-PWD /home/stpc-05/share_window/phd-thesis
+PWD /home/diennv/phd-thesis
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
@@ -332,11 +332,11 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 OUTPUT Abstract/abstract.aux
 INPUT Abstract/abstract.tex
 INPUT Abstract/abstract.tex
+INPUT thesis.toc
+INPUT thesis.toc
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
-INPUT thesis.toc
-INPUT thesis.toc
 OUTPUT thesis.toc
 INPUT thesis.lof
 INPUT thesis.lof

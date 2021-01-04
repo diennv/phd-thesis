@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.11.9)  4 JAN 2021 19:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.1.4)  5 JAN 2021 08:19
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -6,7 +6,7 @@ entering extended mode
 **thesis
 (./thesis.tex
 LaTeX2e <2017-04-15>
-Babel <3.18> and hyphenation patterns for 11 language(s) loaded.
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (./PhDThesisPSnPDF.cls
 Document Class: PhDThesisPSnPDF 2018/04/12 A PhD thesis class file by Krishna K
 umar (v2.4)
@@ -1654,7 +1654,7 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 48.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<Figures/motivation.jpg, id=347, 530.4618pt x 212.9556pt>
+<Figures/motivation.jpg, id=344, 530.4618pt x 212.9556pt>
 File: Figures/motivation.jpg Graphic file (type jpg)
 <use Figures/motivation.jpg>
 Package pdftex.def Info: Figures/motivation.jpg  used on input line 54.
@@ -1714,9 +1714,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 71--81
  []
 
 [13 <./Figures/macroblock.png> <./Figures/yuv420.png>] [14]
-Overfull \hbox (3.93448pt too wide) in paragraph at lines 96--98
+Overfull \hbox (0.99448pt too wide) in paragraph at lines 96--98
 \T1/ptm/m/n/12 (-20) In re-cent re-searches, the compressed-domain based video 
-an-a-lyt-ics meth-ods such as: [[]],[[]]..
+an-a-lyt-ics meth-ods such as: [[]],[[]].
  []
 
 
@@ -1755,70 +1755,69 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 112--117
  [][][][] 
  []
 
-[16 <./Figures/noise.png> <./Figures/156_mv_0.jpg> <./Figures/3.jpg> <./Figures
-/34.jpg>]
-<Figures/input_img.png, id=497, 246.1697pt x 183.68625pt>
+[16] [17 <./Figures/noise.png> <./Figures/156_mv_0.jpg> <./Figures/3.jpg> <./Fi
+gures/34.jpg>]
+<Figures/input_img.png, id=501, 246.1697pt x 183.68625pt>
 File: Figures/input_img.png Graphic file (type png)
 <use Figures/input_img.png>
 Package pdftex.def Info: Figures/input_img.png  used on input line 132.
 (pdftex.def)             Requested size: 123.08453pt x 91.84288pt.
-<Figures/fg_subtration.png, id=498, 243.91125pt x 184.43906pt>
+<Figures/fg_subtration.png, id=502, 243.91125pt x 184.43906pt>
 File: Figures/fg_subtration.png Graphic file (type png)
 <use Figures/fg_subtration.png>
 Package pdftex.def Info: Figures/fg_subtration.png  used on input line 136.
 (pdftex.def)             Requested size: 121.95532pt x 92.2193pt.
-<Figures/blob_detection.png, id=499, 241.65282pt x 184.43906pt>
+<Figures/blob_detection.png, id=503, 241.65282pt x 184.43906pt>
 File: Figures/blob_detection.png Graphic file (type png)
 <use Figures/blob_detection.png>
 Package pdftex.def Info: Figures/blob_detection.png  used on input line 140.
 (pdftex.def)             Requested size: 120.82611pt x 92.2193pt.
-<Figures/smoke_region.png, id=500, 242.40562pt x 182.93344pt>
+<Figures/smoke_region.png, id=504, 242.40562pt x 182.93344pt>
 File: Figures/smoke_region.png Graphic file (type png)
 <use Figures/smoke_region.png>
 Package pdftex.def Info: Figures/smoke_region.png  used on input line 144.
 (pdftex.def)             Requested size: 121.2025pt x 91.46649pt.
-<Figures/smoke.jpg, id=501, 249.93375pt x 388.45125pt>
+<Figures/smoke.jpg, id=505, 249.93375pt x 388.45125pt>
 File: Figures/smoke.jpg Graphic file (type jpg)
 <use Figures/smoke.jpg>
 Package pdftex.def Info: Figures/smoke.jpg  used on input line 150.
 (pdftex.def)             Requested size: 131.23967pt x 203.98145pt.
-<Figures/AlexNet.png, id=512, 671.50874pt x 420.06938pt>
+<Figures/AlexNet.png, id=516, 671.50874pt x 420.06938pt>
 File: Figures/AlexNet.png Graphic file (type png)
 <use Figures/AlexNet.png>
 Package pdftex.def Info: Figures/AlexNet.png  used on input line 157.
 (pdftex.def)             Requested size: 349.97023pt x 218.92447pt.
-[17] [18 <./Figures/input_img.png> <./Figures/fg_subtration.png> <./Figures/blo
-b_detection.png> <./Figures/smoke_region.png> <./Figures/smoke.jpg>]
-<Figures/rcnn.png, id=540, 558.085pt x 499.8675pt>
+[18 <./Figures/input_img.png> <./Figures/fg_subtration.png> <./Figures/blob_det
+ection.png> <./Figures/smoke_region.png>] [19 <./Figures/smoke.jpg>]
+<Figures/rcnn.png, id=545, 558.085pt x 499.8675pt>
 File: Figures/rcnn.png Graphic file (type png)
 <use Figures/rcnn.png>
 Package pdftex.def Info: Figures/rcnn.png  used on input line 172.
 (pdftex.def)             Requested size: 167.42679pt x 149.9614pt.
-<Figures/faster_rcnn.png, id=541, 329.23pt x 336.25626pt>
+<Figures/faster_rcnn.png, id=546, 329.23pt x 336.25626pt>
 File: Figures/faster_rcnn.png Graphic file (type png)
 <use Figures/faster_rcnn.png>
 Package pdftex.def Info: Figures/faster_rcnn.png  used on input line 176.
 (pdftex.def)             Requested size: 148.15211pt x 151.3139pt.
-<Figures/fast_rcnn.png, id=542, 702.625pt x 285.065pt>
+<Figures/fast_rcnn.png, id=547, 702.625pt x 285.065pt>
 File: Figures/fast_rcnn.png Graphic file (type png)
 <use Figures/fast_rcnn.png>
 Package pdftex.def Info: Figures/fast_rcnn.png  used on input line 180.
 (pdftex.def)             Requested size: 351.31163pt x 142.53215pt.
-[19]
-<Figures/yolo.png, id=553, 702.625pt x 460.72125pt>
+<Figures/yolo.png, id=548, 702.625pt x 460.72125pt>
 File: Figures/yolo.png Graphic file (type png)
 <use Figures/yolo.png>
 Package pdftex.def Info: Figures/yolo.png  used on input line 187.
 (pdftex.def)             Requested size: 349.97023pt x 229.48833pt.
 [20 <./Figures/AlexNet.png>] [21 <./Figures/rcnn.png (PNG copy)> <./Figures/fas
 ter_rcnn.png> <./Figures/fast_rcnn.png (PNG copy)>] [22 <./Figures/yolo.png (PN
-G copy)>]
-<Figures/yolov3.png, id=590, 853.1875pt x 441.65pt>
+G copy)>] [23]
+<Figures/yolov3.png, id=596, 853.1875pt x 441.65pt>
 File: Figures/yolov3.png Graphic file (type png)
 <use Figures/yolov3.png>
 Package pdftex.def Info: Figures/yolov3.png  used on input line 202.
 (pdftex.def)             Requested size: 437.46112pt x 226.45154pt.
-) [23] [24 <./Figures/yolov3.png>]
+) [24 <./Figures/yolov3.png>]
 \openout2 = `Chapter3/chapter3.aux'.
 
 (./Chapter3/chapter3.tex
@@ -1989,12 +1988,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 207--209
 
  []
 
-
+[34]
 Underfull \hbox (badness 10000) in paragraph at lines 212--214
 
  []
 
-[34]
+
 Underfull \hbox (badness 10000) in paragraph at lines 217--219
 
  []
@@ -2017,181 +2016,182 @@ Chapter 4.
 <Figures/SysDesign.png, id=735, 776.9025pt x 241.65282pt>
 File: Figures/SysDesign.png Graphic file (type png)
 <use Figures/SysDesign.png>
-Package pdftex.def Info: Figures/SysDesign.png  used on input line 20.
+Package pdftex.def Info: Figures/SysDesign.png  used on input line 19.
 (pdftex.def)             Requested size: 481.2099pt x 149.68307pt.
 
-Overfull \hbox (43.74878pt too wide) in paragraph at lines 20--21
+Overfull \hbox (43.74878pt too wide) in paragraph at lines 19--20
  [][] 
  []
 
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 24.
+(hyperref)                than one, level fixed on input line 23.
 
 <Figures/TESTBED.jpg, id=736, 3035.34pt x 3035.34pt>
 File: Figures/TESTBED.jpg Graphic file (type jpg)
 <use Figures/TESTBED.jpg>
-Package pdftex.def Info: Figures/TESTBED.jpg  used on input line 30.
+Package pdftex.def Info: Figures/TESTBED.jpg  used on input line 29.
 (pdftex.def)             Requested size: 218.73056pt x 218.70178pt.
 <Figures/pi.jpg, id=737, 1742.51pt x 1124.2pt>
 File: Figures/pi.jpg Graphic file (type jpg)
 <use Figures/pi.jpg>
-Package pdftex.def Info: Figures/pi.jpg  used on input line 34.
+Package pdftex.def Info: Figures/pi.jpg  used on input line 33.
 (pdftex.def)             Requested size: 174.2612pt x 112.42657pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 38.
+               Default added (so using `tbp') on input line 37.
 
 
-Overfull \hbox (113.68617pt too wide) in paragraph at lines 42--51
+Overfull \hbox (113.68617pt too wide) in paragraph at lines 41--50
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 52.
+               Default added (so using `tbp') on input line 51.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 66.
+               Default added (so using `tbp') on input line 65.
 
 <Figures/ground-truth.png, id=738, 702.625pt x 423.5825pt>
 File: Figures/ground-truth.png Graphic file (type png)
 <use Figures/ground-truth.png>
-Package pdftex.def Info: Figures/ground-truth.png  used on input line 85.
+Package pdftex.def Info: Figures/ground-truth.png  used on input line 84.
 (pdftex.def)             Requested size: 281.04501pt x 169.43pt.
 [38 <./Figures/SysDesign.png>] [39 <./Figures/TESTBED.jpg> <./Figures/pi.jpg> <
 ./Figures/ground-truth.png>]
 <Figures/1501_res.jpg, id=759, 321.2pt x 240.9pt>
 File: Figures/1501_res.jpg Graphic file (type jpg)
 <use Figures/1501_res.jpg>
-Package pdftex.def Info: Figures/1501_res.jpg  used on input line 102.
+Package pdftex.def Info: Figures/1501_res.jpg  used on input line 101.
 (pdftex.def)             Requested size: 83.51003pt x 62.6325pt.
 <Figures/1500_track.jpg, id=760, 963.6pt x 542.025pt>
 File: Figures/1500_track.jpg Graphic file (type jpg)
 <use Figures/1500_track.jpg>
-Package pdftex.def Info: Figures/1500_track.jpg  used on input line 106.
+Package pdftex.def Info: Figures/1500_track.jpg  used on input line 105.
 (pdftex.def)             Requested size: 109.36528pt x 61.5169pt.
 <Figures/1537_res.jpg, id=761, 321.2pt x 240.9pt>
 File: Figures/1537_res.jpg Graphic file (type jpg)
 <use Figures/1537_res.jpg>
-Package pdftex.def Info: Figures/1537_res.jpg  used on input line 110.
+Package pdftex.def Info: Figures/1537_res.jpg  used on input line 109.
 (pdftex.def)             Requested size: 83.51003pt x 62.6325pt.
 <Figures/1536_track.jpg, id=762, 963.6pt x 542.025pt>
 File: Figures/1536_track.jpg Graphic file (type jpg)
 <use Figures/1536_track.jpg>
-Package pdftex.def Info: Figures/1536_track.jpg  used on input line 114.
+Package pdftex.def Info: Figures/1536_track.jpg  used on input line 113.
 (pdftex.def)             Requested size: 109.36528pt x 61.5169pt.
 <Figures/3940_res.jpg, id=763, 321.2pt x 240.9pt>
 File: Figures/3940_res.jpg Graphic file (type jpg)
 <use Figures/3940_res.jpg>
-Package pdftex.def Info: Figures/3940_res.jpg  used on input line 118.
+Package pdftex.def Info: Figures/3940_res.jpg  used on input line 117.
 (pdftex.def)             Requested size: 83.51003pt x 62.6325pt.
 <Figures/3939_track.jpg, id=764, 963.6pt x 542.025pt>
 File: Figures/3939_track.jpg Graphic file (type jpg)
 <use Figures/3939_track.jpg>
-Package pdftex.def Info: Figures/3939_track.jpg  used on input line 122.
+Package pdftex.def Info: Figures/3939_track.jpg  used on input line 121.
 (pdftex.def)             Requested size: 109.36528pt x 61.5169pt.
 <Figures/3949_res.jpg, id=765, 321.2pt x 240.9pt>
 File: Figures/3949_res.jpg Graphic file (type jpg)
 <use Figures/3949_res.jpg>
-Package pdftex.def Info: Figures/3949_res.jpg  used on input line 126.
+Package pdftex.def Info: Figures/3949_res.jpg  used on input line 125.
 (pdftex.def)             Requested size: 83.51003pt x 62.6325pt.
 <Figures/3949_track.jpg, id=766, 963.6pt x 542.025pt>
 File: Figures/3949_track.jpg Graphic file (type jpg)
 <use Figures/3949_track.jpg>
-Package pdftex.def Info: Figures/3949_track.jpg  used on input line 130.
+Package pdftex.def Info: Figures/3949_track.jpg  used on input line 129.
 (pdftex.def)             Requested size: 109.36528pt x 61.5169pt.
 <Figures/370_res.jpg, id=767, 321.2pt x 240.9pt>
 File: Figures/370_res.jpg Graphic file (type jpg)
 <use Figures/370_res.jpg>
-Package pdftex.def Info: Figures/370_res.jpg  used on input line 134.
+Package pdftex.def Info: Figures/370_res.jpg  used on input line 133.
 (pdftex.def)             Requested size: 83.51003pt x 62.6325pt.
 <Figures/370_track.jpg, id=768, 963.6pt x 542.025pt>
 File: Figures/370_track.jpg Graphic file (type jpg)
 <use Figures/370_track.jpg>
-Package pdftex.def Info: Figures/370_track.jpg  used on input line 138.
+Package pdftex.def Info: Figures/370_track.jpg  used on input line 137.
 (pdftex.def)             Requested size: 109.36528pt x 61.5169pt.
 <Figures/435_res.jpg, id=769, 321.2pt x 240.9pt>
 File: Figures/435_res.jpg Graphic file (type jpg)
 <use Figures/435_res.jpg>
-Package pdftex.def Info: Figures/435_res.jpg  used on input line 142.
+Package pdftex.def Info: Figures/435_res.jpg  used on input line 141.
 (pdftex.def)             Requested size: 83.51003pt x 62.6325pt.
 <Figures/435_track.jpg, id=770, 963.6pt x 542.025pt>
 File: Figures/435_track.jpg Graphic file (type jpg)
 <use Figures/435_track.jpg>
-Package pdftex.def Info: Figures/435_track.jpg  used on input line 146.
+Package pdftex.def Info: Figures/435_track.jpg  used on input line 145.
 (pdftex.def)             Requested size: 109.36528pt x 61.5169pt.
+[40]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 151.
+               Default added (so using `tbp') on input line 150.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 165.
+               Default added (so using `tbp') on input line 164.
 
-<Figures/1502_025.jpg, id=773, 1284.8pt x 722.7pt>
+<Figures/1502_025.jpg, id=780, 1284.8pt x 722.7pt>
 File: Figures/1502_025.jpg Graphic file (type jpg)
 <use Figures/1502_025.jpg>
-Package pdftex.def Info: Figures/1502_025.jpg  used on input line 182.
+Package pdftex.def Info: Figures/1502_025.jpg  used on input line 181.
 (pdftex.def)             Requested size: 131.23967pt x 73.81807pt.
-<Figures/3923_025.jpg, id=774, 1284.8pt x 722.7pt>
+<Figures/3923_025.jpg, id=781, 1284.8pt x 722.7pt>
 File: Figures/3923_025.jpg Graphic file (type jpg)
 <use Figures/3923_025.jpg>
-Package pdftex.def Info: Figures/3923_025.jpg  used on input line 186.
+Package pdftex.def Info: Figures/3923_025.jpg  used on input line 185.
 (pdftex.def)             Requested size: 131.23967pt x 73.81807pt.
-<Figures/478_025.jpg, id=775, 1284.8pt x 722.7pt>
+<Figures/478_025.jpg, id=782, 1284.8pt x 722.7pt>
 File: Figures/478_025.jpg Graphic file (type jpg)
 <use Figures/478_025.jpg>
-Package pdftex.def Info: Figures/478_025.jpg  used on input line 190.
+Package pdftex.def Info: Figures/478_025.jpg  used on input line 189.
 (pdftex.def)             Requested size: 131.23967pt x 73.81807pt.
-<Figures/1502_04.jpg, id=776, 1284.8pt x 722.7pt>
+<Figures/1502_04.jpg, id=783, 1284.8pt x 722.7pt>
 File: Figures/1502_04.jpg Graphic file (type jpg)
 <use Figures/1502_04.jpg>
-Package pdftex.def Info: Figures/1502_04.jpg  used on input line 194.
+Package pdftex.def Info: Figures/1502_04.jpg  used on input line 193.
 (pdftex.def)             Requested size: 131.23967pt x 73.81807pt.
-<Figures/3923_04.jpg, id=777, 1284.8pt x 722.7pt>
+<Figures/3923_04.jpg, id=784, 1284.8pt x 722.7pt>
 File: Figures/3923_04.jpg Graphic file (type jpg)
 <use Figures/3923_04.jpg>
-Package pdftex.def Info: Figures/3923_04.jpg  used on input line 198.
+Package pdftex.def Info: Figures/3923_04.jpg  used on input line 197.
 (pdftex.def)             Requested size: 131.23967pt x 73.81807pt.
-<Figures/478_04.jpg, id=778, 1284.8pt x 722.7pt>
+<Figures/478_04.jpg, id=785, 1284.8pt x 722.7pt>
 File: Figures/478_04.jpg Graphic file (type jpg)
 <use Figures/478_04.jpg>
-Package pdftex.def Info: Figures/478_04.jpg  used on input line 202.
+Package pdftex.def Info: Figures/478_04.jpg  used on input line 201.
 (pdftex.def)             Requested size: 131.23967pt x 73.81807pt.
 File: Figures/1502_04.jpg Graphic file (type jpg)
 <use Figures/1502_04.jpg>
-Package pdftex.def Info: Figures/1502_04.jpg  used on input line 206.
+Package pdftex.def Info: Figures/1502_04.jpg  used on input line 205.
 (pdftex.def)             Requested size: 131.23967pt x 73.81807pt.
-<Figures/3923_05.jpg, id=779, 1284.8pt x 722.7pt>
+<Figures/3923_05.jpg, id=786, 1284.8pt x 722.7pt>
 File: Figures/3923_05.jpg Graphic file (type jpg)
 <use Figures/3923_05.jpg>
-Package pdftex.def Info: Figures/3923_05.jpg  used on input line 210.
+Package pdftex.def Info: Figures/3923_05.jpg  used on input line 209.
 (pdftex.def)             Requested size: 131.23967pt x 73.81807pt.
-<Figures/478_05.jpg, id=780, 1284.8pt x 722.7pt>
+<Figures/478_05.jpg, id=787, 1284.8pt x 722.7pt>
 File: Figures/478_05.jpg Graphic file (type jpg)
 <use Figures/478_05.jpg>
-Package pdftex.def Info: Figures/478_05.jpg  used on input line 214.
+Package pdftex.def Info: Figures/478_05.jpg  used on input line 213.
 (pdftex.def)             Requested size: 131.23967pt x 73.81807pt.
-[40] [41 <./Figures/1501_res.jpg> <./Figures/1500_track.jpg> <./Figures/1537_re
-s.jpg> <./Figures/1536_track.jpg> <./Figures/3940_res.jpg> <./Figures/3939_trac
-k.jpg> <./Figures/3949_res.jpg> <./Figures/3949_track.jpg> <./Figures/370_res.j
-pg> <./Figures/370_track.jpg> <./Figures/435_res.jpg> <./Figures/435_track.jpg>
-] [42 <./Figures/1502_025.jpg> <./Figures/3923_025.jpg> <./Figures/478_025.jpg>
+[41 <./Figures/1501_res.jpg> <./Figures/1500_track.jpg> <./Figures/1537_res.jpg
+> <./Figures/1536_track.jpg> <./Figures/3940_res.jpg> <./Figures/3939_track.jpg
+> <./Figures/3949_res.jpg> <./Figures/3949_track.jpg> <./Figures/370_res.jpg> <
+./Figures/370_track.jpg> <./Figures/435_res.jpg> <./Figures/435_track.jpg>] [42
+] [43 <./Figures/1502_025.jpg> <./Figures/3923_025.jpg> <./Figures/478_025.jpg>
  <./Figures/1502_04.jpg> <./Figures/3923_04.jpg> <./Figures/478_04.jpg> <./Figu
 res/3923_05.jpg> <./Figures/478_05.jpg>]
-<Figures/gpu_compare.png, id=825, 1151.30125pt x 648.4225pt>
+<Figures/gpu_compare.png, id=829, 1151.30125pt x 648.4225pt>
 File: Figures/gpu_compare.png Graphic file (type png)
 <use Figures/gpu_compare.png>
 Package pdftex.def Info: Figures/gpu_compare.png  used on input line 226.
 (pdftex.def)             Requested size: 402.96149pt x 226.95126pt.
-<Figures/gpu_0_5.jpg, id=826, 1072.75781pt x 441.14813pt>
+<Figures/gpu_0_5.jpg, id=830, 1072.75781pt x 441.14813pt>
 File: Figures/gpu_0_5.jpg Graphic file (type jpg)
 <use Figures/gpu_0_5.jpg>
 Package pdftex.def Info: Figures/gpu_0_5.jpg  used on input line 235.
 (pdftex.def)             Requested size: 218.73056pt x 89.94455pt.
-<Figures/gpu_0_25.jpg, id=827, 1114.91531pt x 446.41782pt>
+<Figures/gpu_0_25.jpg, id=831, 1114.91531pt x 446.41782pt>
 File: Figures/gpu_0_25.jpg Graphic file (type jpg)
 <use Figures/gpu_0_25.jpg>
 Package pdftex.def Info: Figures/gpu_0_25.jpg  used on input line 239.
@@ -2201,7 +2201,7 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 235--239
  [][][][] 
  []
 
-<Figures/gpu_0_75.jpg, id=828, 1086.30844pt x 444.15938pt>
+<Figures/gpu_0_75.jpg, id=832, 1086.30844pt x 444.15938pt>
 File: Figures/gpu_0_75.jpg Graphic file (type jpg)
 <use Figures/gpu_0_75.jpg>
 Package pdftex.def Info: Figures/gpu_0_75.jpg  used on input line 243.
@@ -2215,22 +2215,22 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 243--248
  [][][][] 
  []
 
-<Figures/cpu.png, id=829, 586.8324pt x 312.6882pt>
+<Figures/cpu.png, id=833, 586.8324pt x 312.6882pt>
 File: Figures/cpu.png Graphic file (type png)
 <use Figures/cpu.png>
 Package pdftex.def Info: Figures/cpu.png  used on input line 253.
 (pdftex.def)             Requested size: 410.77988pt x 218.88023pt.
-<Figures/cpu_utilization.png, id=830, 570.13pt x 385.44pt>
+<Figures/cpu_utilization.png, id=834, 570.13pt x 385.44pt>
 File: Figures/cpu_utilization.png Graphic file (type png)
 <use Figures/cpu_utilization.png>
 Package pdftex.def Info: Figures/cpu_utilization.png  used on input line 259.
 (pdftex.def)             Requested size: 399.08829pt x 269.80615pt.
-<Figures/network.png, id=831, 586.8324pt x 312.6882pt>
+<Figures/network.png, id=835, 586.8324pt x 312.6882pt>
 File: Figures/network.png Graphic file (type png)
 <use Figures/network.png>
 Package pdftex.def Info: Figures/network.png  used on input line 265.
 (pdftex.def)             Requested size: 410.77988pt x 218.88023pt.
-<Figures/download_throughput.png, id=832, 557.08125pt x 353.32pt>
+<Figures/download_throughput.png, id=836, 557.08125pt x 353.32pt>
 File: Figures/download_throughput.png Graphic file (type png)
 <use Figures/download_throughput.png>
 Package pdftex.def Info: Figures/download_throughput.png  used on input line 27
@@ -2241,7 +2241,7 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 275.
 
 
-Overfull \hbox (24.25548pt too wide) in paragraph at lines 279--286
+Overfull \hbox (72.25548pt too wide) in paragraph at lines 279--286
  [][] 
  []
 
@@ -2250,7 +2250,7 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 288.
 
 
-Overfull \hbox (24.25548pt too wide) in paragraph at lines 292--299
+Overfull \hbox (72.25548pt too wide) in paragraph at lines 292--299
  [][] 
  []
 
@@ -2259,7 +2259,7 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 301.
 
 
-Overfull \hbox (24.25548pt too wide) in paragraph at lines 305--312
+Overfull \hbox (72.25548pt too wide) in paragraph at lines 305--312
  [][] 
  []
 
@@ -2268,10 +2268,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 315--328
 
  []
 
-[43] [44 <./Figures/gpu_compare.png> <./Figures/gpu_0_5.jpg> <./Figures/gpu_0_2
-5.jpg> <./Figures/gpu_0_75.jpg>] [45 <./Figures/cpu.png> <./Figures/cpu_utiliza
-tion.png>] [46 <./Figures/network.png> <./Figures/download_throughput.png>] [47
-] [48]) [49] [50
+[44 <./Figures/gpu_compare.png>] [45 <./Figures/gpu_0_5.jpg> <./Figures/gpu_0_2
+5.jpg> <./Figures/gpu_0_75.jpg> <./Figures/cpu.png>] [46 <./Figures/cpu_utiliza
+tion.png> <./Figures/network.png>] [47 <./Figures/download_throughput.png>] [48
+]) [49] [50
 
 
 ] (./thesis.bbl
@@ -2317,12 +2317,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 29019 strings out of 494780
- 512203 string characters out of 6176876
- 599772 words of memory out of 5000000
- 31350 multiletter control sequences out of 15000+600000
+ 29019 strings out of 492982
+ 512200 string characters out of 6134897
+ 602254 words of memory out of 5000000
+ 31577 multiletter control sequences out of 15000+600000
  592178 words of font info for 238 fonts, out of 8000000 for 9000
- 81 hyphenation exceptions out of 8191
+ 1141 hyphenation exceptions out of 8191
  55i,16n,92p,10379b,990s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
@@ -2334,7 +2334,7 @@ rw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (74 pages, 15619812 bytes).
+Output written on thesis.pdf (74 pages, 15622203 bytes).
 PDF statistics:
  1053 PDF objects out of 1200 (max. 8388607)
  841 compressed objects within 9 object streams

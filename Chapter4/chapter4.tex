@@ -9,11 +9,10 @@
 %Acknowledgments part is a paragraph where you mention everyone who helped you with composition. Place all cited and used information resources into one list or form an annotated bibliography if needed.
 \chapter{Implementation And Performance Evaluation}
 
-
-In this section, the implementation and performance evaluation of the edge-to-clound system with proposed method is presented. Furthermore, the information of video datasets and the scenario setup are provided. In this implementation, VA server executes the application of intrusion detection. Although the evaluated platform integrates specific application, it is a general design and can be extended for other application with few modifications. The workflow of the evaluated platform is represented in Figure \ref{fig:sysdesign}. It has two main components:
+In this section, the implementation and performance evaluation of the “edge-to-clound system” with proposed method is presented. Furthermore, we provide the information of video datasets and the scenario setup. In this demonstration, VA server perform the application of intrusion detection. Although the evaluated platform integrates specific application, it is a general design and can be applied for other application with few modifications. The workflow of the evaluated platform is represented in Figure \ref{fig:sysdesign}. It has two main components:
 \begin{itemize}
-\item Edge node implementation: The streaming data from camera sources are parsed and the proposed method is applied to detect moving objects in the current frame. If the encoded frame includes the motion, it will be forwarded to a cloud node using its own real-time streaming protocol (RTSP) server. To avoid decoding inaccuracies at the cloud node, all frames from starting time to ending time of the motion are continuously delivered in a connection session. Each session will start with an intra-coded frame.
-\item Cloud node implementation: Receiving the forwarded encoded frame with the motion from the edge node over the network and then decoding and placing the output images into the intrusion detection module, which uses YOLO to detect humans.
+\item “Edge node implementation: The streaming data from camera sources are parsed and the proposed method is applied to detect moving objects in the current frame. If the encoded frame includes the motion, it will be forwarded to a cloud node using its own real-time streaming protocol (RTSP) server. To avoid decoding inaccuracies at the cloud node, all frames from starting time to ending time of the motion are continuously delivered in a connection session. Each session will start with an intra-coded frame” (Nguyen Van Dien and Jaehyuk Choi, 2020, p.13).
+\item “Cloud node implementation: Receiving the forwarded encoded frame with the motion from the edge node over the network and then decoding and placing the output images into the intrusion detection module, which uses YOLO to detect humans” (Nguyen Van Dien and Jaehyuk Choi, 2020, p.13).
 \end{itemize} 
 \begin{figure*}
 \centering
@@ -87,13 +86,13 @@ Total               & 164                         \\ \hline
  \label{fig:ground}
 \end{figure*}
 \begin{itemize}
-\item Testbed: We built a testbed comprising a single edge device node and a single video analytics server that runs as a cloud node, as shown in Figure \ref{fig:testbed}. The edge device node involves the moving objects detection and runs on a low-computation device named \textit{Raspberry Pi 4} and video analytics server is executed on \textit{Nvidia- Jetson Xavier} because of a GPU that is supported to run YOLO. The hardware specifications of edge node and video analytics server are then listed in Table \ref{tab:hw}. Note that the two devices are directly connected to a router using a wired cable.
-\item Video Test Sequence: experiments have been conducted on the two video datasets. The VIRAT video dataset \cite{VIRAT} was collected in natural scenes showing people performing normal actions for video surveillance domains. The second dataset is previously recorded from the our surveillance camera and uploaded \cite{testvideo}. The details of our video test sequence and the ground-truth motion time are shown in Figure \ref{fig:ground} and listed in Tables \ref{tab:motiontime},\ref{tab:videotest}. 
+\item Testbed: “We built a testbed comprising a single edge device node and a single video analytics server that runs as a cloud node, as shown in Figure \ref{fig:testbed}. The edge device node involves the moving objects detection and runs on a low-computation device named \textit{Raspberry Pi 4} and video analytics server is executed on \textit{Nvidia- Jetson Xavier} because of a GPU that is supported to run YOLO. The hardware specifications of edge node and video analytics server are then listed in Table \ref{tab:hw}. Note that the two devices are directly connected to a router using a wired cable” (Nguyen Van Dien and Jaehyuk Choi, 2020, p.13).
+\item Video Test Sequence: “experiments have been conducted on the two video datasets. The VIRAT video dataset \cite{VIRAT} was collected in natural scenes showing people performing normal actions for video surveillance domains. The second dataset is previously recorded from the our surveillance camera and uploaded \cite{testvideo}. The details of our video test sequence and the ground-truth motion time are shown in Figure \ref{fig:ground} and listed in Tables \ref{tab:motiontime},\ref{tab:videotest}” (Nguyen Van Dien and Jaehyuk Choi, 2020, p.13). 
 \end{itemize}
 We evaluate the performance of the moving object detection method and the proposed edge-to-cloud system separately.
 
 \section{The low-compelxity algorithm of moving object detection in Video Compressed Domain}
-To evaluate the quality of the proposed method for the moving object detection, we calculated the IoU score mettric of the detected object's bounding box with those of the ground-truth bounding box. Because the accuracy of the peoposed method is depend on the MV's density, we run the proposed method multiple times with different scenario application such as: different camera distances, different moving object speeds. We observe that except the I-Frame which does not apply motion estimation, the moving objects including sometimes big MV noises always be detected in other frames. Example of the moving object detection results  are shown in Figure \ref{fig:objectdetect}. 
+“In order to evaluate the performance of the proposed method to detect the moving object, we measured the IoU score mettric of the detected object's bounding box with those of the ground-truth bounding box. Because the accuracy of the proposed method is depend on the MV's density, we run the proposed method multiple times with different scenario application such as: different camera distances, different moving object speeds. We observe that except the I-Frame which does not apply motion estimation, the moving objects including sometimes big MV noises always be detected in other frames. Example of the moving object detection results  are shown in Figure \ref{fig:objectdetect}. 
 \begin{figure*}
 \centering
 \subfloat[]
@@ -173,7 +172,7 @@ Video Test from VIRAT                                                           
 1920x1080           & N/A                    & N/A                        & \textbf{69 ms (14 FPS)}  \\ \hline
 \end{tabular}
 \end{table}
-The green bounding boxes shown in the Figure are ground-truth bounding boxes, while the red bounding boxes are detected objects using the proposed method.The average IoU scores are shown in detail for each scenario in Table \ref{tab:videotest}. The results show that when a camera is placed at a close distance and the human does not move fast (i.e, human walking), the proposed method detected well and achieved good average IoU score of 0.75. However, when speed of human is fast in case of running or the camera is in far distance, the MV's density is decreased, the detector return lower average IoU scores. For object tracking evaluation, the scenarios are run with multiple times with different detection score threshold $\alpha$ of 0.25, 0.4 and 0.5 with the results are shown in Figure  \ref{fig:objecttracking}. 
+The green bounding boxes shown in the Figure are ground-truth bounding boxes, while the red bounding boxes are detected objects using the proposed method.The average IoU scores are shown in detail for each scenario in Table \ref{tab:videotest}. The results show that when a camera is placed at a close distance and the human does not move fast (i.e, human walking), the proposed method detected well and achieved good average IoU score of 0.75. However, when speed of human is fast in case of running or the camera is in far distance, the MV's density is decreased, the detector return lower average IoU scores” (Nguyen Van Dien and Jaehyuk Choi, 2020, p.15). For object tracking evaluation, the scenarios are run with multiple times with different detection score threshold $\alpha$ of 0.25, 0.4 and 0.5 with the results are shown in Figure  \ref{fig:objecttracking}. 
 \begin{figure*}
 \centering
 \subfloat[]
@@ -215,10 +214,11 @@ The green bounding boxes shown in the Figure are ground-truth bounding boxes, wh
 \caption{The performance of moving objects tracking by the proposed method with different $\alpha$ value: for $\alpha$ = 0.25 in (a, b, c), for $\alpha$ = 0.4 in (d, e, f) and for $\alpha$ = 0.5 in (d, e, f).}
 \label{fig:objecttracking}
 \end{figure*}
-In this experiment, each $\alpha$ threshold was applied for three same scenarios of human walking in Figure \ref{fig:objecttracking} (a, d, g), human running in Figure \ref{fig:objecttracking} (b, e, h) and the far camera distance in Figure \ref{fig:objecttracking} (c, f, i).  We see that with each test scenario, with lower $\alpha$ threshold value,the tracking object capability is better with longer the object trajactories. However, it will increase the number of false alarm detection if the noise MVs apprear frequently in some specified areas.\\ To optimize the running time speed as well as the performance, the edge node and cloud node all are implemented in C++ using the multithread architecture. We observe that the proposed method does not indicate additional computational difficulty and achieve the approved evaluated results in terms of processing time when compared with previous studies \cite{bombardelli2018efficient} \cite{khatoonabadi2012video}. The average comsuming time  is messasured with different video resolutions and shown in Table \ref{tab:timemessasure}. Compare to other studies, the average processing time for high definition resolution video is approximately 39ms/frame, which outperforms most of the state of art method. This indicates that the proposed algorithm almost handles the data in real-time. 
+In this experiment, each $\alpha$ threshold was applied for three same scenarios of human walking in Figure \ref{fig:objecttracking} (a, d, g), human running in Figure \ref{fig:objecttracking} (b, e, h) and the far camera distance in Figure \ref{fig:objecttracking} (c, f, i).  We see that with each test scenario, with lower $\alpha$ threshold value,the tracking object capability is better with longer the object trajactories. However, it will increase the number of false alarm detection if the noise MVs apprear frequently in some specified areas.\\ “To optimize the running time speed as well as the performance, the edge node and cloud node all are implemented in C++ using the multithread architecture. We observe that the proposed method does not indicate additional computational difficulty and achieve the approved evaluated results in terms of processing time when compared with previous studies \cite{bombardelli2018efficient} \cite{khatoonabadi2012video}. The average comsuming time  is messasured with different video resolutions and shown in Table \ref{tab:timemessasure}. Compare to other studies, the average processing time for high definition resolution video is approximately 39ms/frame, which outperforms most of the state of art method. This indicates that the proposed algorithm almost handles the data in real-time” (Nguyen Van Dien and Jaehyuk Choi, 2020, p.13). 
 
 \section{Performance Evaluation Results}
- In this experiment, the proposed edge-to-clound platform will be implemented and evaluated. Our recored video test sequence is selected because of including different the moving object speeds. Base on the last experiment result shown in Table \ref{tab:videotest}, we choose  $\alpha$ is 0.25 to cover both walking and running case and compared computing resources with the conventional method (no frame filter). The entire demonstration was recorded and uploaded \cite{source}. The evaluated performances of the demonstration are presented in detail as follows.
+%“Camera source node where the camera node periodically generates video tasks”
+ In this section, the proposed “edge-to-clound platform” will be deployed and  evaluated the performance. To evaluate with different the moving object speeds., we select the recored video test sequence. Base on the last experiment result shown in Table \ref{tab:videotest}, we choose  $\alpha$ is 0.25 to cover both walking and running case and compared computing resources with the conventional method (no frame filter). The entire demonstration was monitorily recorded and uploaded \cite{source}. The following subsections present the evaluated performances of our demonstration.
  
  \subsection{Computing Resources Consumption}
 \begin{figure*}
@@ -251,7 +251,7 @@ In this experiment, each $\alpha$ threshold was applied for three same scenarios
 \begin{figure*}
 \centering
 \includegraphics[scale=0.7]{Figures/cpu.png}
-\caption{CPU Load Comparision between the conventional method and the proposed method.}
+\caption{CPU Load Comparision between the “conventional method and the proposed method”.}
 \label{fig:cpu}
 \end{figure*}
 \begin{figure*}
@@ -263,7 +263,7 @@ In this experiment, each $\alpha$ threshold was applied for three same scenarios
 \begin{figure*}
 \centering
 \includegraphics[scale=0.7]{Figures/network.png}
-\caption{Network traffic comparision between the conventional method and the proposed method.}
+\caption{Network traffic comparision between the “conventional method and the proposed method”.}
 \label{fig:network}
 \end{figure*}
 \begin{figure*}
@@ -274,45 +274,45 @@ In this experiment, each $\alpha$ threshold was applied for three same scenarios
 \end{figure*}
 \begin{table}[]
 \centering
-\caption{The average computing resources comparision between the conventional method and the proposed method with $\alpha$=0.25}
+\caption{The “average computing resources” comparision between the “conventional method and the proposed method” with $\alpha$=0.25}
 \label{tab:computingresource0}
 \begin{tabular}{|c|c|c|c|}
 \hline
-\textbf{Computing Resources}                                         & \textbf{Conventional Method} & \textbf{Proposed Method} & \textbf{Performance Ratio} \\ \hline
-GPU Utilization (\%)                                                  & 65.61                        & 30                    & 0.45                       \\ \hline
-CPU Utilization (\%)                                                  & 50.24                        & 39.64                     & 0.51                       \\ \hline
-\begin{tabular}[c]{@{}c@{}}Download Throughput\\ (Kbps)\end{tabular} & 4028                         & 1509                   & 0.35                       \\ \hline
+\textbf{“Computing Resources”}                                         & \textbf{“Conventional Method”} & \textbf{“Proposed Method”} & \textbf{“Performance Ratio”} \\ \hline
+GPU Usage (\%)                                                  & 65.60                      & 30                    & 0.45                       \\ \hline
+CPU Usage (\%)                                                  & 50.25                        & 39.64                     & 0.51                       \\ \hline
+\begin{tabular}[c]{@{}c@{}}Download Throughput\\ (Kbps)\end{tabular} & 4027                         & 1509                   & 0.35                       \\ \hline
 \end{tabular}
 \end{table}
 
 \begin{table}[]
 \centering
-\caption{The average computing resources comparision the conventional method and the proposed method with $\alpha$=0.5}
+\caption{The “average computing resources” comparision the “conventional method and the proposed method” with $\alpha$=0.5}
 \label{tab:computingresource1}
 \begin{tabular}{|c|c|c|c|}
 \hline
-\textbf{Computing Resources}                                         & \textbf{Conventional Method} & \textbf{Proposed Method} & \textbf{Performance Ratio} \\ \hline
-GPU Utilization (\%)                                                  & 65.61                        & 22.3                    & 0.34                       \\ \hline
-CPU Utilization (\%)                                                  & 50.24                        & 34                    & 0.45                       \\ \hline
-\begin{tabular}[c]{@{}c@{}}Download Throughput\\ (Kbps)\end{tabular} & 4028                         & 1478                  & 0.36                       \\ \hline
+\textbf{“Computing Resources”}                                         & \textbf{“Conventional Method”} & \textbf{“Proposed Method”} & \textbf{“Performance Ratio”} \\ \hline
+GPU Usage (\%)                                                  & 65.60                        & 22.3                    & 0.34                       \\ \hline
+CPU Usage (\%)                                                  & 50.25                        & 34                    & 0.45                       \\ \hline
+\begin{tabular}[c]{@{}c@{}}Download Throughput\\ (Kbps)\end{tabular} & 4027                         & 1478                  & 0.36                       \\ \hline
 \end{tabular}
 \end{table}
 
 \begin{table}[]
 \centering
-\caption{The average computing resources comparision the conventional method and the proposed method with $\alpha$=0.7}
+\caption{The “average computing resources” comparision the “conventional method and the proposed method” with $\alpha$=0.7}
 \label{tab:computingresource2}
 \begin{tabular}{|c|c|c|c|}
 \hline
-\textbf{Computing Resources}                                         & \textbf{Conventional Method} & \textbf{Proposed Method} & \textbf{Performance Ratio} \\ \hline
-GPU Utilization (\%)                                                  & 65.61                        & 33.73                    & 0.33                       \\ \hline
-CPU Utilization (\%)                                                  & 50.24                        & 25.9                     & 0.43                       \\ \hline
-\begin{tabular}[c]{@{}c@{}}Download Throughput\\ (Kbps)\end{tabular} & 4028                         & 1808.2                   & 0.35                       \\ \hline
+\textbf{“Computing Resources”}                                         & \textbf{“Conventional Method”} & \textbf{“Proposed Method”} & \textbf{“Performance Ratio”} \\ \hline
+GPU Usage (\%)                                                  & 65.60                        & 33.73                    & 0.33                       \\ \hline
+CPU Usage (\%)                                                  & 50.25                        & 25.9                     & 0.43                       \\ \hline
+\begin{tabular}[c]{@{}c@{}}Download Throughput\\ (Kbps)\end{tabular} & 4027                         & 1808.2                   & 0.35                       \\ \hline
 \end{tabular}
 \end{table}
 
 
-During demonstration of  intrusion detection application, the clouds node’s computing resources, including CPU, GPU utilization, and network download throughput, was monitored and recorded and shown in Figure \ref{fig:sysdesign}. For comparison, the performance results are compared to that of the conventional method, which did not use edge node as shown in Figure \ref{fig:overall}. The results indicate that both methods achieve the same accuracy in terms of alert notification when humans entered the restricted area. The demonstration's record of both these methods are uploaded to \cite{convential}, \cite{proposed}. In terms of consumption of computational resources, GPU, CPU utilizations, and download throughput of both methods are measured. In figure \ref{fig:gpu}, We measured the GPU computing resource of both the conventional
+We demonstrate the application of  intrusion detection. The computing resources, such as CPU, GPU usage, and network traffic download throughput, was monitored and logged and shown in Figure \ref{fig:sysdesign}. For performance comparison, the evaluated results are compared to that of the conventional method, which did not use edge node as shown in Figure \ref{fig:overall}. The results show that both methods achieve the same accuracy in terms of event alert when humans entered the restricted area. The demonstration's record video of both these methods are uploaded to \cite{convential}, \cite{proposed}. In figure \ref{fig:gpu}, We measured the GPU computing resource of both the conventional
 method and proposed method. In conventional method, all frame is pushed into by deep learning model to detect object. So GPU was always at high loading status during video time. In contrast, the proposed method filters all static frame so GPU load status will change according to moving object status of the video. Compare the ground-truth motion chart and GPU load consumption chart, we can see the similarity between them.
 We also test the same experiment with other threshold alpha to
 evaluate the change of GPU load consumption graph. The results was shown in Figure \ref{fig:gpu_monitor}. We found that when alpha value is big ($\alpha$ = 0.7), the moving object at high speed

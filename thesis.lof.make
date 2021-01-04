@@ -14,17 +14,17 @@
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Macroblock in Video Encoder.\relax }}{13}{figure.caption.16}
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Macroblock (4:2:0).\relax }}{13}{figure.caption.17}
 \contentsline {figure}{\numberline {2.6}{\ignorespaces The eeference MV model in video coding.\relax }}{15}{figure.caption.18}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces The example of MV extraction.(a) Test video sequence from recorded camera, (b, c, d) Test video sequence from VIRAT dataset.\relax }}{16}{figure.caption.19}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{16}{subfigure.7.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{16}{subfigure.7.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{16}{subfigure.7.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{16}{subfigure.7.4}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces The example of MV extraction.(a) Test video sequence from recorded camera, (b, c, d) Test video sequence from VIRAT dataset.\relax }}{17}{figure.caption.19}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{17}{subfigure.7.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{17}{subfigure.7.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{17}{subfigure.7.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{17}{subfigure.7.4}
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Smoke detection pipeline: (a) input frame, (b) the foreground subtraction, (c) the blob detection, (d) the smoke candidates classification \relax }}{18}{figure.caption.20}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{18}{subfigure.8.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{18}{subfigure.8.2}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{18}{subfigure.8.3}
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{18}{subfigure.8.4}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces The pipeline of video- based smoke detection algorithm.\relax }}{18}{figure.caption.21}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces The pipeline of video- based smoke detection algorithm.\relax }}{19}{figure.caption.21}
 \contentsline {figure}{\numberline {2.10}{\ignorespaces Architecture of the Alexnet CNN model.\relax }}{20}{figure.caption.22}
 \contentsline {figure}{\numberline {2.11}{\ignorespaces CNN based Object Detection Framework Structure.(a) RCNN, (b) Faster-RCNN, (c)Fast-RCNN.\relax }}{21}{figure.caption.23}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{21}{subfigure.11.1}
@@ -77,23 +77,23 @@
 \contentsline {subfigure}{\numberline {(j)}{\ignorespaces {}}}{41}{subfigure.4.10}
 \contentsline {subfigure}{\numberline {(k)}{\ignorespaces {}}}{41}{subfigure.4.11}
 \contentsline {subfigure}{\numberline {(l)}{\ignorespaces {}}}{41}{subfigure.4.12}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces The performance of moving objects tracking by the proposed method with different $\alpha $ value: for $\alpha $ = 0.25 in (a, b, c), for $\alpha $ = 0.4 in (d, e, f) and for $\alpha $ = 0.5 in (d, e, f).\relax }}{42}{figure.caption.43}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{42}{subfigure.5.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{42}{subfigure.5.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{42}{subfigure.5.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{42}{subfigure.5.4}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{42}{subfigure.5.5}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{42}{subfigure.5.6}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {}}}{42}{subfigure.5.7}
-\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {}}}{42}{subfigure.5.8}
-\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {}}}{42}{subfigure.5.9}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces The performance of moving objects tracking by the proposed method with different $\alpha $ value: for $\alpha $ = 0.25 in (a, b, c), for $\alpha $ = 0.4 in (d, e, f) and for $\alpha $ = 0.5 in (d, e, f).\relax }}{43}{figure.caption.43}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{43}{subfigure.5.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{43}{subfigure.5.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{43}{subfigure.5.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{43}{subfigure.5.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{43}{subfigure.5.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{43}{subfigure.5.6}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {}}}{43}{subfigure.5.7}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {}}}{43}{subfigure.5.8}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {}}}{43}{subfigure.5.9}
 \contentsline {figure}{\numberline {4.6}{\ignorespaces GPU Load Comparision between the conventional method and the proposed method ($\alpha $ = 0.25).\relax }}{44}{figure.caption.44}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces GPU Monitoring: (a) $\alpha $ = 0.5, (b) $\alpha $ = 0.25, (c) $\alpha $ = 0.75, (d) Ground Truth Motion Chart \relax }}{44}{figure.caption.45}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{44}{subfigure.7.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{44}{subfigure.7.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{44}{subfigure.7.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{44}{subfigure.7.4}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces CPU Load Comparision between the conventional method and the proposed method.\relax }}{45}{figure.caption.46}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces CPU Ultilization with different alpha threshold.\relax }}{45}{figure.caption.47}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Network traffic comparision between the conventional method and the proposed method.\relax }}{46}{figure.caption.48}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Download Throughput with different alpha threshold.\relax }}{46}{figure.caption.49}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces GPU Monitoring: (a) $\alpha $ = 0.5, (b) $\alpha $ = 0.25, (c) $\alpha $ = 0.75, (d) Ground Truth Motion Chart \relax }}{45}{figure.caption.45}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{45}{subfigure.7.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{45}{subfigure.7.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{45}{subfigure.7.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{45}{subfigure.7.4}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces CPU Load Comparision between the \IeC {\textquotedblleft }conventional method and the proposed method\IeC {\textquotedblright }.\relax }}{45}{figure.caption.46}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces CPU Ultilization with different alpha threshold.\relax }}{46}{figure.caption.47}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Network traffic comparision between the \IeC {\textquotedblleft }conventional method and the proposed method\IeC {\textquotedblright }.\relax }}{46}{figure.caption.48}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Download Throughput with different alpha threshold.\relax }}{47}{figure.caption.49}
