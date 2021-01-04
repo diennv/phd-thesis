@@ -270,6 +270,12 @@ Lu, X., Izumi, T., Takahashi, T., and Wang, L. (2014).
 \newblock In {\em 2014 IEEE International Conference on Fuzzy Systems
   (FUZZ-IEEE)}, pages 529--532. IEEE.
 
+\bibitem[Nguyen and Choi, 2020]{nguyen2020toward}
+Nguyen, D.~V. and Choi, J. (2020).
+\newblock Toward scalable video analytics using compressed-domain features at
+  the edge.
+\newblock {\em Applied Sciences}, 10(18):6391.
+
 \bibitem[Ohm et~al., 2012]{ohm2012comparison}
 Ohm, J.-R., Sullivan, G.~J., Schwarz, H., Tan, T.~K., and Wiegand, T. (2012).
 \newblock Comparison of the coding efficiency of video coding

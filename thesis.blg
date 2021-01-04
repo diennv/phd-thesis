@@ -9,23 +9,23 @@ A level-1 auxiliary file: Chapter3/chapter3.aux
 A level-1 auxiliary file: Chapter4/chapter4.aux
 The style file: apalike.bst
 Database file #1: References/references.bib
-Repeated entry---line 31 of file References/references.bib
+Repeated entry---line 41 of file References/references.bib
  : @article{canel2019scaling
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 37 of file References/references.bib
+Repeated entry---line 47 of file References/references.bib
  : @inproceedings{chen2015glimpse
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 66 of file References/references.bib
+Repeated entry---line 76 of file References/references.bib
  : @article{krizhevsky2017imagenet
  :                                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 84 of file References/references.bib
+Repeated entry---line 94 of file References/references.bib
  : @inproceedings{chen2015glimpse
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 98 of file References/references.bib
+Repeated entry---line 108 of file References/references.bib
  : @article{canel2019scaling
  :                          ,
 I'm skipping whatever remains of this entry
@@ -38,45 +38,45 @@ Warning--to sort, need author or key in source
 Warning--to sort, need author or key in convential
 Warning--to sort, need author or key in proposed
 Warning--can't use both volume and number fields in ester1996density
-You've used 62 entries,
+You've used 63 entries,
             1935 wiz_defined-function locations,
-            794 strings with 15613 characters,
-and the built_in function-call counts, 28980 in all, are:
-= -- 2885
-> -- 1220
-< -- 40
-+ -- 440
-- -- 424
-* -- 2400
-:= -- 4691
-add.period$ -- 201
-call.type$ -- 62
-change.case$ -- 512
-chr.to.int$ -- 58
-cite$ -- 79
-duplicate$ -- 1187
-empty$ -- 2044
-format.name$ -- 494
-if$ -- 5905
+            798 strings with 15743 characters,
+and the built_in function-call counts, 29344 in all, are:
+= -- 2920
+> -- 1233
+< -- 41
++ -- 444
+- -- 428
+* -- 2433
+:= -- 4755
+add.period$ -- 204
+call.type$ -- 63
+change.case$ -- 519
+chr.to.int$ -- 59
+cite$ -- 80
+duplicate$ -- 1201
+empty$ -- 2071
+format.name$ -- 501
+if$ -- 5976
 int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 52
-newline$ -- 313
-num.names$ -- 162
-pop$ -- 564
+missing$ -- 53
+newline$ -- 318
+num.names$ -- 165
+pop$ -- 568
 preamble$ -- 1
-purify$ -- 520
+purify$ -- 527
 quote$ -- 0
-skip$ -- 900
+skip$ -- 911
 stack$ -- 0
-substring$ -- 2080
-swap$ -- 303
+substring$ -- 2104
+swap$ -- 304
 text.length$ -- 30
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 372
+type$ -- 378
 warning$ -- 9
-while$ -- 222
+while$ -- 225
 width$ -- 0
-write$ -- 805
+write$ -- 818
 (There were 5 error messages)

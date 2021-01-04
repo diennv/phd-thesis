@@ -341,3 +341,4 @@ thesis.pdf thesis._graphics: $$(call graphics-target,Figures/network.png)
 -include Figures/download_throughput.png.gpi.d
 thesis.d: $$(call graphics-source,Figures/download_throughput.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,Figures/download_throughput.png)
+thesis.bbl thesis.aux thesis.aux.make: $(call path-norm,./References/references.bib)

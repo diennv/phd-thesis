@@ -92,7 +92,7 @@ Total               & 164                         \\ \hline
 \end{itemize}
 We evaluate the performance of the moving object detection method and the proposed edge-to-cloud system separately.
 
-\section{The Light-weight Runtime Moving Object Detection in Video Compressed Domain}
+\section{The low-compelxity algorithm of moving object detection in Video Compressed Domain}
 To evaluate the quality of the proposed method for the moving object detection, we calculated the IoU score mettric of the detected object's bounding box with those of the ground-truth bounding box. Because the accuracy of the peoposed method is depend on the MV's density, we run the proposed method multiple times with different scenario application such as: different camera distances, different moving object speeds. We observe that except the I-Frame which does not apply motion estimation, the moving objects including sometimes big MV noises always be detected in other frames. Example of the moving object detection results  are shown in Figure \ref{fig:objectdetect}. 
 \begin{figure*}
 \centering
@@ -150,11 +150,11 @@ To evaluate the quality of the proposed method for the moving object detection, 
 
 \begin{table}[]
 \centering
-\caption{Average IoU of the moving object detection in compressed-domain in different scenarios.}
+\caption{The average IoU calculation of the moving object detection in compressed-domain in different cases.}
 \label{tab:videotest}
 \begin{tabular}{|c|c|c|c|}
 \hline
-\multirow{2}{*}{\textit{\begin{tabular}[c]{@{}c@{}}Video Test\\  Sequence\end{tabular}}} & \multicolumn{2}{c|}{\textit{Scenario}} & \multirow{2}{*}{\textit{IoU Average}} \\ \cline{2-3}
+\multirow{2}{*}{\textit{\begin{tabular}[c]{@{}c@{}}Test\\  Sequence\end{tabular}}} & \multicolumn{2}{c|}{\textit{Scenario}} & \multirow{2}{*}{\textit{IoU Average}} \\ \cline{2-3}
                                                                                          & Camera Position     & Moving Speed     &                                       \\ \hline
 Our recorded test video                                                                                        & Near                & Normal           & 0.75                                  \\ \hline
 Our recorded test video                                                                                        & Near                & Fast             & 0.26                                  \\ \hline
@@ -164,7 +164,7 @@ Video Test from VIRAT                                                           
 
 \begin{table}[]
 \centering
-\caption{Average per-frame running times for preprocessing and tracking procedures. Values are expressed in miliseconds (ms) and frame per second(FPS).}
+\caption{Per-Frame Interference Time. Values are expressed in miliseconds (ms) and frame per second(FPS).}
 \label{tab:timemessasure}
 \begin{tabular}{|c|c|c|c|}
 \hline
@@ -224,7 +224,7 @@ In this experiment, each $\alpha$ threshold was applied for three same scenarios
 \begin{figure*}
 \centering
 	\includegraphics[scale=0.35]{Figures/gpu_compare.png}
-\caption{GPU Monitoring with the conventional method and the proposed method ($\alpha$ = 0.25).}
+\caption{GPU Load Comparision between the conventional method and the proposed method ($\alpha$ = 0.25).}
 \label{fig:gpu}
 \end{figure*}
 \begin{figure*}
@@ -251,7 +251,7 @@ In this experiment, each $\alpha$ threshold was applied for three same scenarios
 \begin{figure*}
 \centering
 \includegraphics[scale=0.7]{Figures/cpu.png}
-\caption{CPU Monitoring with both the conventional method and the proposed method.}
+\caption{CPU Load Comparision between the conventional method and the proposed method.}
 \label{fig:cpu}
 \end{figure*}
 \begin{figure*}
@@ -263,7 +263,7 @@ In this experiment, each $\alpha$ threshold was applied for three same scenarios
 \begin{figure*}
 \centering
 \includegraphics[scale=0.7]{Figures/network.png}
-\caption{Network download throughput monitoring with both the conventional method and the proposed method.}
+\caption{Network traffic comparision between the conventional method and the proposed method.}
 \label{fig:network}
 \end{figure*}
 \begin{figure*}
@@ -274,7 +274,7 @@ In this experiment, each $\alpha$ threshold was applied for three same scenarios
 \end{figure*}
 \begin{table}[]
 \centering
-\caption{Average computing resources of both the conventional method and the proposed method with $\alpha$=0.25}
+\caption{The average computing resources comparision between the conventional method and the proposed method with $\alpha$=0.25}
 \label{tab:computingresource0}
 \begin{tabular}{|c|c|c|c|}
 \hline
@@ -287,7 +287,7 @@ CPU Utilization (\%)                                                  & 50.24   
 
 \begin{table}[]
 \centering
-\caption{Average computing resources of both the conventional method and the proposed method with $\alpha$=0.5}
+\caption{The average computing resources comparision the conventional method and the proposed method with $\alpha$=0.5}
 \label{tab:computingresource1}
 \begin{tabular}{|c|c|c|c|}
 \hline
@@ -300,7 +300,7 @@ CPU Utilization (\%)                                                  & 50.24   
 
 \begin{table}[]
 \centering
-\caption{Average computing resources of both the conventional method and the proposed method with $\alpha$=0.7}
+\caption{The average computing resources comparision the conventional method and the proposed method with $\alpha$=0.7}
 \label{tab:computingresource2}
 \begin{tabular}{|c|c|c|c|}
 \hline
@@ -324,7 +324,7 @@ When alpha is too big value, some fast moving motion was missed detection.
 The figures clearly show the advantage of using the proposed method. While the conventional method of processing all video frames captured from camera leads to consumption of computational resources, our method only processes when there is motion, and therefore computational resources are dynamically allocated and economical. Another observation is that our proposed method is extremely effective for detecting motion of the scene compared to the ground-truth motion time in Table \ref{tab:motiontime}. In detail,  the time for consuming and releasing computing resources of VA server was matched with the time for appearance and disappearance of motion in ground-truth table. \\
 In order to evaluate the efficiency of the proposed method, we
 calculate the performance ratio of the conventional method (without filtering function)and the
-proposed method (with filter function run on the edge). Since the conventional method processes all video frames, we assume that the its computing resource average is S. According to formulation \ref{eqn:5}, the performance ratio of both methods in this video will be as follows:\\
+proposed method (with filter function run on the edge device). Since the conventional method processes all video frames, we assume that the its computing resource average is S. According to the equation \ref{eqn:5}, the performance ratio of both methods in this video will be calculated as following:\\
 \begin{equation}
 \label{eqn:10}
 \frac{Comp_{p}}{Comp_{c}}=\frac{(K*S+(N-K)*T)}{N*S}=\frac{K}{N} + (1 - \frac{K}{N})*\frac{T}{S}=\frac{140}{360} + (1 - \frac{140}{360})*\frac{T}{S} = 0.4 + 0.6*\frac{T}{S}

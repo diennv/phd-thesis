@@ -15,28 +15,28 @@
 %\else
 %    \graphicspath{{Chapter3/Figs/Vector/}{Chapter3/Figs/}}
 %\fi
-In this section, the proposed edge-to-cloud approach for surveillance video analytics applications is introduced detaily. And then, our method for moving objects detection in compressed-domain is analyzed. In addtion, the performance evaluated model for video analytics platform is presented. 
+In this section, we will introduce the proposed edge-to-cloud sysem for surveillance video analytics applications in details. And then, the our approach for moving objects detection in compressed-video domain is presented. In addtion, we will introduce the performance evaluated model for video analytics platform used in this study. 
 
-\section{The Edge-to-clound Model for Surveillance Applications}
+\section{The edge-to-clound architecture for Surveillance Applications}
 \begin{figure*}
 \centering
  \includegraphics[width=1.0\linewidth]{Figures/arch.png}
- \caption{ Our edge-to-cloud system.}
+ \caption{ Our proposed system.}
  \label{fig:arch}
 \end{figure*}
-There is a trend to forward computation from the network core to the edge where most of the data are generated. Edge computing has exhibited its potential in reducing the reaction time, minimizing bandwidth usage, and improving energy efficiency. Edge computing performs data processing at the “edge” of the network, close to the data source. For network cameras, audio and other sensors, there is a need to balance both cloud computing and edge computing domains to deliver refined, reliable, and usable data. For edge computing of delay-sensitive video tasks, a camera source node can offload its video task to nearby edge nodes via local wireless/optical networks and edge nodes are within the local communication range of the camera. The camera captures the video sequences and divides each of them into multiple video chunks, compresses these video chunks, and then delivers them to edge nodes. Next, edge nodes implement video processing functions on the received video chunks and upload the results to a cloud server for video analysis (such as object/event detection). A delay-sensitive video assignment is supposed to be processed within a limit and will fail if the deadline is passed. In this study, as shown in Figure \ref{fig:arch}, we consider an edge computing network, which comprises three primary components, namely, camera source node, edge node, and cloud server.
+There is a trend to offload computation from the cloud to the edge where the data is generated. To minimize bandwidth consumption, and improving energy efficiency, edge computing has been used. “Edge computing performs data processing at the edge of the network, close to the data source. For network cameras, a camera source node can forward its video task to nearby edge nodes via local wireless/wire-link networks”. The camera captures the video sequences and divides each of them into multiple video trunks, compresses them and stream to edge nodes. Next, edge nodes implement video processing functions on the received video trunks and upload the results to a cloud server for further video analysis (such as object/event detection). In this study, as shown in Figure \ref{fig:arch}, we consider an edge computing network, which comprises three primary components, namely, camera source node, edge node, and cloud server.
 \begin{itemize}
-\item Camera source node: the camera node periodically generates video tasks, divides each video task into a number of videos chunks, compresses video chunks at certain compression ratios, and then assigns compressed video chunks among all edge nodes as per scheduling policies.
-\item Edge node: the edge has computational ability and storage capacity and helps preprocess video chunks. Moreover, edge nodes can form cooperative groups based on specific group formation policy and receive compressed video chunks as per the video load assignment policy.
-\item Cloud Server: cloud server collects the preprocessing results from edge nodes, which has abundant computational abilities, and performs additional video analysis.
+\item “Camera source node where the camera node periodically generates video tasks”: compresses video chunks at certain compression ratios, and then allocate compressed video chunks among all edge nodes according to specific scheduling policies.
+\item “Edge node where the edge helps preprocess video chunks”: moreover, edge nodes can cooperative groups based on specific group formation policy.
+\item “Cloud Server: cloud server collects the preprocessing results from edge nodes”: video analytics server has enough computational abilities, and performs additional video analysis.
 \end{itemize}
-During a sparse edge node deployment, an edge node will only connect to one of the available cameras at a certain location; however, in a dense deployment, an edge node may have multiple choices on selecting multiple cameras. In this study, we focus on reducing processing load on cloud server by minimizing the video chunks that are fed from camera sources. Therefore, an edge device runs preprocessing tasks to filter uninteresting video chunks. The term “uninteresting video chunks“ is defined via scenario specification: for surveillance scenarios, it is static scenes without any objects and gradual changes.
+During a sparse edge node deployment, an edge node  connect to one camera  at a certain location; however, in a dense deployment, an edge node may have multiple connection with multiple cameras. In this study, we focus on reducing processing load on cloud server by minimizing the video chunks that are forwarded from camera sources. Therefore, an edge device runs preprocessing tasks to filter uninteresting video chunks. The term “uninteresting video chunks“ is defined via scenario specification: In this study, it is static scenes without any objects and gradual changes.
 
-\section{The Proposed Method of Moving Object Detection in Video Compressed Domain}
+\section{The Proposed Method of Moving Object Detection in Compressed Domain}
 \begin{figure*}
 \centering
  \includegraphics[width=1.0\linewidth]{Figures/arch.jpg}
- \caption{Workflow of the proposed method of moving object detection in compressed domain.}
+ \caption{The proposed method for moving object detection in compressed video domain.}
  \label{fig:proposedMethod}
 \end{figure*}
 \begin{figure*}
@@ -65,7 +65,7 @@ During a sparse edge node deployment, an edge node will only connect to one of t
 {
     \includegraphics[width=0.3\linewidth]{Figures/70.jpg}
 }
-\caption{Video coding MV extraction from consecutive frames with two different video test sequences.}
+\caption{The video coding MV extraction from consecutive frames with two different test sequences.}
 \label{fig:mvextract}
 \end{figure*}
 MV represents the changes between video frames may caused by:
@@ -75,7 +75,7 @@ MV represents the changes between video frames may caused by:
 \item Lighting condition changes
 \end{itemize}
 The MV group generated by lighting change, usually randomly occur without following a certain flow and have various sizes. The MV group generated by human motion (walking, running),  move in certain direction and It’s size is similar with object size in video frame. This observation is good factor to classify MVs into real-motion and noise motion group. The aim of this method is to analyze only MVs at the edge device, recognize the real moving objects, and exclude the noised motions that are generated by environmental factors such as illumination changes and background movement, in the current video scene. For this purpose, we present a method that has a workflow shown in Figure \ref{fig:proposedMethod} to analyze the video coding MVs. In order to extract MVs from compressed bitstream, the input video stream is partially decoded and the collected MVs will include both real object MVs and noise MVs. The example of extracted MVs are represented in Figure \ref{fig:mvextract} in consecutive frames of two different video test sequences. To analyze these MVs, the following functionalities are involved.
-\subsection{Median Filter and Moving Object Detection}
+\subsection{Motion Vector Median Filter and The Moving Object Detection}
 \label{sub:filter}
 \begin{figure*}
 \centering
@@ -98,7 +98,7 @@ The MV group generated by lighting change, usually randomly occur without follow
 \caption{Motion vector of a moving object in different video test sequences: (a, b) our record video, (c, d) Test video in VIRAT}
 \label{fig:mvobject}
 \end{figure*}
-Compressed-domain MVs may not represent the actual of true motion due to the properties of motion estimation, biased towards efficient coding as shown in Figure \ref{fig:mvanalysis}(a,e). Therefore, it is desirable to eliminate motion vectors that can be categorised as unsuitable for moving objects detection. We assume that MVs  whose magnitudes are very high or very low, compared to the other MVs related to the moving object, has to be replaced with the median value of neighbouring MVs. Therefore, the application of vector median filter aims to reduce isolated vector noises and smoothen the difference of MV between adjacent blocks. Note that the sliding window approach is used for median filtering. Because H.264/AVC allows for variable-sized block partitioning, we construct a uniformly sample MV field by mapping all MVs to 4x4 blocks. Theoretically, the motion vector average (normalized vector) among all elements $N_{mv}$ in NxN (N=4 in this study) window function is calculated by Equation \ref{eqn:1}: 
+The compressed-domain MVs may not present the actual of true motion due to the properties of motion estimation as shown in Figure \ref{fig:mvanalysis}(a,e). Therefore, it is desirable to remove motion vectors that can be categorised as false case for moving objects detection. We found that MVs  whose magnitudes are very low, compared to the other MVs related to the real moving object, has to be replaced with the median value of neighbouring MVs. Therefore, the application of vector median filter aims to eliminate isolated vector noises and smoothen the difference of MV between adjacent blocks. \\ Because H.264/AVC allows for variable-sized block partitioning, we construct a uniformly sample MV field by mapping all MVs to 4x4 blocks. Theoretically, the motion vector average (the normalized vector) among all elements $N_{mv}$ in NxN (N=4 is chosen in this study) window function is calculated by Equation \ref{eqn:1}: 
 \begin{equation}
 \label{eqn:1}
 N_{mv}= \frac{\sum_{i=1, j=1}^{N*N}MV_{ij}}{N*N}
@@ -162,9 +162,9 @@ After clustering, the label list includes all candidate objects with various siz
 After this process, the label list includes the moving objects and certain big MVs noises as shown in Figure \ref{fig:mvanalysis}(c,d). To eliminate these noises, we based the observation on the fact that noise motions because of lighting condition changes usually randomly occur without following a certain flow. Therefore, the tracking motion’s trajectories length is then used to classify the detected motion into the real motion or noise group. If the object tracking trajectory length is larger than a certain threshold, it indicates that the objects move as a flow and the time is sufficiently long to consider it as a real motion. Moreover, I-Frame does not apply motion estimation process, therefore, MV analysis process will be skipped for I-Frames. In order to overcome the discontinuously object detection process, the object tracking algotithm will also be applied to derive the moving object's bounding box in I-frame based on the last states in P-frames. Because the real object moves with a certain flow, the tracking
 motion’s trajectories length is then used to classify the candidate
 motions into the real motion or noise group, the IoU-based object tracking is applied to track motion because it is light-weight and widely tracking algorithm that calculates the overlap area between two bounding objects. Note that this tracking was implemented and evaluated in some previous studies  \cite{sheu2019stam}, \cite{li2020hksiamfc}. 
-\subsection{The IoU based Moving Objects Tracking}
+\subsection{The low-complexity of overlapping based Moving Objects Tracking}
 \label{subsec:1}
-To apply the IoU-based object tracking, the detected clusters are normalized with a rectangle bounding box according to the cluster's size as shown in Figure \ref{fig:mvanalysis}(d,h). The correlated regions are connected into blobs. Each blob is represented by its top-left and bottom-right corners, i.e.,  ($x_{1}, y_{1}, x_{2}, y_{2}$) may include one or many moving objects. Because the moving object's bounding box size and shape can be different comparatively frame by frame depending on MV’s intensity. Therefore, to track the moving object, an object matching algorithm based on the overlapped area of bounding boxes is applied. We assume that the existence of the real motion is continuous frame by frame. For each bounding box $B_{1}$ in the previous frame, we identify a bounding box $B_{2}$ at the current frame with the highest IoU rate. Note that IoU is attained by:\\
+To apply the IoU-based object tracking, the detected clusters are normalized with a rectangle bounding box according to the cluster's size as shown in Figure \ref{fig:mvanalysis}(d,h). The correlated regions are connected into blobs. Each blob is represented by its top-left and bottom-right corners, i.e.,  ($x_{1}, y_{1}, x_{2}, y_{2}$) may include one or many moving objects. Because the moving object's bounding box size and shape can be different comparatively frame by frame depending on motion vector intensity. Therefore, to track the moving object, the object matching algorithm which is based on the overlapped area calculation is applied. For example,  assuming that the existence of the real motion is continuous frame by frame. For each bounding box $B_{1}$ in the previous frame, we determine a bounding box $B_{2}$ at the current frame with the highest IoU score. Note that IoU is attained by:\\
 \begin{equation}
 \label{eqn:2}
 IoU(B_{1}\bigcap B_{2}) = \frac{\left \| B_{1}\bigcap B_{2} \right \|}{\left \| B_{1}\bigcup B_{2}  \right \|} =  \frac{\left \| B_{1}\bigcap B_{2} \right \|}{\left \| \left | B_{1} \right |  +  \left | B_{2} \right |  - B_{1}\bigcap B_{2} \right \|}
@@ -182,14 +182,14 @@ IoU(B_{1}\bigcap B_{2}) = \frac{\left \| B_{1}\bigcap B_{2} \right \|}{\left \| 
 \SetAlgoLined
 \noindent\rule{16cm}{0.4pt}\\
 \KwData{ Cordinates of the two bounding boxes.}
-- First bounding box: $A1(x_{1}, y_{1}), B1(x_{2}, y_{1}), C1(x_{2}, y_{2}), D1(x_{1}, y_{2})$\\
-- Second bounding box: $A2(x'_{1}, y'_{1}), B2(x'_{2}, y'_{1}), C2(x'_{2}, y'_{2}), D2(x'_{1}, y'_{2})$\\
+- First box: $A1(x_{1}, y_{1}), B1(x_{2}, y_{1}), C1(x_{2}, y_{2}), D1(x_{1}, y_{2})$\\
+- Second box: $A2(x'_{1}, y'_{1}), B2(x'_{2}, y'_{1}), C2(x'_{2}, y'_{2}), D2(x'_{1}, y'_{2})$\\
   where $x_{1} \leq x_{2}, y_{2} \leq y_{1} and  x'_{1} \leq x'_{2}, y'_{2} \leq y'_{1}$.\\
 \textbf{Calculation}: IoU value\\
 - The area of first bounding box : $Area_{1} = (x_{2} - x_{1})\times (y_{1} - x_{2})$\\
-- The area of second bounding box : $Area_{2} = (x'_{2} - x'_{1})\times (y'_{1} - x'_{2})$\\
-- The area of overlap: $Area_{overlap} = (max(x_{2}, x'_{2}) - min(x_{1}, x'_{1})) \times (max(y_{2}, y'_{2}) - min(y_{1}, y'_{1})) $\\
-- $IoU =\frac{Area_{overlap}}{Area_{1} +  Area_{2} - Area_{overlap}}$\\
+- The area of second one : $Area_{2} = (x'_{2} - x'_{1})\times (y'_{1} - x'_{2})$\\
+- The area of overlap: $Area_{overlap} = (max(x_{2},  x'_{2}) - min(x_{1},  x'_{1})) \times (max(y_{2},  y'_{2}) - min(y_{1},  y'_{1})) $\\
+- $IoU value =\frac{Area_{overlap}}{Area_{1} +  Area_{2} - Area_{overlap}}$\\
 \noindent\rule{16cm}{0.4pt}
 \
 \end{algorithm}
@@ -215,12 +215,12 @@ if an object motion always appear in the video (K $\approx$ N), then: \\
 \label{eqn:6}
  \frac{Comp_{p}}{Comp_{c}}\approx 1.
 \end{equation}
-In case of GPU computing resource, when VA server skip a frame then T = 0 and:\\
+In case of GPU consuming, when video analytic server skip a frame then T = 0 and:\\
 \begin{equation}
 \label{eqn:7}
 \frac{Comp_{p}}{Comp_{c}} = \frac{K}{N}
 \end{equation}
- If computing resource is CPU utilization and  network throughput ,  T become very small. For example, T is used only for listening new data or connection with networking resource, then: \\
+ If computing resource is CPU load and  network throughput ,  T is very small. Becuase T is used only for listening new connection, then: \\
 \begin{equation}
 \label{eqn:8}
  \frac{Comp_{p}}{Comp_{c}} \approx \frac{K}{N}
