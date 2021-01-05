@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.1.4)  4 JAN 2021 22:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.11.9)  5 JAN 2021 14:16
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -6,7 +6,7 @@ entering extended mode
 **thesis
 (./thesis.tex
 LaTeX2e <2017-04-15>
-Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+Babel <3.18> and hyphenation patterns for 11 language(s) loaded.
 (./PhDThesisPSnPDF.cls
 Document Class: PhDThesisPSnPDF 2018/04/12 A PhD thesis class file by Krishna K
 umar (v2.4)
@@ -1654,7 +1654,7 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 48.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<Figures/motivation.jpg, id=344, 530.4618pt x 212.9556pt>
+<Figures/motivation.jpg, id=343, 530.4618pt x 212.9556pt>
 File: Figures/motivation.jpg Graphic file (type jpg)
 <use Figures/motivation.jpg>
 Package pdftex.def Info: Figures/motivation.jpg  used on input line 54.
@@ -1667,60 +1667,55 @@ Chapter 2.
 <Figures/Va-neta.png, id=385, 208.52907pt x 332.74312pt>
 File: Figures/Va-neta.png Graphic file (type png)
 <use Figures/Va-neta.png>
-Package pdftex.def Info: Figures/Va-neta.png  used on input line 11.
+Package pdftex.def Info: Figures/Va-neta.png  used on input line 12.
 (pdftex.def)             Requested size: 125.1184pt x 199.6474pt.
 <Figures/Va-netb.png, id=386, 227.34938pt x 324.46219pt>
 File: Figures/Va-netb.png Graphic file (type png)
 <use Figures/Va-netb.png>
-Package pdftex.def Info: Figures/Va-netb.png  used on input line 16.
+Package pdftex.def Info: Figures/Va-netb.png  used on input line 17.
 (pdftex.def)             Requested size: 136.41068pt x 194.6788pt.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 21.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 22.
 [7
 
 
 
 ] [8 <./Figures/Va-neta.png> <./Figures/Va-netb.png>] [9]
-<Figures/encoder.png, id=417, 682.55pt x 222.8325pt>
+<Figures/encoder.png, id=418, 682.55pt x 222.8325pt>
 File: Figures/encoder.png Graphic file (type png)
 <use Figures/encoder.png>
-Package pdftex.def Info: Figures/encoder.png  used on input line 36.
+Package pdftex.def Info: Figures/encoder.png  used on input line 37.
 (pdftex.def)             Requested size: 349.97023pt x 114.2551pt.
 [10 <./Figures/encoder.png>]
 <Figures/opticalflow.jpeg, id=427, 602.25pt x 451.6875pt>
 File: Figures/opticalflow.jpeg Graphic file (type jpg)
 <use Figures/opticalflow.jpeg>
-Package pdftex.def Info: Figures/opticalflow.jpeg  used on input line 48.
+Package pdftex.def Info: Figures/opticalflow.jpeg  used on input line 49.
 (pdftex.def)             Requested size: 349.97023pt x 262.48895pt.
 <Figures/macroblock.png, id=428, 578.16pt x 327.2225pt>
 File: Figures/macroblock.png Graphic file (type png)
 <use Figures/macroblock.png>
-Package pdftex.def Info: Figures/macroblock.png  used on input line 54.
+Package pdftex.def Info: Figures/macroblock.png  used on input line 55.
 (pdftex.def)             Requested size: 349.97023pt x 198.07257pt.
-[11] [12 <./Figures/opticalflow.jpeg>]
-<Figures/yuv420.png, id=440, 460.72125pt x 150.5625pt>
+[11]
+<Figures/yuv420.png, id=436, 460.72125pt x 150.5625pt>
 File: Figures/yuv420.png Graphic file (type png)
 <use Figures/yuv420.png>
-Package pdftex.def Info: Figures/yuv420.png  used on input line 67.
+Package pdftex.def Info: Figures/yuv420.png  used on input line 68.
 (pdftex.def)             Requested size: 349.97023pt x 114.36894pt.
-<Figures/mv.png, id=445, 566.115pt x 274.02374pt>
+<Figures/mv.png, id=441, 566.115pt x 274.02374pt>
 File: Figures/mv.png Graphic file (type png)
 <use Figures/mv.png>
-Package pdftex.def Info: Figures/mv.png  used on input line 75.
+Package pdftex.def Info: Figures/mv.png  used on input line 76.
 (pdftex.def)             Requested size: 437.46112pt x 211.75574pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--81
+Underfull \hbox (badness 10000) in paragraph at lines 72--82
 
  []
 
-[13 <./Figures/macroblock.png> <./Figures/yuv420.png>] [14]
-Overfull \hbox (3.93448pt too wide) in paragraph at lines 96--98
-\T1/ptm/m/n/12 (-20) In re-cent re-searches, the compressed-domain based video 
-an-a-lyt-ics meth-ods such as: [[]],[[]]..
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--98
+[12 <./Figures/opticalflow.jpeg>] [13 <./Figures/macroblock.png> <./Figures/yuv
+420.png>] [14]
+Underfull \hbox (badness 10000) in paragraph at lines 97--99
 
  []
 
@@ -1728,30 +1723,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 96--98
 <Figures/noise.png, id=473, 1445.4pt x 813.0375pt>
 File: Figures/noise.png Graphic file (type png)
 <use Figures/noise.png>
-Package pdftex.def Info: Figures/noise.png  used on input line 104.
+Package pdftex.def Info: Figures/noise.png  used on input line 105.
 (pdftex.def)             Requested size: 218.73056pt x 123.02968pt.
 <Figures/156_mv_0.jpg, id=474, 642.4pt x 361.35pt>
 File: Figures/156_mv_0.jpg Graphic file (type jpg)
 <use Figures/156_mv_0.jpg>
-Package pdftex.def Info: Figures/156_mv_0.jpg  used on input line 108.
+Package pdftex.def Info: Figures/156_mv_0.jpg  used on input line 109.
 (pdftex.def)             Requested size: 218.73056pt x 123.03381pt.
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 104--108
+Overfull \hbox (12.0pt too wide) in paragraph at lines 105--109
  [][][][] 
  []
 
 <Figures/3.jpg, id=475, 963.6pt x 542.025pt>
 File: Figures/3.jpg Graphic file (type jpg)
 <use Figures/3.jpg>
-Package pdftex.def Info: Figures/3.jpg  used on input line 112.
+Package pdftex.def Info: Figures/3.jpg  used on input line 113.
 (pdftex.def)             Requested size: 218.73056pt x 123.03381pt.
 <Figures/34.jpg, id=476, 963.6pt x 542.025pt>
 File: Figures/34.jpg Graphic file (type jpg)
 <use Figures/34.jpg>
-Package pdftex.def Info: Figures/34.jpg  used on input line 116.
+Package pdftex.def Info: Figures/34.jpg  used on input line 117.
 (pdftex.def)             Requested size: 218.73056pt x 123.03381pt.
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 112--117
+Overfull \hbox (12.0pt too wide) in paragraph at lines 113--118
  [][][][] 
  []
 
@@ -1760,64 +1755,64 @@ gures/34.jpg>]
 <Figures/input_img.png, id=501, 246.1697pt x 183.68625pt>
 File: Figures/input_img.png Graphic file (type png)
 <use Figures/input_img.png>
-Package pdftex.def Info: Figures/input_img.png  used on input line 132.
+Package pdftex.def Info: Figures/input_img.png  used on input line 133.
 (pdftex.def)             Requested size: 123.08453pt x 91.84288pt.
 <Figures/fg_subtration.png, id=502, 243.91125pt x 184.43906pt>
 File: Figures/fg_subtration.png Graphic file (type png)
 <use Figures/fg_subtration.png>
-Package pdftex.def Info: Figures/fg_subtration.png  used on input line 136.
+Package pdftex.def Info: Figures/fg_subtration.png  used on input line 137.
 (pdftex.def)             Requested size: 121.95532pt x 92.2193pt.
 <Figures/blob_detection.png, id=503, 241.65282pt x 184.43906pt>
 File: Figures/blob_detection.png Graphic file (type png)
 <use Figures/blob_detection.png>
-Package pdftex.def Info: Figures/blob_detection.png  used on input line 140.
+Package pdftex.def Info: Figures/blob_detection.png  used on input line 141.
 (pdftex.def)             Requested size: 120.82611pt x 92.2193pt.
 <Figures/smoke_region.png, id=504, 242.40562pt x 182.93344pt>
 File: Figures/smoke_region.png Graphic file (type png)
 <use Figures/smoke_region.png>
-Package pdftex.def Info: Figures/smoke_region.png  used on input line 144.
+Package pdftex.def Info: Figures/smoke_region.png  used on input line 145.
 (pdftex.def)             Requested size: 121.2025pt x 91.46649pt.
 <Figures/smoke.jpg, id=505, 249.93375pt x 388.45125pt>
 File: Figures/smoke.jpg Graphic file (type jpg)
 <use Figures/smoke.jpg>
-Package pdftex.def Info: Figures/smoke.jpg  used on input line 150.
+Package pdftex.def Info: Figures/smoke.jpg  used on input line 151.
 (pdftex.def)             Requested size: 131.23967pt x 203.98145pt.
 <Figures/AlexNet.png, id=516, 671.50874pt x 420.06938pt>
 File: Figures/AlexNet.png Graphic file (type png)
 <use Figures/AlexNet.png>
-Package pdftex.def Info: Figures/AlexNet.png  used on input line 157.
+Package pdftex.def Info: Figures/AlexNet.png  used on input line 158.
 (pdftex.def)             Requested size: 349.97023pt x 218.92447pt.
 [18 <./Figures/input_img.png> <./Figures/fg_subtration.png> <./Figures/blob_det
 ection.png> <./Figures/smoke_region.png>] [19 <./Figures/smoke.jpg>]
 <Figures/rcnn.png, id=545, 558.085pt x 499.8675pt>
 File: Figures/rcnn.png Graphic file (type png)
 <use Figures/rcnn.png>
-Package pdftex.def Info: Figures/rcnn.png  used on input line 172.
+Package pdftex.def Info: Figures/rcnn.png  used on input line 173.
 (pdftex.def)             Requested size: 167.42679pt x 149.9614pt.
 <Figures/faster_rcnn.png, id=546, 329.23pt x 336.25626pt>
 File: Figures/faster_rcnn.png Graphic file (type png)
 <use Figures/faster_rcnn.png>
-Package pdftex.def Info: Figures/faster_rcnn.png  used on input line 176.
+Package pdftex.def Info: Figures/faster_rcnn.png  used on input line 177.
 (pdftex.def)             Requested size: 148.15211pt x 151.3139pt.
 <Figures/fast_rcnn.png, id=547, 702.625pt x 285.065pt>
 File: Figures/fast_rcnn.png Graphic file (type png)
 <use Figures/fast_rcnn.png>
-Package pdftex.def Info: Figures/fast_rcnn.png  used on input line 180.
+Package pdftex.def Info: Figures/fast_rcnn.png  used on input line 181.
 (pdftex.def)             Requested size: 351.31163pt x 142.53215pt.
-<Figures/yolo.png, id=548, 702.625pt x 460.72125pt>
+[20 <./Figures/AlexNet.png>]
+<Figures/yolo.png, id=558, 702.625pt x 460.72125pt>
 File: Figures/yolo.png Graphic file (type png)
 <use Figures/yolo.png>
-Package pdftex.def Info: Figures/yolo.png  used on input line 187.
+Package pdftex.def Info: Figures/yolo.png  used on input line 188.
 (pdftex.def)             Requested size: 349.97023pt x 229.48833pt.
-[20 <./Figures/AlexNet.png>] [21 <./Figures/rcnn.png (PNG copy)> <./Figures/fas
-ter_rcnn.png> <./Figures/fast_rcnn.png (PNG copy)>] [22 <./Figures/yolo.png (PN
-G copy)>] [23]
-<Figures/yolov3.png, id=596, 853.1875pt x 441.65pt>
+[21 <./Figures/rcnn.png (PNG copy)> <./Figures/faster_rcnn.png> <./Figures/fast
+_rcnn.png (PNG copy)>] [22 <./Figures/yolo.png (PNG copy)>]
+<Figures/yolov3.png, id=590, 853.1875pt x 441.65pt>
 File: Figures/yolov3.png Graphic file (type png)
 <use Figures/yolov3.png>
-Package pdftex.def Info: Figures/yolov3.png  used on input line 202.
+Package pdftex.def Info: Figures/yolov3.png  used on input line 203.
 (pdftex.def)             Requested size: 437.46112pt x 226.45154pt.
-) [24 <./Figures/yolov3.png>]
+) [23] [24 <./Figures/yolov3.png>]
 \openout2 = `Chapter3/chapter3.aux'.
 
 (./Chapter3/chapter3.tex
@@ -2317,12 +2312,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 29016 strings out of 492982
- 512173 string characters out of 6134897
- 602254 words of memory out of 5000000
- 31577 multiletter control sequences out of 15000+600000
- 591953 words of font info for 236 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
+ 29019 strings out of 494780
+ 512200 string characters out of 6176876
+ 597829 words of memory out of 5000000
+ 31350 multiletter control sequences out of 15000+600000
+ 592178 words of font info for 238 fonts, out of 8000000 for 9000
+ 81 hyphenation exceptions out of 8191
  55i,16n,92p,10379b,990s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
@@ -2334,7 +2329,7 @@ rw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (74 pages, 15621621 bytes).
+Output written on thesis.pdf (74 pages, 15621707 bytes).
 PDF statistics:
  1053 PDF objects out of 1200 (max. 8388607)
  841 compressed objects within 9 object streams

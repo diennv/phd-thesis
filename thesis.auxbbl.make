@@ -34,7 +34,7 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces The proposed method for moving object detection in compressed video domain.\relax }}{27}{figure.caption.27}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces The video coding MV extraction from consecutive frames with two different test sequences.\relax }}{28}{figure.caption.28}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces Motion vector of a moving object in different video test sequences: (a, b) our record video, (c, d) Test video in VIRAT\relax }}{29}{figure.caption.29}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces Moving objects detection by the proposed method with two different video test sequences:(a,e) MV extraction; (b,f) Apply median filter; (c,g) Clustering MVs; (d,f) Blob detection.\relax }}{31}{figure.caption.30}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces The moving objects detection done by the proposed method with two different video test sequences:(a,e) MV extraction; (b,f) Apply median filter; (c,g) Clustering MVs; (d,f) Blob detection.\relax }}{31}{figure.caption.30}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces Motion size based Filtering\relax }}{32}{figure.caption.31}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.7}{\ignorespaces Object matching method\relax }}{33}{figure.caption.32}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.10}{\ignorespaces Network traffic comparision between the \IeC {\textquotedblleft }conventional method and the proposed method\IeC {\textquotedblright }.\relax }}{46}{figure.caption.48}}
@@ -139,8 +139,8 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1.1}Edge Camera Based Deployment}{8}{subsection.2.1.1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1.2}Video Management Server Based Implementation}{8}{subsection.2.1.2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1.3}Video Codec and Video Coding Motion Vectors}{10}{subsection.2.1.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.1}The combination of background modeling and CNN based object classification}{18}{subsection.2.3.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.2}Deep Learning based Moving Object Detection}{20}{subsection.2.3.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.1}The combination of background modeling and CNN based object classification}{19}{subsection.2.3.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.2}Deep Learning based Moving Object Detection}{21}{subsection.2.3.2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Motion Vector Median Filter and The Moving Object Detection}{28}{subsection.3.2.1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}The low-complexity of overlapping based Moving Objects Tracking}{32}{subsection.3.2.2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.0.1}Scenario Setup}{40}{subsection.4.0.1}}

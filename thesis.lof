@@ -47,7 +47,7 @@
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{29}{subfigure.4.2}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{29}{subfigure.4.3}
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{29}{subfigure.4.4}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Moving objects detection by the proposed method with two different video test sequences:(a,e) MV extraction; (b,f) Apply median filter; (c,g) Clustering MVs; (d,f) Blob detection.\relax }}{31}{figure.caption.30}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces The moving objects detection done by the proposed method with two different video test sequences:(a,e) MV extraction; (b,f) Apply median filter; (c,g) Clustering MVs; (d,f) Blob detection.\relax }}{31}{figure.caption.30}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{31}{subfigure.5.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{31}{subfigure.5.2}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{31}{subfigure.5.3}

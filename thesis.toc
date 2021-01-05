@@ -12,8 +12,8 @@
 \contentsline {subsubsection}{Video Coding Motion Vectors and Blocked-based Motion Estimation}{11}{section*.14}
 \contentsline {section}{\numberline {2.2}Compressed-Domain Based Moving Object Detection Using Motion Vector}{15}{section.2.2}
 \contentsline {section}{\numberline {2.3}Pixels-Domain Based Moving Object Detection using Deep Learning}{18}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}The combination of background modeling and CNN based object classification}{18}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Deep Learning based Moving Object Detection}{20}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.1}The combination of background modeling and CNN based object classification}{19}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Deep Learning based Moving Object Detection}{21}{subsection.2.3.2}
 \contentsline {chapter}{\numberline {3}Methodology}{25}{chapter.3}
 \contentsline {section}{\numberline {3.1}The edge-to-clound architecture for Surveillance Applications}{26}{section.3.1}
 \contentsline {section}{\numberline {3.2}The Proposed Method of Moving Object Detection in Compressed Domain}{27}{section.3.2}
